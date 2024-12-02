@@ -1,0 +1,33 @@
+[6.539s] Invoking command in '/home/timoha/KSAROmni/build/kolonka': PYTHONPATH=/home/timoha/KSAROmni/build/kolonka/prefix_override:/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/kolonka/build
+[8.220s] running develop
+[8.221s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.222s]   warnings.warn(
+[9.726s] Removing /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka.egg-link (link to .)
+[10.483s] Invoked command in '/home/timoha/KSAROmni/build/kolonka' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/kolonka/prefix_override:/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/kolonka/build
+[10.494s] Invoking command in '/home/timoha/KSAROmni/src/kolonka': PYTHONPATH=/home/timoha/KSAROmni/build/kolonka/prefix_override:/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/kolonka build --build-base /home/timoha/KSAROmni/build/kolonka/build install --record /home/timoha/KSAROmni/build/kolonka/install.log --single-version-externally-managed install_data --force
+[12.257s] running egg_info
+[12.262s] writing ../../build/kolonka/kolonka.egg-info/PKG-INFO
+[12.265s] writing dependency_links to ../../build/kolonka/kolonka.egg-info/dependency_links.txt
+[12.269s] writing entry points to ../../build/kolonka/kolonka.egg-info/entry_points.txt
+[12.271s] writing requirements to ../../build/kolonka/kolonka.egg-info/requires.txt
+[12.273s] writing top-level names to ../../build/kolonka/kolonka.egg-info/top_level.txt
+[12.288s] reading manifest file '../../build/kolonka/kolonka.egg-info/SOURCES.txt'
+[12.295s] writing manifest file '../../build/kolonka/kolonka.egg-info/SOURCES.txt'
+[12.296s] running build
+[12.297s] running build_py
+[12.301s] running install
+[12.305s] running install_lib
+[12.310s] creating /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka
+[12.311s] copying /home/timoha/KSAROmni/build/kolonka/build/lib/kolonka/robot_audio.py -> /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka
+[12.313s] copying /home/timoha/KSAROmni/build/kolonka/build/lib/kolonka/__init__.py -> /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka
+[12.318s] byte-compiling /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka/robot_audio.py to robot_audio.cpython-310.pyc
+[12.321s] byte-compiling /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka/__init__.py to __init__.cpython-310.pyc
+[12.323s] running install_data
+[12.327s] copying resource/kolonka -> /home/timoha/KSAROmni/install/kolonka/share/ament_index/resource_index/packages
+[12.330s] copying package.xml -> /home/timoha/KSAROmni/install/kolonka/share/kolonka
+[12.340s] running install_egg_info
+[12.343s] Copying ../../build/kolonka/kolonka.egg-info to /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka-0.0.0-py3.10.egg-info
+[12.353s] running install_scripts
+[12.483s] Installing audio script to /home/timoha/KSAROmni/install/kolonka/lib/kolonka
+[12.486s] writing list of installed files to '/home/timoha/KSAROmni/build/kolonka/install.log'
+[12.742s] Invoked command in '/home/timoha/KSAROmni/src/kolonka' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/kolonka/prefix_override:/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/kolonka build --build-base /home/timoha/KSAROmni/build/kolonka/build install --record /home/timoha/KSAROmni/build/kolonka/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,39 @@
+[8.376s] Invoking command in '/home/timoha/KSAROmni/src/py_main_alg': PYTHONPATH=/home/timoha/KSAROmni/build/py_main_alg/prefix_override:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_main_alg build --build-base /home/timoha/KSAROmni/build/py_main_alg/build install --record /home/timoha/KSAROmni/build/py_main_alg/install.log --single-version-externally-managed
+[9.771s] running egg_info
+[9.773s] creating ../../build/py_main_alg/py_main_alg.egg-info
+[9.774s] writing ../../build/py_main_alg/py_main_alg.egg-info/PKG-INFO
+[9.786s] writing dependency_links to ../../build/py_main_alg/py_main_alg.egg-info/dependency_links.txt
+[9.786s] writing entry points to ../../build/py_main_alg/py_main_alg.egg-info/entry_points.txt
+[9.787s] writing requirements to ../../build/py_main_alg/py_main_alg.egg-info/requires.txt
+[9.788s] writing top-level names to ../../build/py_main_alg/py_main_alg.egg-info/top_level.txt
+[9.789s] writing manifest file '../../build/py_main_alg/py_main_alg.egg-info/SOURCES.txt'
+[9.791s] reading manifest file '../../build/py_main_alg/py_main_alg.egg-info/SOURCES.txt'
+[9.795s] writing manifest file '../../build/py_main_alg/py_main_alg.egg-info/SOURCES.txt'
+[9.796s] running build
+[9.798s] running build_py
+[9.799s] creating /home/timoha/KSAROmni/build/py_main_alg/build
+[9.799s] creating /home/timoha/KSAROmni/build/py_main_alg/build/lib
+[9.800s] creating /home/timoha/KSAROmni/build/py_main_alg/build/lib/py_main_alg
+[9.801s] copying py_main_alg/__init__.py -> /home/timoha/KSAROmni/build/py_main_alg/build/lib/py_main_alg
+[9.802s] copying py_main_alg/main_alg.py -> /home/timoha/KSAROmni/build/py_main_alg/build/lib/py_main_alg
+[9.802s] running install
+[9.804s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.805s]   warnings.warn(
+[9.806s] running install_lib
+[9.807s] creating /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg
+[9.808s] copying /home/timoha/KSAROmni/build/py_main_alg/build/lib/py_main_alg/__init__.py -> /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg
+[9.809s] copying /home/timoha/KSAROmni/build/py_main_alg/build/lib/py_main_alg/main_alg.py -> /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg
+[9.813s] byte-compiling /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg/__init__.py to __init__.cpython-310.pyc
+[9.829s] byte-compiling /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg/main_alg.py to main_alg.cpython-310.pyc
+[9.830s] running install_data
+[9.831s] creating /home/timoha/KSAROmni/install/py_main_alg/share/ament_index
+[9.831s] creating /home/timoha/KSAROmni/install/py_main_alg/share/ament_index/resource_index
+[9.832s] creating /home/timoha/KSAROmni/install/py_main_alg/share/ament_index/resource_index/packages
+[9.833s] copying resource/py_main_alg -> /home/timoha/KSAROmni/install/py_main_alg/share/ament_index/resource_index/packages
+[9.833s] copying package.xml -> /home/timoha/KSAROmni/install/py_main_alg/share/py_main_alg
+[9.834s] running install_egg_info
+[9.861s] Copying ../../build/py_main_alg/py_main_alg.egg-info to /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg-0.0.0-py3.10.egg-info
+[9.874s] running install_scripts
+[9.951s] Installing main_alg script to /home/timoha/KSAROmni/install/py_main_alg/lib/py_main_alg
+[9.954s] writing list of installed files to '/home/timoha/KSAROmni/build/py_main_alg/install.log'
+[10.153s] Invoked command in '/home/timoha/KSAROmni/src/py_main_alg' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/py_main_alg/prefix_override:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_main_alg build --build-base /home/timoha/KSAROmni/build/py_main_alg/build install --record /home/timoha/KSAROmni/build/py_main_alg/install.log --single-version-externally-managed

@@ -1,0 +1,8 @@
+source;share/arrow_package/hook/cmake_prefix_path.ps1
+source;share/arrow_package/hook/cmake_prefix_path.dsv
+source;share/arrow_package/hook/cmake_prefix_path.sh
+source;share/arrow_package/local_setup.bash
+source;share/arrow_package/local_setup.dsv
+source;share/arrow_package/local_setup.ps1
+source;share/arrow_package/local_setup.sh
+source;share/arrow_package/local_setup.zsh

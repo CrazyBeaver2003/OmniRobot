@@ -1,0 +1,39 @@
+[8.248s] Invoking command in '/home/timoha/KSAROmni/src/aruco_publisher': PYTHONPATH=/home/timoha/KSAROmni/build/aruco_publisher/prefix_override:/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_publisher build --build-base /home/timoha/KSAROmni/build/aruco_publisher/build install --record /home/timoha/KSAROmni/build/aruco_publisher/install.log --single-version-externally-managed
+[9.919s] running egg_info
+[9.924s] creating ../../build/aruco_publisher/aruco_publisher.egg-info
+[9.925s] writing ../../build/aruco_publisher/aruco_publisher.egg-info/PKG-INFO
+[9.926s] writing dependency_links to ../../build/aruco_publisher/aruco_publisher.egg-info/dependency_links.txt
+[9.927s] writing entry points to ../../build/aruco_publisher/aruco_publisher.egg-info/entry_points.txt
+[9.928s] writing requirements to ../../build/aruco_publisher/aruco_publisher.egg-info/requires.txt
+[9.929s] writing top-level names to ../../build/aruco_publisher/aruco_publisher.egg-info/top_level.txt
+[9.930s] writing manifest file '../../build/aruco_publisher/aruco_publisher.egg-info/SOURCES.txt'
+[9.939s] reading manifest file '../../build/aruco_publisher/aruco_publisher.egg-info/SOURCES.txt'
+[9.943s] writing manifest file '../../build/aruco_publisher/aruco_publisher.egg-info/SOURCES.txt'
+[9.945s] running build
+[9.946s] running build_py
+[9.949s] creating /home/timoha/KSAROmni/build/aruco_publisher/build
+[9.952s] creating /home/timoha/KSAROmni/build/aruco_publisher/build/lib
+[9.953s] creating /home/timoha/KSAROmni/build/aruco_publisher/build/lib/aruco_publisher
+[9.954s] copying aruco_publisher/aruco_detector.py -> /home/timoha/KSAROmni/build/aruco_publisher/build/lib/aruco_publisher
+[9.954s] copying aruco_publisher/__init__.py -> /home/timoha/KSAROmni/build/aruco_publisher/build/lib/aruco_publisher
+[9.956s] running install
+[9.959s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.960s]   warnings.warn(
+[9.960s] running install_lib
+[9.965s] creating /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco_publisher
+[9.983s] copying /home/timoha/KSAROmni/build/aruco_publisher/build/lib/aruco_publisher/aruco_detector.py -> /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco_publisher
+[9.984s] copying /home/timoha/KSAROmni/build/aruco_publisher/build/lib/aruco_publisher/__init__.py -> /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco_publisher
+[9.985s] byte-compiling /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco_publisher/aruco_detector.py to aruco_detector.cpython-310.pyc
+[9.989s] byte-compiling /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco_publisher/__init__.py to __init__.cpython-310.pyc
+[9.991s] running install_data
+[9.999s] creating /home/timoha/KSAROmni/install/aruco_publisher/share/ament_index
+[10.000s] creating /home/timoha/KSAROmni/install/aruco_publisher/share/ament_index/resource_index
+[10.001s] creating /home/timoha/KSAROmni/install/aruco_publisher/share/ament_index/resource_index/packages
+[10.009s] copying resource/aruco_publisher -> /home/timoha/KSAROmni/install/aruco_publisher/share/ament_index/resource_index/packages
+[10.010s] copying package.xml -> /home/timoha/KSAROmni/install/aruco_publisher/share/aruco_publisher
+[10.010s] running install_egg_info
+[10.020s] Copying ../../build/aruco_publisher/aruco_publisher.egg-info to /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco_publisher-0.0.0-py3.10.egg-info
+[10.026s] running install_scripts
+[10.109s] Installing aruco_detector script to /home/timoha/KSAROmni/install/aruco_publisher/lib/aruco_publisher
+[10.113s] writing list of installed files to '/home/timoha/KSAROmni/build/aruco_publisher/install.log'
+[10.356s] Invoked command in '/home/timoha/KSAROmni/src/aruco_publisher' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/aruco_publisher/prefix_override:/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_publisher build --build-base /home/timoha/KSAROmni/build/aruco_publisher/build install --record /home/timoha/KSAROmni/build/aruco_publisher/install.log --single-version-externally-managed

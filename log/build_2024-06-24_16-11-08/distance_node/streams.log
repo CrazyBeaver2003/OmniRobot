@@ -1,0 +1,33 @@
+[6.543s] Invoking command in '/home/timoha/KSAROmni/build/distance_node': PYTHONPATH=/home/timoha/KSAROmni/build/distance_node/prefix_override:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/distance_node/build
+[8.148s] running develop
+[8.154s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.155s]   warnings.warn(
+[9.594s] Removing /home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages/distance-node.egg-link (link to .)
+[10.497s] Invoked command in '/home/timoha/KSAROmni/build/distance_node' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/distance_node/prefix_override:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/distance_node/build
+[10.507s] Invoking command in '/home/timoha/KSAROmni/src/distance_node': PYTHONPATH=/home/timoha/KSAROmni/build/distance_node/prefix_override:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/distance_node build --build-base /home/timoha/KSAROmni/build/distance_node/build install --record /home/timoha/KSAROmni/build/distance_node/install.log --single-version-externally-managed install_data --force
+[12.266s] running egg_info
+[12.272s] writing ../../build/distance_node/distance_node.egg-info/PKG-INFO
+[12.275s] writing dependency_links to ../../build/distance_node/distance_node.egg-info/dependency_links.txt
+[12.279s] writing entry points to ../../build/distance_node/distance_node.egg-info/entry_points.txt
+[12.281s] writing requirements to ../../build/distance_node/distance_node.egg-info/requires.txt
+[12.283s] writing top-level names to ../../build/distance_node/distance_node.egg-info/top_level.txt
+[12.294s] reading manifest file '../../build/distance_node/distance_node.egg-info/SOURCES.txt'
+[12.302s] writing manifest file '../../build/distance_node/distance_node.egg-info/SOURCES.txt'
+[12.303s] running build
+[12.304s] running build_py
+[12.309s] running install
+[12.312s] running install_lib
+[12.319s] creating /home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages/distance_node
+[12.321s] copying /home/timoha/KSAROmni/build/distance_node/build/lib/distance_node/__init__.py -> /home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages/distance_node
+[12.325s] copying /home/timoha/KSAROmni/build/distance_node/build/lib/distance_node/distance_publisher.py -> /home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages/distance_node
+[12.329s] byte-compiling /home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages/distance_node/__init__.py to __init__.cpython-310.pyc
+[12.331s] byte-compiling /home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages/distance_node/distance_publisher.py to distance_publisher.cpython-310.pyc
+[12.336s] running install_data
+[12.341s] copying resource/distance_node -> /home/timoha/KSAROmni/install/distance_node/share/ament_index/resource_index/packages
+[12.343s] copying package.xml -> /home/timoha/KSAROmni/install/distance_node/share/distance_node
+[12.347s] running install_egg_info
+[12.367s] Copying ../../build/distance_node/distance_node.egg-info to /home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages/distance_node-0.0.0-py3.10.egg-info
+[12.374s] running install_scripts
+[12.509s] Installing distance_publisher script to /home/timoha/KSAROmni/install/distance_node/lib/distance_node
+[12.518s] writing list of installed files to '/home/timoha/KSAROmni/build/distance_node/install.log'
+[12.865s] Invoked command in '/home/timoha/KSAROmni/src/distance_node' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/distance_node/prefix_override:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/distance_node build --build-base /home/timoha/KSAROmni/build/distance_node/build install --record /home/timoha/KSAROmni/build/distance_node/install.log --single-version-externally-managed install_data --force

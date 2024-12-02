@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/py_main_alg/py_main_alg.egg-info
+writing ../../build/py_main_alg/py_main_alg.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_main_alg/py_main_alg.egg-info/dependency_links.txt
+writing entry points to ../../build/py_main_alg/py_main_alg.egg-info/entry_points.txt
+writing requirements to ../../build/py_main_alg/py_main_alg.egg-info/requires.txt
+writing top-level names to ../../build/py_main_alg/py_main_alg.egg-info/top_level.txt
+writing manifest file '../../build/py_main_alg/py_main_alg.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_main_alg/py_main_alg.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_main_alg/py_main_alg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/timoha/KSAROmni/build/py_main_alg/build
+creating /home/timoha/KSAROmni/build/py_main_alg/build/lib
+creating /home/timoha/KSAROmni/build/py_main_alg/build/lib/py_main_alg
+copying py_main_alg/__init__.py -> /home/timoha/KSAROmni/build/py_main_alg/build/lib/py_main_alg
+copying py_main_alg/main_alg.py -> /home/timoha/KSAROmni/build/py_main_alg/build/lib/py_main_alg
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg
+copying /home/timoha/KSAROmni/build/py_main_alg/build/lib/py_main_alg/__init__.py -> /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg
+copying /home/timoha/KSAROmni/build/py_main_alg/build/lib/py_main_alg/main_alg.py -> /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg
+byte-compiling /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg/main_alg.py to main_alg.cpython-310.pyc
+running install_data
+creating /home/timoha/KSAROmni/install/py_main_alg/share/ament_index
+creating /home/timoha/KSAROmni/install/py_main_alg/share/ament_index/resource_index
+creating /home/timoha/KSAROmni/install/py_main_alg/share/ament_index/resource_index/packages
+copying resource/py_main_alg -> /home/timoha/KSAROmni/install/py_main_alg/share/ament_index/resource_index/packages
+copying package.xml -> /home/timoha/KSAROmni/install/py_main_alg/share/py_main_alg
+running install_egg_info
+Copying ../../build/py_main_alg/py_main_alg.egg-info to /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing main_alg script to /home/timoha/KSAROmni/install/py_main_alg/lib/py_main_alg
+writing list of installed files to '/home/timoha/KSAROmni/build/py_main_alg/install.log'

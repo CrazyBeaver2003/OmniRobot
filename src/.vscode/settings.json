@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ilya/KSARMecanum/install/opencv_pub/lib/python3.10/site-packages",
+        "/home/ilya/KSARMecanum/install/motor_control_node/lib/python3.10/site-packages",
+        "/home/ilya/KSARMecanum/install/main_package_robot/lib/python3.10/site-packages",
+        "/home/ilya/KSARMecanum/install/distance_node/lib/python3.10/site-packages",
+        "/home/ilya/KSARMecanum/install/aruco_publisher/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ilya/KSARMecanum/install/opencv_pub/lib/python3.10/site-packages",
+        "/home/ilya/KSARMecanum/install/motor_control_node/lib/python3.10/site-packages",
+        "/home/ilya/KSARMecanum/install/main_package_robot/lib/python3.10/site-packages",
+        "/home/ilya/KSARMecanum/install/distance_node/lib/python3.10/site-packages",
+        "/home/ilya/KSARMecanum/install/aruco_publisher/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

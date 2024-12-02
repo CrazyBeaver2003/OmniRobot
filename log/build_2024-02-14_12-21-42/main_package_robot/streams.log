@@ -1,0 +1,40 @@
+[7.753s] Invoking command in '/home/timoha/KSAROmni/src/main_package_robot': PYTHONPATH=/home/timoha/KSAROmni/build/main_package_robot/prefix_override:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/main_package_robot build --build-base /home/timoha/KSAROmni/build/main_package_robot/build install --record /home/timoha/KSAROmni/build/main_package_robot/install.log --single-version-externally-managed
+[9.806s] running egg_info
+[9.823s] creating ../../build/main_package_robot/main_package_robot.egg-info
+[9.824s] writing ../../build/main_package_robot/main_package_robot.egg-info/PKG-INFO
+[9.825s] writing dependency_links to ../../build/main_package_robot/main_package_robot.egg-info/dependency_links.txt
+[9.827s] writing entry points to ../../build/main_package_robot/main_package_robot.egg-info/entry_points.txt
+[9.828s] writing requirements to ../../build/main_package_robot/main_package_robot.egg-info/requires.txt
+[9.836s] writing top-level names to ../../build/main_package_robot/main_package_robot.egg-info/top_level.txt
+[9.838s] writing manifest file '../../build/main_package_robot/main_package_robot.egg-info/SOURCES.txt'
+[9.840s] reading manifest file '../../build/main_package_robot/main_package_robot.egg-info/SOURCES.txt'
+[9.851s] writing manifest file '../../build/main_package_robot/main_package_robot.egg-info/SOURCES.txt'
+[9.852s] running build
+[9.853s] running build_py
+[9.868s] creating /home/timoha/KSAROmni/build/main_package_robot/build
+[9.870s] creating /home/timoha/KSAROmni/build/main_package_robot/build/lib
+[9.872s] creating /home/timoha/KSAROmni/build/main_package_robot/build/lib/main_package_robot
+[9.889s] copying main_package_robot/__init__.py -> /home/timoha/KSAROmni/build/main_package_robot/build/lib/main_package_robot
+[9.890s] copying main_package_robot/main_node.py -> /home/timoha/KSAROmni/build/main_package_robot/build/lib/main_package_robot
+[9.892s] running install
+[9.893s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.894s]   warnings.warn(
+[9.896s] running install_lib
+[9.902s] creating /home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages/main_package_robot
+[9.903s] copying /home/timoha/KSAROmni/build/main_package_robot/build/lib/main_package_robot/__init__.py -> /home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages/main_package_robot
+[9.905s] copying /home/timoha/KSAROmni/build/main_package_robot/build/lib/main_package_robot/main_node.py -> /home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages/main_package_robot
+[9.906s] byte-compiling /home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages/main_package_robot/__init__.py to __init__.cpython-310.pyc
+[9.907s] byte-compiling /home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages/main_package_robot/main_node.py to main_node.cpython-310.pyc
+[9.908s] Sorry: IndentationError: unexpected indent (main_node.py, line 81)
+[9.909s] running install_data
+[9.910s] creating /home/timoha/KSAROmni/install/main_package_robot/share/ament_index
+[9.911s] creating /home/timoha/KSAROmni/install/main_package_robot/share/ament_index/resource_index
+[9.912s] creating /home/timoha/KSAROmni/install/main_package_robot/share/ament_index/resource_index/packages
+[9.914s] copying resource/main_package_robot -> /home/timoha/KSAROmni/install/main_package_robot/share/ament_index/resource_index/packages
+[9.926s] copying package.xml -> /home/timoha/KSAROmni/install/main_package_robot/share/main_package_robot
+[9.927s] running install_egg_info
+[9.928s] Copying ../../build/main_package_robot/main_package_robot.egg-info to /home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages/main_package_robot-0.0.0-py3.10.egg-info
+[9.937s] running install_scripts
+[10.067s] Installing main_node script to /home/timoha/KSAROmni/install/main_package_robot/lib/main_package_robot
+[10.070s] writing list of installed files to '/home/timoha/KSAROmni/build/main_package_robot/install.log'
+[11.155s] Invoked command in '/home/timoha/KSAROmni/src/main_package_robot' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/main_package_robot/prefix_override:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/main_package_robot build --build-base /home/timoha/KSAROmni/build/main_package_robot/build install --record /home/timoha/KSAROmni/build/main_package_robot/install.log --single-version-externally-managed

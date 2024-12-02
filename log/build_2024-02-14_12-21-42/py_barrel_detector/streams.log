@@ -1,0 +1,39 @@
+[8.606s] Invoking command in '/home/timoha/KSAROmni/src/py_barrel_detector': PYTHONPATH=/home/timoha/KSAROmni/build/py_barrel_detector/prefix_override:/home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_barrel_detector build --build-base /home/timoha/KSAROmni/build/py_barrel_detector/build install --record /home/timoha/KSAROmni/build/py_barrel_detector/install.log --single-version-externally-managed
+[10.617s] running egg_info
+[10.622s] creating ../../build/py_barrel_detector/py_barrel_detector.egg-info
+[10.623s] writing ../../build/py_barrel_detector/py_barrel_detector.egg-info/PKG-INFO
+[10.625s] writing dependency_links to ../../build/py_barrel_detector/py_barrel_detector.egg-info/dependency_links.txt
+[10.626s] writing entry points to ../../build/py_barrel_detector/py_barrel_detector.egg-info/entry_points.txt
+[10.632s] writing requirements to ../../build/py_barrel_detector/py_barrel_detector.egg-info/requires.txt
+[10.634s] writing top-level names to ../../build/py_barrel_detector/py_barrel_detector.egg-info/top_level.txt
+[10.635s] writing manifest file '../../build/py_barrel_detector/py_barrel_detector.egg-info/SOURCES.txt'
+[10.639s] reading manifest file '../../build/py_barrel_detector/py_barrel_detector.egg-info/SOURCES.txt'
+[10.645s] writing manifest file '../../build/py_barrel_detector/py_barrel_detector.egg-info/SOURCES.txt'
+[10.646s] running build
+[10.647s] running build_py
+[10.655s] creating /home/timoha/KSAROmni/build/py_barrel_detector/build
+[10.657s] creating /home/timoha/KSAROmni/build/py_barrel_detector/build/lib
+[10.658s] creating /home/timoha/KSAROmni/build/py_barrel_detector/build/lib/py_barrel_detector
+[10.659s] copying py_barrel_detector/barrel_detector.py -> /home/timoha/KSAROmni/build/py_barrel_detector/build/lib/py_barrel_detector
+[10.660s] copying py_barrel_detector/__init__.py -> /home/timoha/KSAROmni/build/py_barrel_detector/build/lib/py_barrel_detector
+[10.662s] running install
+[10.671s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.673s]   warnings.warn(
+[10.674s] running install_lib
+[10.678s] creating /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py_barrel_detector
+[10.678s] copying /home/timoha/KSAROmni/build/py_barrel_detector/build/lib/py_barrel_detector/barrel_detector.py -> /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py_barrel_detector
+[10.679s] copying /home/timoha/KSAROmni/build/py_barrel_detector/build/lib/py_barrel_detector/__init__.py -> /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py_barrel_detector
+[10.686s] byte-compiling /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py_barrel_detector/barrel_detector.py to barrel_detector.cpython-310.pyc
+[10.688s] byte-compiling /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py_barrel_detector/__init__.py to __init__.cpython-310.pyc
+[10.689s] running install_data
+[10.690s] creating /home/timoha/KSAROmni/install/py_barrel_detector/share/ament_index
+[10.690s] creating /home/timoha/KSAROmni/install/py_barrel_detector/share/ament_index/resource_index
+[10.691s] creating /home/timoha/KSAROmni/install/py_barrel_detector/share/ament_index/resource_index/packages
+[10.692s] copying resource/py_barrel_detector -> /home/timoha/KSAROmni/install/py_barrel_detector/share/ament_index/resource_index/packages
+[10.692s] copying package.xml -> /home/timoha/KSAROmni/install/py_barrel_detector/share/py_barrel_detector
+[10.693s] running install_egg_info
+[10.708s] Copying ../../build/py_barrel_detector/py_barrel_detector.egg-info to /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py_barrel_detector-0.0.0-py3.10.egg-info
+[10.709s] running install_scripts
+[10.816s] Installing barrel_detector script to /home/timoha/KSAROmni/install/py_barrel_detector/lib/py_barrel_detector
+[10.818s] writing list of installed files to '/home/timoha/KSAROmni/build/py_barrel_detector/install.log'
+[11.069s] Invoked command in '/home/timoha/KSAROmni/src/py_barrel_detector' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/py_barrel_detector/prefix_override:/home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_barrel_detector build --build-base /home/timoha/KSAROmni/build/py_barrel_detector/build install --record /home/timoha/KSAROmni/build/py_barrel_detector/install.log --single-version-externally-managed

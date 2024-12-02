@@ -1,0 +1,39 @@
+[8.659s] Invoking command in '/home/timoha/KSAROmni/src/laser_follow': PYTHONPATH=/home/timoha/KSAROmni/build/laser_follow/prefix_override:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/laser_follow build --build-base /home/timoha/KSAROmni/build/laser_follow/build install --record /home/timoha/KSAROmni/build/laser_follow/install.log --single-version-externally-managed
+[10.582s] running egg_info
+[10.586s] creating ../../build/laser_follow/laser_follow.egg-info
+[10.587s] writing ../../build/laser_follow/laser_follow.egg-info/PKG-INFO
+[10.590s] writing dependency_links to ../../build/laser_follow/laser_follow.egg-info/dependency_links.txt
+[10.591s] writing entry points to ../../build/laser_follow/laser_follow.egg-info/entry_points.txt
+[10.593s] writing requirements to ../../build/laser_follow/laser_follow.egg-info/requires.txt
+[10.594s] writing top-level names to ../../build/laser_follow/laser_follow.egg-info/top_level.txt
+[10.597s] writing manifest file '../../build/laser_follow/laser_follow.egg-info/SOURCES.txt'
+[10.609s] reading manifest file '../../build/laser_follow/laser_follow.egg-info/SOURCES.txt'
+[10.614s] writing manifest file '../../build/laser_follow/laser_follow.egg-info/SOURCES.txt'
+[10.615s] running build
+[10.616s] running build_py
+[10.618s] creating /home/timoha/KSAROmni/build/laser_follow/build
+[10.619s] creating /home/timoha/KSAROmni/build/laser_follow/build/lib
+[10.620s] creating /home/timoha/KSAROmni/build/laser_follow/build/lib/laser_follow
+[10.621s] copying laser_follow/__init__.py -> /home/timoha/KSAROmni/build/laser_follow/build/lib/laser_follow
+[10.629s] copying laser_follow/laser_keep_distance.py -> /home/timoha/KSAROmni/build/laser_follow/build/lib/laser_follow
+[10.630s] running install
+[10.631s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.632s]   warnings.warn(
+[10.632s] running install_lib
+[10.633s] creating /home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages/laser_follow
+[10.634s] copying /home/timoha/KSAROmni/build/laser_follow/build/lib/laser_follow/__init__.py -> /home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages/laser_follow
+[10.635s] copying /home/timoha/KSAROmni/build/laser_follow/build/lib/laser_follow/laser_keep_distance.py -> /home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages/laser_follow
+[10.639s] byte-compiling /home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages/laser_follow/__init__.py to __init__.cpython-310.pyc
+[10.641s] byte-compiling /home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages/laser_follow/laser_keep_distance.py to laser_keep_distance.cpython-310.pyc
+[10.646s] running install_data
+[10.650s] creating /home/timoha/KSAROmni/install/laser_follow/share/ament_index
+[10.651s] creating /home/timoha/KSAROmni/install/laser_follow/share/ament_index/resource_index
+[10.652s] creating /home/timoha/KSAROmni/install/laser_follow/share/ament_index/resource_index/packages
+[10.653s] copying resource/laser_follow -> /home/timoha/KSAROmni/install/laser_follow/share/ament_index/resource_index/packages
+[10.654s] copying package.xml -> /home/timoha/KSAROmni/install/laser_follow/share/laser_follow
+[10.656s] running install_egg_info
+[10.667s] Copying ../../build/laser_follow/laser_follow.egg-info to /home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages/laser_follow-0.0.0-py3.10.egg-info
+[10.677s] running install_scripts
+[10.799s] Installing laser_follow script to /home/timoha/KSAROmni/install/laser_follow/lib/laser_follow
+[10.802s] writing list of installed files to '/home/timoha/KSAROmni/build/laser_follow/install.log'
+[10.997s] Invoked command in '/home/timoha/KSAROmni/src/laser_follow' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/laser_follow/prefix_override:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/laser_follow build --build-base /home/timoha/KSAROmni/build/laser_follow/build install --record /home/timoha/KSAROmni/build/laser_follow/install.log --single-version-externally-managed

@@ -1,0 +1,21 @@
+[6.375s] Invoking command in '/home/timoha/KSAROmni/build/laser_follow': PYTHONPATH=/home/timoha/KSAROmni/build/laser_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/laser_follow/build --no-deps symlink_data --force
+[8.460s] running develop
+[8.461s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.462s]   warnings.warn(
+[9.519s] running egg_info
+[9.521s] writing laser_follow.egg-info/PKG-INFO
+[9.522s] writing dependency_links to laser_follow.egg-info/dependency_links.txt
+[9.525s] writing entry points to laser_follow.egg-info/entry_points.txt
+[9.526s] writing requirements to laser_follow.egg-info/requires.txt
+[9.526s] writing top-level names to laser_follow.egg-info/top_level.txt
+[9.534s] reading manifest file 'laser_follow.egg-info/SOURCES.txt'
+[9.539s] writing manifest file 'laser_follow.egg-info/SOURCES.txt'
+[9.546s] running build_ext
+[9.548s] Creating /home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages/laser-follow.egg-link (link to .)
+[9.553s] Installing laser_follow script to /home/timoha/KSAROmni/install/laser_follow/lib/laser_follow
+[9.555s] 
+[9.556s] Installed /home/timoha/KSAROmni/build/laser_follow
+[9.557s] running symlink_data
+[9.559s] symbolically linking /home/timoha/KSAROmni/build/laser_follow/resource/laser_follow -> /home/timoha/KSAROmni/install/laser_follow/share/ament_index/resource_index/packages
+[9.560s] symbolically linking /home/timoha/KSAROmni/build/laser_follow/package.xml -> /home/timoha/KSAROmni/install/laser_follow/share/laser_follow
+[10.907s] Invoked command in '/home/timoha/KSAROmni/build/laser_follow' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/laser_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/laser_follow/build --no-deps symlink_data --force

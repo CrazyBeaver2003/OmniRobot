@@ -1,0 +1,33 @@
+[4.756s] Invoking command in '/home/timoha/KSAROmni/build/test_pub': PYTHONPATH=/home/timoha/KSAROmni/build/test_pub/prefix_override:/home/timoha/KSAROmni/install/test_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/test_pub/build
+[7.930s] running develop
+[7.932s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.933s]   warnings.warn(
+[10.622s] Removing /home/timoha/KSAROmni/install/test_pub/lib/python3.10/site-packages/test-pub.egg-link (link to .)
+[10.852s] Invoked command in '/home/timoha/KSAROmni/build/test_pub' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/test_pub/prefix_override:/home/timoha/KSAROmni/install/test_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/test_pub/build
+[10.855s] Invoking command in '/home/timoha/KSAROmni/src/test_pub': PYTHONPATH=/home/timoha/KSAROmni/build/test_pub/prefix_override:/home/timoha/KSAROmni/install/test_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_pub build --build-base /home/timoha/KSAROmni/build/test_pub/build install --record /home/timoha/KSAROmni/build/test_pub/install.log --single-version-externally-managed install_data --force
+[13.523s] running egg_info
+[13.539s] writing ../../build/test_pub/test_pub.egg-info/PKG-INFO
+[13.543s] writing dependency_links to ../../build/test_pub/test_pub.egg-info/dependency_links.txt
+[13.544s] writing entry points to ../../build/test_pub/test_pub.egg-info/entry_points.txt
+[13.545s] writing requirements to ../../build/test_pub/test_pub.egg-info/requires.txt
+[13.546s] writing top-level names to ../../build/test_pub/test_pub.egg-info/top_level.txt
+[13.557s] reading manifest file '../../build/test_pub/test_pub.egg-info/SOURCES.txt'
+[13.563s] writing manifest file '../../build/test_pub/test_pub.egg-info/SOURCES.txt'
+[13.564s] running build
+[13.565s] running build_py
+[13.578s] running install
+[13.582s] running install_lib
+[13.592s] creating /home/timoha/KSAROmni/install/test_pub/lib/python3.10/site-packages/test_pub
+[13.595s] copying /home/timoha/KSAROmni/build/test_pub/build/lib/test_pub/test_publisher.py -> /home/timoha/KSAROmni/install/test_pub/lib/python3.10/site-packages/test_pub
+[13.598s] copying /home/timoha/KSAROmni/build/test_pub/build/lib/test_pub/__init__.py -> /home/timoha/KSAROmni/install/test_pub/lib/python3.10/site-packages/test_pub
+[13.604s] byte-compiling /home/timoha/KSAROmni/install/test_pub/lib/python3.10/site-packages/test_pub/test_publisher.py to test_publisher.cpython-310.pyc
+[13.622s] byte-compiling /home/timoha/KSAROmni/install/test_pub/lib/python3.10/site-packages/test_pub/__init__.py to __init__.cpython-310.pyc
+[13.625s] running install_data
+[13.629s] copying resource/test_pub -> /home/timoha/KSAROmni/install/test_pub/share/ament_index/resource_index/packages
+[13.631s] copying package.xml -> /home/timoha/KSAROmni/install/test_pub/share/test_pub
+[13.634s] running install_egg_info
+[13.646s] Copying ../../build/test_pub/test_pub.egg-info to /home/timoha/KSAROmni/install/test_pub/lib/python3.10/site-packages/test_pub-0.0.0-py3.10.egg-info
+[13.658s] running install_scripts
+[13.789s] Installing test_publisher script to /home/timoha/KSAROmni/install/test_pub/lib/test_pub
+[13.792s] writing list of installed files to '/home/timoha/KSAROmni/build/test_pub/install.log'
+[13.978s] Invoked command in '/home/timoha/KSAROmni/src/test_pub' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/test_pub/prefix_override:/home/timoha/KSAROmni/install/test_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_pub build --build-base /home/timoha/KSAROmni/build/test_pub/build install --record /home/timoha/KSAROmni/build/test_pub/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.001519] (-) JobUnselected: {'identifier': 'arrow_package'}
+[0.002162] (-) JobUnselected: {'identifier': 'distance_node'}
+[0.002785] (-) JobUnselected: {'identifier': 'kolonka'}
+[0.002925] (-) JobUnselected: {'identifier': 'laser_follow'}
+[0.003083] (-) JobUnselected: {'identifier': 'lidar_template'}
+[0.003178] (-) JobUnselected: {'identifier': 'main_package_robot'}
+[0.003310] (-) JobUnselected: {'identifier': 'motor_control_node'}
+[0.003541] (-) JobUnselected: {'identifier': 'opencv_pub'}
+[0.003688] (-) JobUnselected: {'identifier': 'py_barrel_detector'}
+[0.004014] (-) JobUnselected: {'identifier': 'py_main_alg'}
+[0.004110] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.004198] (-) JobUnselected: {'identifier': 'test_pub'}
+[0.004296] (aruco_publisher) JobQueued: {'identifier': 'aruco_publisher', 'dependencies': OrderedDict()}
+[0.004451] (aruco_publisher) JobStarted: {'identifier': 'aruco_publisher'}
+[0.098922] (-) TimerEvent: {}
+[0.199918] (-) TimerEvent: {}
+[0.300659] (-) TimerEvent: {}
+[0.401800] (-) TimerEvent: {}
+[0.502532] (-) TimerEvent: {}
+[0.603244] (-) TimerEvent: {}
+[0.703956] (-) TimerEvent: {}
+[0.804679] (-) TimerEvent: {}
+[0.905382] (-) TimerEvent: {}
+[1.006102] (-) TimerEvent: {}
+[1.106835] (-) TimerEvent: {}
+[1.207500] (-) TimerEvent: {}
+[1.308197] (-) TimerEvent: {}
+[1.408844] (-) TimerEvent: {}
+[1.509553] (-) TimerEvent: {}
+[1.610485] (-) TimerEvent: {}
+[1.711351] (-) TimerEvent: {}
+[1.812256] (-) TimerEvent: {}
+[1.912921] (-) TimerEvent: {}
+[2.013963] (-) TimerEvent: {}
+[2.114781] (-) TimerEvent: {}
+[2.215483] (-) TimerEvent: {}
+[2.316277] (-) TimerEvent: {}
+[2.416998] (-) TimerEvent: {}
+[2.517675] (-) TimerEvent: {}
+[2.618357] (-) TimerEvent: {}
+[2.719045] (-) TimerEvent: {}
+[2.819701] (-) TimerEvent: {}
+[2.920386] (-) TimerEvent: {}
+[3.021088] (-) TimerEvent: {}
+[3.121814] (-) TimerEvent: {}
+[3.222511] (-) TimerEvent: {}
+[3.323260] (-) TimerEvent: {}
+[3.423966] (-) TimerEvent: {}
+[3.524876] (-) TimerEvent: {}
+[3.626135] (-) TimerEvent: {}
+[3.727227] (-) TimerEvent: {}
+[3.828360] (-) TimerEvent: {}
+[3.929302] (-) TimerEvent: {}
+[4.030230] (-) TimerEvent: {}
+[4.118170] (aruco_publisher) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/aruco_publisher/build'], 'cwd': '/home/timoha/KSAROmni/build/aruco_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'SSH_CLIENT': '172.20.10.3 44996 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/timoha/KSAROmni/install/rplidar_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ru_RU.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/timoha/KSAROmni/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/timoha/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/timoha/KSAROmni/install/test_pub:/home/timoha/KSAROmni/install/rplidar_ros:/home/timoha/KSAROmni/install/py_main_alg:/home/timoha/KSAROmni/install/py_barrel_detector:/home/timoha/KSAROmni/install/opencv_pub:/home/timoha/KSAROmni/install/motor_control_node:/home/timoha/KSAROmni/install/main_package_robot:/home/timoha/KSAROmni/install/lidar_template:/home/timoha/KSAROmni/install/laser_follow:/home/timoha/KSAROmni/install/kolonka:/home/timoha/KSAROmni/install/distance_node:/home/timoha/KSAROmni/install/aruco_publisher:/home/timoha/KSAROmni/install/arrow_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'PWD': '/home/timoha/KSAROmni/build/aruco_publisher', 'SSH_CONNECTION': '172.20.10.3 44996 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/aruco_publisher/prefix_override:/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/test_pub:/home/timoha/KSAROmni/install/test_pub/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/py_main_alg:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/py_barrel_detector:/home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/opencv_pub:/home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/motor_control_node:/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/main_package_robot:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/lidar_template:/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/laser_follow:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/kolonka:/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/distance_node:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/aruco_publisher:/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/timoha/KSAROmni/install/rplidar_ros:/home/timoha/KSAROmni/install/arrow_package'}, 'shell': False}
+[4.133138] (-) TimerEvent: {}
+[4.234165] (-) TimerEvent: {}
+[4.334947] (-) TimerEvent: {}
+[4.435646] (-) TimerEvent: {}
+[4.536441] (-) TimerEvent: {}
+[4.637313] (-) TimerEvent: {}
+[4.737997] (-) TimerEvent: {}
+[4.838729] (-) TimerEvent: {}
+[4.939445] (-) TimerEvent: {}
+[5.040100] (-) TimerEvent: {}
+[5.140754] (-) TimerEvent: {}
+[5.241466] (-) TimerEvent: {}
+[5.342193] (-) TimerEvent: {}
+[5.423597] (aruco_publisher) StdoutLine: {'line': b'running develop\n'}
+[5.427998] (aruco_publisher) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.428747] (aruco_publisher) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.434157] (aruco_publisher) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.435176] (aruco_publisher) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.442360] (-) TimerEvent: {}
+[5.543164] (-) TimerEvent: {}
+[5.643928] (-) TimerEvent: {}
+[5.744619] (-) TimerEvent: {}
+[5.845306] (-) TimerEvent: {}
+[5.946041] (-) TimerEvent: {}
+[6.046730] (-) TimerEvent: {}
+[6.147379] (-) TimerEvent: {}
+[6.248045] (-) TimerEvent: {}
+[6.299876] (aruco_publisher) StdoutLine: {'line': b'Removing /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco-publisher.egg-link (link to .)\n'}
+[6.348315] (-) TimerEvent: {}
+[6.432281] (aruco_publisher) CommandEnded: {'returncode': 0}
+[6.440857] (aruco_publisher) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/aruco_publisher', 'build', '--build-base', '/home/timoha/KSAROmni/build/aruco_publisher/build', 'install', '--record', '/home/timoha/KSAROmni/build/aruco_publisher/install.log', '--single-version-externally-managed'], 'cwd': '/home/timoha/KSAROmni/src/aruco_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'SSH_CLIENT': '172.20.10.3 44996 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/timoha/KSAROmni/install/rplidar_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ru_RU.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/timoha/KSAROmni/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/timoha/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/timoha/KSAROmni/install/test_pub:/home/timoha/KSAROmni/install/rplidar_ros:/home/timoha/KSAROmni/install/py_main_alg:/home/timoha/KSAROmni/install/py_barrel_detector:/home/timoha/KSAROmni/install/opencv_pub:/home/timoha/KSAROmni/install/motor_control_node:/home/timoha/KSAROmni/install/main_package_robot:/home/timoha/KSAROmni/install/lidar_template:/home/timoha/KSAROmni/install/laser_follow:/home/timoha/KSAROmni/install/kolonka:/home/timoha/KSAROmni/install/distance_node:/home/timoha/KSAROmni/install/aruco_publisher:/home/timoha/KSAROmni/install/arrow_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'PWD': '/home/timoha/KSAROmni/build/aruco_publisher', 'SSH_CONNECTION': '172.20.10.3 44996 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/aruco_publisher/prefix_override:/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/test_pub:/home/timoha/KSAROmni/install/test_pub/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/py_main_alg:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/py_barrel_detector:/home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/opencv_pub:/home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/motor_control_node:/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/main_package_robot:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/lidar_template:/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/laser_follow:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/kolonka:/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/distance_node:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/aruco_publisher:/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/timoha/KSAROmni/install/rplidar_ros:/home/timoha/KSAROmni/install/arrow_package'}, 'shell': False}
+[6.448625] (-) TimerEvent: {}
+[6.550032] (-) TimerEvent: {}
+[6.650722] (-) TimerEvent: {}
+[6.751444] (-) TimerEvent: {}
+[6.852149] (-) TimerEvent: {}
+[6.953062] (-) TimerEvent: {}
+[7.053775] (-) TimerEvent: {}
+[7.154483] (-) TimerEvent: {}
+[7.255177] (-) TimerEvent: {}
+[7.355850] (-) TimerEvent: {}
+[7.456541] (-) TimerEvent: {}
+[7.557270] (-) TimerEvent: {}
+[7.643655] (aruco_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[7.646464] (aruco_publisher) StdoutLine: {'line': b'writing ../../build/aruco_publisher/aruco_publisher.egg-info/PKG-INFO\n'}
+[7.647705] (aruco_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/aruco_publisher/aruco_publisher.egg-info/dependency_links.txt\n'}
+[7.648757] (aruco_publisher) StdoutLine: {'line': b'writing entry points to ../../build/aruco_publisher/aruco_publisher.egg-info/entry_points.txt\n'}
+[7.649558] (aruco_publisher) StdoutLine: {'line': b'writing requirements to ../../build/aruco_publisher/aruco_publisher.egg-info/requires.txt\n'}
+[7.650230] (aruco_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/aruco_publisher/aruco_publisher.egg-info/top_level.txt\n'}
+[7.657438] (-) TimerEvent: {}
+[7.658266] (aruco_publisher) StdoutLine: {'line': b"reading manifest file '../../build/aruco_publisher/aruco_publisher.egg-info/SOURCES.txt'\n"}
+[7.662842] (aruco_publisher) StdoutLine: {'line': b"writing manifest file '../../build/aruco_publisher/aruco_publisher.egg-info/SOURCES.txt'\n"}
+[7.663588] (aruco_publisher) StdoutLine: {'line': b'running build\n'}
+[7.664048] (aruco_publisher) StdoutLine: {'line': b'running build_py\n'}
+[7.664559] (aruco_publisher) StdoutLine: {'line': b'copying aruco_publisher/aruco_detector.py -> /home/timoha/KSAROmni/build/aruco_publisher/build/lib/aruco_publisher\n'}
+[7.666048] (aruco_publisher) StdoutLine: {'line': b'running install\n'}
+[7.666782] (aruco_publisher) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.667384] (aruco_publisher) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.668009] (aruco_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[7.671295] (aruco_publisher) StdoutLine: {'line': b'creating /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco_publisher\n'}
+[7.671972] (aruco_publisher) StdoutLine: {'line': b'copying /home/timoha/KSAROmni/build/aruco_publisher/build/lib/aruco_publisher/aruco_detector.py -> /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco_publisher\n'}
+[7.672792] (aruco_publisher) StdoutLine: {'line': b'copying /home/timoha/KSAROmni/build/aruco_publisher/build/lib/aruco_publisher/__init__.py -> /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco_publisher\n'}
+[7.676322] (aruco_publisher) StdoutLine: {'line': b'byte-compiling /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco_publisher/aruco_detector.py to aruco_detector.cpython-310.pyc\n'}
+[7.680407] (aruco_publisher) StdoutLine: {'line': b'byte-compiling /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco_publisher/__init__.py to __init__.cpython-310.pyc\n'}
+[7.681448] (aruco_publisher) StdoutLine: {'line': b'running install_data\n'}
+[7.684256] (aruco_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.692037] (aruco_publisher) StdoutLine: {'line': b'Copying ../../build/aruco_publisher/aruco_publisher.egg-info to /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco_publisher-0.0.0-py3.10.egg-info\n'}
+[7.698694] (aruco_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[7.757634] (-) TimerEvent: {}
+[7.790280] (aruco_publisher) StdoutLine: {'line': b'Installing aruco_detector script to /home/timoha/KSAROmni/install/aruco_publisher/lib/aruco_publisher\n'}
+[7.791989] (aruco_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/timoha/KSAROmni/build/aruco_publisher/install.log'\n"}
+[7.858057] (-) TimerEvent: {}
+[7.909734] (aruco_publisher) CommandEnded: {'returncode': 0}
+[7.958137] (-) TimerEvent: {}
+[8.058944] (-) TimerEvent: {}
+[8.160051] (-) TimerEvent: {}
+[8.190861] (aruco_publisher) JobEnded: {'identifier': 'aruco_publisher', 'rc': 0}
+[8.194039] (-) EventReactorShutdown: {}

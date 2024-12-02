@@ -1,0 +1,21 @@
+[9.639s] Invoking command in '/home/timoha/KSAROmni/build/kolonka': PYTHONPATH=/home/timoha/KSAROmni/build/kolonka/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/kolonka/build --no-deps symlink_data --force
+[12.349s] running develop
+[12.359s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[12.362s]   warnings.warn(
+[13.949s] running egg_info
+[13.950s] writing kolonka.egg-info/PKG-INFO
+[13.951s] writing dependency_links to kolonka.egg-info/dependency_links.txt
+[13.951s] writing entry points to kolonka.egg-info/entry_points.txt
+[13.953s] writing requirements to kolonka.egg-info/requires.txt
+[13.954s] writing top-level names to kolonka.egg-info/top_level.txt
+[13.964s] reading manifest file 'kolonka.egg-info/SOURCES.txt'
+[13.982s] writing manifest file 'kolonka.egg-info/SOURCES.txt'
+[13.996s] running build_ext
+[13.998s] Creating /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka.egg-link (link to .)
+[14.010s] Installing audio script to /home/timoha/KSAROmni/install/kolonka/lib/kolonka
+[14.015s] 
+[14.016s] Installed /home/timoha/KSAROmni/build/kolonka
+[14.016s] running symlink_data
+[14.020s] symbolically linking /home/timoha/KSAROmni/build/kolonka/resource/kolonka -> /home/timoha/KSAROmni/install/kolonka/share/ament_index/resource_index/packages
+[14.024s] symbolically linking /home/timoha/KSAROmni/build/kolonka/package.xml -> /home/timoha/KSAROmni/install/kolonka/share/kolonka
+[14.461s] Invoked command in '/home/timoha/KSAROmni/build/kolonka' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/kolonka/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/kolonka/build --no-deps symlink_data --force

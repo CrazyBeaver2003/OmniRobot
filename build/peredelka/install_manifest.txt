@@ -1,0 +1,16 @@
+/home/timoha/KSAROmni/install/peredelka/lib/peredelka/talker
+/home/timoha/KSAROmni/install/peredelka/share/ament_index/resource_index/package_run_dependencies/peredelka
+/home/timoha/KSAROmni/install/peredelka/share/ament_index/resource_index/parent_prefix_path/peredelka
+/home/timoha/KSAROmni/install/peredelka/share/peredelka/environment/ament_prefix_path.sh
+/home/timoha/KSAROmni/install/peredelka/share/peredelka/environment/ament_prefix_path.dsv
+/home/timoha/KSAROmni/install/peredelka/share/peredelka/environment/path.sh
+/home/timoha/KSAROmni/install/peredelka/share/peredelka/environment/path.dsv
+/home/timoha/KSAROmni/install/peredelka/share/peredelka/local_setup.bash
+/home/timoha/KSAROmni/install/peredelka/share/peredelka/local_setup.sh
+/home/timoha/KSAROmni/install/peredelka/share/peredelka/local_setup.zsh
+/home/timoha/KSAROmni/install/peredelka/share/peredelka/local_setup.dsv
+/home/timoha/KSAROmni/install/peredelka/share/peredelka/package.dsv
+/home/timoha/KSAROmni/install/peredelka/share/ament_index/resource_index/packages/peredelka
+/home/timoha/KSAROmni/install/peredelka/share/peredelka/cmake/peredelkaConfig.cmake
+/home/timoha/KSAROmni/install/peredelka/share/peredelka/cmake/peredelkaConfig-version.cmake
+/home/timoha/KSAROmni/install/peredelka/share/peredelka/package.xml

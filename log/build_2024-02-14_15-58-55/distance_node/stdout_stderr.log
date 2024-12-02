@@ -1,0 +1,19 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing distance_node.egg-info/PKG-INFO
+writing dependency_links to distance_node.egg-info/dependency_links.txt
+writing entry points to distance_node.egg-info/entry_points.txt
+writing requirements to distance_node.egg-info/requires.txt
+writing top-level names to distance_node.egg-info/top_level.txt
+reading manifest file 'distance_node.egg-info/SOURCES.txt'
+writing manifest file 'distance_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages/distance-node.egg-link (link to .)
+Installing distance_publisher script to /home/timoha/KSAROmni/install/distance_node/lib/distance_node
+
+Installed /home/timoha/KSAROmni/build/distance_node
+running install_data

@@ -1,0 +1,27 @@
+[4.613s] Invoking command in '/home/timoha/KSAROmni/src/py_main_alg': PYTHONPATH=/home/timoha/KSAROmni/build/py_main_alg/prefix_override:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_main_alg build --build-base /home/timoha/KSAROmni/build/py_main_alg/build install --record /home/timoha/KSAROmni/build/py_main_alg/install.log --single-version-externally-managed
+[6.005s] running egg_info
+[6.008s] writing ../../build/py_main_alg/py_main_alg.egg-info/PKG-INFO
+[6.010s] writing dependency_links to ../../build/py_main_alg/py_main_alg.egg-info/dependency_links.txt
+[6.011s] writing entry points to ../../build/py_main_alg/py_main_alg.egg-info/entry_points.txt
+[6.012s] writing requirements to ../../build/py_main_alg/py_main_alg.egg-info/requires.txt
+[6.013s] writing top-level names to ../../build/py_main_alg/py_main_alg.egg-info/top_level.txt
+[6.023s] reading manifest file '../../build/py_main_alg/py_main_alg.egg-info/SOURCES.txt'
+[6.027s] writing manifest file '../../build/py_main_alg/py_main_alg.egg-info/SOURCES.txt'
+[6.028s] running build
+[6.029s] running build_py
+[6.029s] copying py_main_alg/main_alg.py -> /home/timoha/KSAROmni/build/py_main_alg/build/lib/py_main_alg
+[6.031s] running install
+[6.032s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.032s]   warnings.warn(
+[6.033s] running install_lib
+[6.037s] copying /home/timoha/KSAROmni/build/py_main_alg/build/lib/py_main_alg/main_alg.py -> /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg
+[6.041s] byte-compiling /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg/main_alg.py to main_alg.cpython-310.pyc
+[6.047s] Sorry: IndentationError: expected an indented block after 'elif' statement on line 125 (main_alg.py, line 126)
+[6.047s] running install_data
+[6.050s] running install_egg_info
+[6.058s] removing '/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg-0.0.0-py3.10.egg-info' (and everything under it)
+[6.064s] Copying ../../build/py_main_alg/py_main_alg.egg-info to /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg-0.0.0-py3.10.egg-info
+[6.068s] running install_scripts
+[6.171s] Installing main_alg script to /home/timoha/KSAROmni/install/py_main_alg/lib/py_main_alg
+[6.173s] writing list of installed files to '/home/timoha/KSAROmni/build/py_main_alg/install.log'
+[6.318s] Invoked command in '/home/timoha/KSAROmni/src/py_main_alg' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/py_main_alg/prefix_override:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_main_alg build --build-base /home/timoha/KSAROmni/build/py_main_alg/build install --record /home/timoha/KSAROmni/build/py_main_alg/install.log --single-version-externally-managed

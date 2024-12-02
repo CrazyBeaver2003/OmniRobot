@@ -1,0 +1,39 @@
+[7.825s] Invoking command in '/home/timoha/KSAROmni/src/lidar_template': PYTHONPATH=/home/timoha/KSAROmni/build/lidar_template/prefix_override:/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lidar_template build --build-base /home/timoha/KSAROmni/build/lidar_template/build install --record /home/timoha/KSAROmni/build/lidar_template/install.log --single-version-externally-managed
+[9.827s] running egg_info
+[9.830s] creating ../../build/lidar_template/lidar_template.egg-info
+[9.832s] writing ../../build/lidar_template/lidar_template.egg-info/PKG-INFO
+[9.833s] writing dependency_links to ../../build/lidar_template/lidar_template.egg-info/dependency_links.txt
+[9.835s] writing entry points to ../../build/lidar_template/lidar_template.egg-info/entry_points.txt
+[9.836s] writing requirements to ../../build/lidar_template/lidar_template.egg-info/requires.txt
+[9.837s] writing top-level names to ../../build/lidar_template/lidar_template.egg-info/top_level.txt
+[9.837s] writing manifest file '../../build/lidar_template/lidar_template.egg-info/SOURCES.txt'
+[9.847s] reading manifest file '../../build/lidar_template/lidar_template.egg-info/SOURCES.txt'
+[9.852s] writing manifest file '../../build/lidar_template/lidar_template.egg-info/SOURCES.txt'
+[9.853s] running build
+[9.854s] running build_py
+[9.855s] creating /home/timoha/KSAROmni/build/lidar_template/build
+[9.856s] creating /home/timoha/KSAROmni/build/lidar_template/build/lib
+[9.857s] creating /home/timoha/KSAROmni/build/lidar_template/build/lib/lidar_template
+[9.858s] copying lidar_template/lidar_template.py -> /home/timoha/KSAROmni/build/lidar_template/build/lib/lidar_template
+[9.859s] copying lidar_template/__init__.py -> /home/timoha/KSAROmni/build/lidar_template/build/lib/lidar_template
+[9.861s] running install
+[9.862s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.863s]   warnings.warn(
+[9.872s] running install_lib
+[9.875s] creating /home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages/lidar_template
+[9.876s] copying /home/timoha/KSAROmni/build/lidar_template/build/lib/lidar_template/lidar_template.py -> /home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages/lidar_template
+[9.877s] copying /home/timoha/KSAROmni/build/lidar_template/build/lib/lidar_template/__init__.py -> /home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages/lidar_template
+[9.880s] byte-compiling /home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages/lidar_template/lidar_template.py to lidar_template.cpython-310.pyc
+[9.886s] byte-compiling /home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages/lidar_template/__init__.py to __init__.cpython-310.pyc
+[9.887s] running install_data
+[9.890s] creating /home/timoha/KSAROmni/install/lidar_template/share/ament_index
+[9.891s] creating /home/timoha/KSAROmni/install/lidar_template/share/ament_index/resource_index
+[9.892s] creating /home/timoha/KSAROmni/install/lidar_template/share/ament_index/resource_index/packages
+[9.893s] copying resource/lidar_template -> /home/timoha/KSAROmni/install/lidar_template/share/ament_index/resource_index/packages
+[9.894s] copying package.xml -> /home/timoha/KSAROmni/install/lidar_template/share/lidar_template
+[9.894s] running install_egg_info
+[9.903s] Copying ../../build/lidar_template/lidar_template.egg-info to /home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages/lidar_template-0.0.0-py3.10.egg-info
+[9.916s] running install_scripts
+[10.103s] Installing lidar_temp script to /home/timoha/KSAROmni/install/lidar_template/lib/lidar_template
+[10.123s] writing list of installed files to '/home/timoha/KSAROmni/build/lidar_template/install.log'
+[11.116s] Invoked command in '/home/timoha/KSAROmni/src/lidar_template' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/lidar_template/prefix_override:/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lidar_template build --build-base /home/timoha/KSAROmni/build/lidar_template/build install --record /home/timoha/KSAROmni/build/lidar_template/install.log --single-version-externally-managed

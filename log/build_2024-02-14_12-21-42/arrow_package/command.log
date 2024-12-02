@@ -1,0 +1,6 @@
+Invoking command in '/home/timoha/KSAROmni/build/arrow_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/timoha/KSAROmni/src/arrow_package -DCMAKE_INSTALL_PREFIX=/home/timoha/KSAROmni/install/arrow_package
+Invoked command in '/home/timoha/KSAROmni/build/arrow_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/timoha/KSAROmni/src/arrow_package -DCMAKE_INSTALL_PREFIX=/home/timoha/KSAROmni/install/arrow_package
+Invoking command in '/home/timoha/KSAROmni/build/arrow_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/timoha/KSAROmni/build/arrow_package -- -j4 -l4
+Invoked command in '/home/timoha/KSAROmni/build/arrow_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/timoha/KSAROmni/build/arrow_package -- -j4 -l4
+Invoking command in '/home/timoha/KSAROmni/build/arrow_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/timoha/KSAROmni/build/arrow_package
+Invoked command in '/home/timoha/KSAROmni/build/arrow_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/timoha/KSAROmni/build/arrow_package

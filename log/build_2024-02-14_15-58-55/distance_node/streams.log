@@ -1,0 +1,21 @@
+[8.214s] Invoking command in '/home/timoha/KSAROmni/build/distance_node': PYTHONPATH=/home/timoha/KSAROmni/build/distance_node/prefix_override:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/distance_node/build --no-deps install_data
+[10.007s] running develop
+[10.012s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[10.012s]   warnings.warn(
+[10.020s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.020s]   warnings.warn(
+[11.407s] running egg_info
+[11.408s] writing distance_node.egg-info/PKG-INFO
+[11.412s] writing dependency_links to distance_node.egg-info/dependency_links.txt
+[11.414s] writing entry points to distance_node.egg-info/entry_points.txt
+[11.417s] writing requirements to distance_node.egg-info/requires.txt
+[11.418s] writing top-level names to distance_node.egg-info/top_level.txt
+[11.436s] reading manifest file 'distance_node.egg-info/SOURCES.txt'
+[11.443s] writing manifest file 'distance_node.egg-info/SOURCES.txt'
+[11.454s] running build_ext
+[11.456s] Creating /home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages/distance-node.egg-link (link to .)
+[11.464s] Installing distance_publisher script to /home/timoha/KSAROmni/install/distance_node/lib/distance_node
+[11.467s] 
+[11.468s] Installed /home/timoha/KSAROmni/build/distance_node
+[11.470s] running install_data
+[12.968s] Invoked command in '/home/timoha/KSAROmni/build/distance_node' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/distance_node/prefix_override:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/distance_node/build --no-deps install_data

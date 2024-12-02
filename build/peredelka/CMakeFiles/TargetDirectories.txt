@@ -1,0 +1,10 @@
+/home/timoha/KSAROmni/build/peredelka/CMakeFiles/uninstall.dir
+/home/timoha/KSAROmni/build/peredelka/CMakeFiles/peredelka_uninstall.dir
+/home/timoha/KSAROmni/build/peredelka/CMakeFiles/talker.dir
+/home/timoha/KSAROmni/build/peredelka/CMakeFiles/test.dir
+/home/timoha/KSAROmni/build/peredelka/CMakeFiles/edit_cache.dir
+/home/timoha/KSAROmni/build/peredelka/CMakeFiles/rebuild_cache.dir
+/home/timoha/KSAROmni/build/peredelka/CMakeFiles/list_install_components.dir
+/home/timoha/KSAROmni/build/peredelka/CMakeFiles/install.dir
+/home/timoha/KSAROmni/build/peredelka/CMakeFiles/install/local.dir
+/home/timoha/KSAROmni/build/peredelka/CMakeFiles/install/strip.dir

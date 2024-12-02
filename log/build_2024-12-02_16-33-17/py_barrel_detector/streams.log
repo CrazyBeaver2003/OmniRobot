@@ -1,0 +1,20 @@
+[6.015s] Invoking command in '/home/timoha/KSAROmni/build/py_barrel_detector': PYTHONPATH=/home/timoha/KSAROmni/build/py_barrel_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/py_barrel_detector/build --no-deps symlink_data --force
+[7.917s] running develop
+[7.919s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.922s]   warnings.warn(
+[9.343s] running egg_info
+[9.346s] writing py_barrel_detector.egg-info/PKG-INFO
+[9.357s] writing dependency_links to py_barrel_detector.egg-info/dependency_links.txt
+[9.358s] writing entry points to py_barrel_detector.egg-info/entry_points.txt
+[9.359s] writing requirements to py_barrel_detector.egg-info/requires.txt
+[9.363s] writing top-level names to py_barrel_detector.egg-info/top_level.txt
+[9.369s] reading manifest file 'py_barrel_detector.egg-info/SOURCES.txt'
+[9.375s] writing manifest file 'py_barrel_detector.egg-info/SOURCES.txt'
+[9.380s] running build_ext
+[9.381s] Creating /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py-barrel-detector.egg-link (link to .)
+[9.388s] Installing barrel_detector script to /home/timoha/KSAROmni/install/py_barrel_detector/lib/py_barrel_detector
+[9.389s] 
+[9.390s] Installed /home/timoha/KSAROmni/build/py_barrel_detector
+[9.391s] running symlink_data
+[9.392s] symbolically linking /home/timoha/KSAROmni/build/py_barrel_detector/resource/py_barrel_detector -> /home/timoha/KSAROmni/install/py_barrel_detector/share/ament_index/resource_index/packages
+[9.393s] symbolically linking /home/timoha/KSAROmni/build/py_barrel_detector/package.xml -> /home/timoha/KSAROmni/install/py_barrel_detector/share/py_barrel_detector

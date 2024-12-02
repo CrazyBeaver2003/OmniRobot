@@ -1,0 +1,39 @@
+[7.703s] Invoking command in '/home/timoha/KSAROmni/src/kolonka': PYTHONPATH=/home/timoha/KSAROmni/build/kolonka/prefix_override:/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/kolonka build --build-base /home/timoha/KSAROmni/build/kolonka/build install --record /home/timoha/KSAROmni/build/kolonka/install.log --single-version-externally-managed
+[9.480s] running egg_info
+[9.484s] creating ../../build/kolonka/kolonka.egg-info
+[9.485s] writing ../../build/kolonka/kolonka.egg-info/PKG-INFO
+[9.487s] writing dependency_links to ../../build/kolonka/kolonka.egg-info/dependency_links.txt
+[9.489s] writing entry points to ../../build/kolonka/kolonka.egg-info/entry_points.txt
+[9.490s] writing requirements to ../../build/kolonka/kolonka.egg-info/requires.txt
+[9.491s] writing top-level names to ../../build/kolonka/kolonka.egg-info/top_level.txt
+[9.492s] writing manifest file '../../build/kolonka/kolonka.egg-info/SOURCES.txt'
+[9.506s] reading manifest file '../../build/kolonka/kolonka.egg-info/SOURCES.txt'
+[9.509s] writing manifest file '../../build/kolonka/kolonka.egg-info/SOURCES.txt'
+[9.511s] running build
+[9.512s] running build_py
+[9.515s] creating /home/timoha/KSAROmni/build/kolonka/build
+[9.517s] creating /home/timoha/KSAROmni/build/kolonka/build/lib
+[9.518s] creating /home/timoha/KSAROmni/build/kolonka/build/lib/kolonka
+[9.520s] copying kolonka/robot_audio.py -> /home/timoha/KSAROmni/build/kolonka/build/lib/kolonka
+[9.523s] copying kolonka/__init__.py -> /home/timoha/KSAROmni/build/kolonka/build/lib/kolonka
+[9.526s] running install
+[9.528s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.530s]   warnings.warn(
+[9.533s] running install_lib
+[9.544s] creating /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka
+[9.547s] copying /home/timoha/KSAROmni/build/kolonka/build/lib/kolonka/robot_audio.py -> /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka
+[9.551s] copying /home/timoha/KSAROmni/build/kolonka/build/lib/kolonka/__init__.py -> /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka
+[9.560s] byte-compiling /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka/robot_audio.py to robot_audio.cpython-310.pyc
+[9.572s] byte-compiling /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka/__init__.py to __init__.cpython-310.pyc
+[9.580s] running install_data
+[9.589s] creating /home/timoha/KSAROmni/install/kolonka/share/ament_index
+[9.593s] creating /home/timoha/KSAROmni/install/kolonka/share/ament_index/resource_index
+[9.597s] creating /home/timoha/KSAROmni/install/kolonka/share/ament_index/resource_index/packages
+[9.601s] copying resource/kolonka -> /home/timoha/KSAROmni/install/kolonka/share/ament_index/resource_index/packages
+[9.607s] copying package.xml -> /home/timoha/KSAROmni/install/kolonka/share/kolonka
+[9.612s] running install_egg_info
+[9.638s] Copying ../../build/kolonka/kolonka.egg-info to /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka-0.0.0-py3.10.egg-info
+[9.659s] running install_scripts
+[9.832s] Installing audio script to /home/timoha/KSAROmni/install/kolonka/lib/kolonka
+[9.837s] writing list of installed files to '/home/timoha/KSAROmni/build/kolonka/install.log'
+[10.586s] Invoked command in '/home/timoha/KSAROmni/src/kolonka' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/kolonka/prefix_override:/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/kolonka build --build-base /home/timoha/KSAROmni/build/kolonka/build install --record /home/timoha/KSAROmni/build/kolonka/install.log --single-version-externally-managed

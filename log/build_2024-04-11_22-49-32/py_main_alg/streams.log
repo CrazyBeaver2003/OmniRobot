@@ -1,0 +1,26 @@
+[4.218s] Invoking command in '/home/timoha/KSAROmni/src/py_main_alg': PYTHONPATH=/home/timoha/KSAROmni/build/py_main_alg/prefix_override:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_main_alg build --build-base /home/timoha/KSAROmni/build/py_main_alg/build install --record /home/timoha/KSAROmni/build/py_main_alg/install.log --single-version-externally-managed
+[5.632s] running egg_info
+[5.635s] writing ../../build/py_main_alg/py_main_alg.egg-info/PKG-INFO
+[5.636s] writing dependency_links to ../../build/py_main_alg/py_main_alg.egg-info/dependency_links.txt
+[5.638s] writing entry points to ../../build/py_main_alg/py_main_alg.egg-info/entry_points.txt
+[5.639s] writing requirements to ../../build/py_main_alg/py_main_alg.egg-info/requires.txt
+[5.640s] writing top-level names to ../../build/py_main_alg/py_main_alg.egg-info/top_level.txt
+[5.650s] reading manifest file '../../build/py_main_alg/py_main_alg.egg-info/SOURCES.txt'
+[5.655s] writing manifest file '../../build/py_main_alg/py_main_alg.egg-info/SOURCES.txt'
+[5.656s] running build
+[5.657s] running build_py
+[5.658s] copying py_main_alg/main_alg.py -> /home/timoha/KSAROmni/build/py_main_alg/build/lib/py_main_alg
+[5.660s] running install
+[5.661s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.669s]   warnings.warn(
+[5.670s] running install_lib
+[5.671s] copying /home/timoha/KSAROmni/build/py_main_alg/build/lib/py_main_alg/main_alg.py -> /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg
+[5.680s] byte-compiling /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg/main_alg.py to main_alg.cpython-310.pyc
+[5.683s] running install_data
+[5.686s] running install_egg_info
+[5.695s] removing '/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg-0.0.0-py3.10.egg-info' (and everything under it)
+[5.697s] Copying ../../build/py_main_alg/py_main_alg.egg-info to /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg-0.0.0-py3.10.egg-info
+[5.704s] running install_scripts
+[5.807s] Installing main_alg script to /home/timoha/KSAROmni/install/py_main_alg/lib/py_main_alg
+[5.810s] writing list of installed files to '/home/timoha/KSAROmni/build/py_main_alg/install.log'
+[5.950s] Invoked command in '/home/timoha/KSAROmni/src/py_main_alg' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/py_main_alg/prefix_override:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_main_alg build --build-base /home/timoha/KSAROmni/build/py_main_alg/build install --record /home/timoha/KSAROmni/build/py_main_alg/install.log --single-version-externally-managed

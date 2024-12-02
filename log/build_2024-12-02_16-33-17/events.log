@@ -1,0 +1,716 @@
+[0.000000] (-) TimerEvent: {}
+[0.002151] (arrow_package) JobQueued: {'identifier': 'arrow_package', 'dependencies': OrderedDict()}
+[0.002639] (aruco_publisher) JobQueued: {'identifier': 'aruco_publisher', 'dependencies': OrderedDict()}
+[0.003723] (distance_node) JobQueued: {'identifier': 'distance_node', 'dependencies': OrderedDict()}
+[0.003961] (kolonka) JobQueued: {'identifier': 'kolonka', 'dependencies': OrderedDict()}
+[0.004191] (laser_follow) JobQueued: {'identifier': 'laser_follow', 'dependencies': OrderedDict()}
+[0.004358] (lidar_template) JobQueued: {'identifier': 'lidar_template', 'dependencies': OrderedDict()}
+[0.004516] (main_package_robot) JobQueued: {'identifier': 'main_package_robot', 'dependencies': OrderedDict()}
+[0.004618] (motor_control_node) JobQueued: {'identifier': 'motor_control_node', 'dependencies': OrderedDict()}
+[0.004706] (opencv_pub) JobQueued: {'identifier': 'opencv_pub', 'dependencies': OrderedDict()}
+[0.004792] (peredelka) JobQueued: {'identifier': 'peredelka', 'dependencies': OrderedDict()}
+[0.004872] (py_barrel_detector) JobQueued: {'identifier': 'py_barrel_detector', 'dependencies': OrderedDict()}
+[0.004952] (py_main_alg) JobQueued: {'identifier': 'py_main_alg', 'dependencies': OrderedDict()}
+[0.005029] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.005105] (test_pub) JobQueued: {'identifier': 'test_pub', 'dependencies': OrderedDict()}
+[0.005182] (arrow_package) JobStarted: {'identifier': 'arrow_package'}
+[0.055972] (aruco_publisher) JobStarted: {'identifier': 'aruco_publisher'}
+[0.091619] (distance_node) JobStarted: {'identifier': 'distance_node'}
+[0.096677] (-) TimerEvent: {}
+[0.124687] (kolonka) JobStarted: {'identifier': 'kolonka'}
+[0.162782] (arrow_package) JobProgress: {'identifier': 'arrow_package', 'progress': 'cmake'}
+[0.169554] (arrow_package) Command: {'cmd': ['/usr/bin/cmake', '/home/timoha/KSAROmni/src/arrow_package', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/timoha/KSAROmni/install/arrow_package'], 'cwd': '/home/timoha/KSAROmni/build/arrow_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'timoha'), ('SSH_CLIENT', '192.168.22.235 44560 22'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/timoha'), ('OLDPWD', '/home/timoha/.vscode-server'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4adfb22a-f067-4454-be3b-f12959e1ac37.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'timoha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/home/timoha/.local/bin:/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-23fea89a6a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/timoha/KSAROmni/build/arrow_package'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.22.235 44560 192.168.22.120 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.197042] (-) TimerEvent: {}
+[0.299031] (-) TimerEvent: {}
+[0.399928] (-) TimerEvent: {}
+[0.538441] (-) TimerEvent: {}
+[0.639962] (-) TimerEvent: {}
+[0.740810] (-) TimerEvent: {}
+[0.841845] (-) TimerEvent: {}
+[0.948799] (-) TimerEvent: {}
+[1.049718] (-) TimerEvent: {}
+[1.150525] (-) TimerEvent: {}
+[1.251551] (-) TimerEvent: {}
+[1.352834] (-) TimerEvent: {}
+[1.453662] (-) TimerEvent: {}
+[1.554713] (-) TimerEvent: {}
+[1.656572] (-) TimerEvent: {}
+[1.757704] (-) TimerEvent: {}
+[1.861894] (-) TimerEvent: {}
+[1.963004] (-) TimerEvent: {}
+[2.071510] (-) TimerEvent: {}
+[2.173394] (-) TimerEvent: {}
+[2.274720] (-) TimerEvent: {}
+[2.378672] (-) TimerEvent: {}
+[2.480333] (-) TimerEvent: {}
+[2.581516] (-) TimerEvent: {}
+[2.682667] (-) TimerEvent: {}
+[2.783544] (-) TimerEvent: {}
+[2.884330] (-) TimerEvent: {}
+[2.985112] (-) TimerEvent: {}
+[3.085926] (-) TimerEvent: {}
+[3.186773] (-) TimerEvent: {}
+[3.287655] (-) TimerEvent: {}
+[3.388753] (-) TimerEvent: {}
+[3.489604] (-) TimerEvent: {}
+[3.592023] (-) TimerEvent: {}
+[3.672781] (arrow_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.673720] (arrow_package) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.675722] (arrow_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.676349] (arrow_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.679329] (arrow_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.689947] (arrow_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.692733] (-) TimerEvent: {}
+[3.695128] (arrow_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.702284] (arrow_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.705430] (arrow_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.708661] (arrow_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.711735] (arrow_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.792946] (-) TimerEvent: {}
+[3.894411] (-) TimerEvent: {}
+[3.995363] (-) TimerEvent: {}
+[4.096234] (-) TimerEvent: {}
+[4.197217] (-) TimerEvent: {}
+[4.298187] (-) TimerEvent: {}
+[4.399165] (-) TimerEvent: {}
+[4.481477] (arrow_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.499802] (-) TimerEvent: {}
+[4.600889] (-) TimerEvent: {}
+[4.701957] (-) TimerEvent: {}
+[4.802765] (-) TimerEvent: {}
+[4.887626] (arrow_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.888678] (arrow_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/timoha/KSAROmni/src/arrow_package/include>\n'}
+[4.889394] (arrow_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.892786] (arrow_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.899637] (arrow_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.900413] (arrow_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.902640] (arrow_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.903559] (-) TimerEvent: {}
+[4.915229] (arrow_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.004008] (-) TimerEvent: {}
+[5.016602] (arrow_package) StdoutLine: {'line': b'-- Generating done\n'}
+[5.025835] (arrow_package) StdoutLine: {'line': b'-- Build files have been written to: /home/timoha/KSAROmni/build/arrow_package\n'}
+[5.104391] (-) TimerEvent: {}
+[5.205758] (-) TimerEvent: {}
+[5.249080] (arrow_package) CommandEnded: {'returncode': 0}
+[5.261413] (arrow_package) JobProgress: {'identifier': 'arrow_package', 'progress': 'build'}
+[5.262334] (arrow_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/timoha/KSAROmni/build/arrow_package', '--', '-j4', '-l4'], 'cwd': '/home/timoha/KSAROmni/build/arrow_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'timoha'), ('SSH_CLIENT', '192.168.22.235 44560 22'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/timoha'), ('OLDPWD', '/home/timoha/.vscode-server'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4adfb22a-f067-4454-be3b-f12959e1ac37.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'timoha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/home/timoha/.local/bin:/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-23fea89a6a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/timoha/KSAROmni/build/arrow_package'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.22.235 44560 192.168.22.120 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.306039] (-) TimerEvent: {}
+[5.409016] (-) TimerEvent: {}
+[5.514479] (-) TimerEvent: {}
+[5.561490] (arrow_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target arrow_node\x1b[0m\n'}
+[5.614750] (-) TimerEvent: {}
+[5.716393] (-) TimerEvent: {}
+[5.816522] (arrow_package) StdoutLine: {'line': b'[100%] Built target arrow_node\n'}
+[5.820263] (-) TimerEvent: {}
+[5.891158] (arrow_package) CommandEnded: {'returncode': 0}
+[5.920550] (-) TimerEvent: {}
+[6.021639] (-) TimerEvent: {}
+[6.059217] (arrow_package) JobProgress: {'identifier': 'arrow_package', 'progress': 'install'}
+[6.108551] (arrow_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/timoha/KSAROmni/build/arrow_package'], 'cwd': '/home/timoha/KSAROmni/build/arrow_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'timoha'), ('SSH_CLIENT', '192.168.22.235 44560 22'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/timoha'), ('OLDPWD', '/home/timoha/.vscode-server'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4adfb22a-f067-4454-be3b-f12959e1ac37.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'timoha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/home/timoha/.local/bin:/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-23fea89a6a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/timoha/KSAROmni/build/arrow_package'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.22.235 44560 192.168.22.120 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.121949] (-) TimerEvent: {}
+[6.153242] (arrow_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.159460] (arrow_package) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.164780] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/lib/arrow_package/arrow_node\n'}
+[6.169316] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/ament_index/resource_index/package_run_dependencies/arrow_package\n'}
+[6.173935] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/ament_index/resource_index/parent_prefix_path/arrow_package\n'}
+[6.179702] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/environment/ament_prefix_path.sh\n'}
+[6.185462] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/environment/ament_prefix_path.dsv\n'}
+[6.190525] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/environment/path.sh\n'}
+[6.195673] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/environment/path.dsv\n'}
+[6.200666] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/local_setup.bash\n'}
+[6.205679] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/local_setup.sh\n'}
+[6.210698] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/local_setup.zsh\n'}
+[6.217586] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/local_setup.dsv\n'}
+[6.222156] (-) TimerEvent: {}
+[6.224789] (arrow_package) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/package.dsv\n'}
+[6.274346] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/ament_index/resource_index/packages/arrow_package\n'}
+[6.283740] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/cmake/arrow_packageConfig.cmake\n'}
+[6.288498] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/cmake/arrow_packageConfig-version.cmake\n'}
+[6.294424] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/package.xml\n'}
+[6.310485] (arrow_package) CommandEnded: {'returncode': 0}
+[6.322347] (-) TimerEvent: {}
+[6.423979] (-) TimerEvent: {}
+[6.531131] (-) TimerEvent: {}
+[6.636862] (-) TimerEvent: {}
+[6.739130] (-) TimerEvent: {}
+[6.770303] (arrow_package) JobEnded: {'identifier': 'arrow_package', 'rc': 0}
+[6.773900] (laser_follow) JobStarted: {'identifier': 'laser_follow'}
+[6.839374] (-) TimerEvent: {}
+[6.940282] (-) TimerEvent: {}
+[7.041372] (-) TimerEvent: {}
+[7.142617] (-) TimerEvent: {}
+[7.243594] (-) TimerEvent: {}
+[7.344633] (-) TimerEvent: {}
+[7.445658] (-) TimerEvent: {}
+[7.552472] (-) TimerEvent: {}
+[7.670084] (-) TimerEvent: {}
+[7.773446] (-) TimerEvent: {}
+[7.878117] (-) TimerEvent: {}
+[7.981256] (-) TimerEvent: {}
+[8.087118] (-) TimerEvent: {}
+[8.194532] (-) TimerEvent: {}
+[8.305043] (-) TimerEvent: {}
+[8.408280] (-) TimerEvent: {}
+[8.510976] (-) TimerEvent: {}
+[8.613751] (-) TimerEvent: {}
+[8.715693] (-) TimerEvent: {}
+[8.819153] (-) TimerEvent: {}
+[8.922069] (-) TimerEvent: {}
+[9.030022] (-) TimerEvent: {}
+[9.131399] (-) TimerEvent: {}
+[9.232842] (-) TimerEvent: {}
+[9.333862] (-) TimerEvent: {}
+[9.434936] (-) TimerEvent: {}
+[9.536065] (-) TimerEvent: {}
+[9.637302] (-) TimerEvent: {}
+[9.739152] (-) TimerEvent: {}
+[9.754938] (kolonka) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/kolonka/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/timoha/KSAROmni/build/kolonka', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'SSH_CLIENT': '192.168.22.235 44560 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha/.vscode-server', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4adfb22a-f067-4454-be3b-f12959e1ac37.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/home/timoha/.local/bin:/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-23fea89a6a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/timoha/KSAROmni/build/kolonka', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.22.235 44560 192.168.22.120 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/kolonka/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1'}, 'shell': False}
+[9.777631] (aruco_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/aruco_publisher/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/timoha/KSAROmni/build/aruco_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'SSH_CLIENT': '192.168.22.235 44560 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha/.vscode-server', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4adfb22a-f067-4454-be3b-f12959e1ac37.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/home/timoha/.local/bin:/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-23fea89a6a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/timoha/KSAROmni/build/aruco_publisher', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.22.235 44560 192.168.22.120 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/aruco_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1'}, 'shell': False}
+[9.812790] (distance_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/distance_node/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/timoha/KSAROmni/build/distance_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'SSH_CLIENT': '192.168.22.235 44560 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha/.vscode-server', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4adfb22a-f067-4454-be3b-f12959e1ac37.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/home/timoha/.local/bin:/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-23fea89a6a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/timoha/KSAROmni/build/distance_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.22.235 44560 192.168.22.120 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/distance_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1'}, 'shell': False}
+[9.841418] (-) TimerEvent: {}
+[9.942880] (-) TimerEvent: {}
+[10.043749] (-) TimerEvent: {}
+[10.144912] (-) TimerEvent: {}
+[10.246008] (-) TimerEvent: {}
+[10.347869] (-) TimerEvent: {}
+[10.449066] (-) TimerEvent: {}
+[10.550491] (-) TimerEvent: {}
+[10.654839] (-) TimerEvent: {}
+[10.757754] (-) TimerEvent: {}
+[10.861594] (-) TimerEvent: {}
+[10.962590] (-) TimerEvent: {}
+[11.063629] (-) TimerEvent: {}
+[11.165079] (-) TimerEvent: {}
+[11.266196] (-) TimerEvent: {}
+[11.370095] (-) TimerEvent: {}
+[11.474082] (-) TimerEvent: {}
+[11.582959] (-) TimerEvent: {}
+[11.686025] (-) TimerEvent: {}
+[11.788624] (-) TimerEvent: {}
+[11.891564] (-) TimerEvent: {}
+[11.994153] (-) TimerEvent: {}
+[12.097254] (-) TimerEvent: {}
+[12.200462] (-) TimerEvent: {}
+[12.246040] (aruco_publisher) StdoutLine: {'line': b'running develop\n'}
+[12.252407] (aruco_publisher) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[12.255592] (aruco_publisher) StderrLine: {'line': b'  warnings.warn(\n'}
+[12.300666] (-) TimerEvent: {}
+[12.403470] (-) TimerEvent: {}
+[12.471723] (kolonka) StdoutLine: {'line': b'running develop\n'}
+[12.482228] (kolonka) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[12.485502] (kolonka) StderrLine: {'line': b'  warnings.warn(\n'}
+[12.503808] (-) TimerEvent: {}
+[12.600769] (distance_node) StdoutLine: {'line': b'running develop\n'}
+[12.603991] (-) TimerEvent: {}
+[12.611749] (distance_node) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[12.615379] (distance_node) StderrLine: {'line': b'  warnings.warn(\n'}
+[12.704223] (-) TimerEvent: {}
+[12.812917] (-) TimerEvent: {}
+[12.915591] (-) TimerEvent: {}
+[13.018351] (-) TimerEvent: {}
+[13.121568] (-) TimerEvent: {}
+[13.139154] (laser_follow) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/laser_follow/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/timoha/KSAROmni/build/laser_follow', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'SSH_CLIENT': '192.168.22.235 44560 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha/.vscode-server', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4adfb22a-f067-4454-be3b-f12959e1ac37.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/home/timoha/.local/bin:/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-23fea89a6a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/timoha/KSAROmni/build/laser_follow', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.22.235 44560 192.168.22.120 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/laser_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1'}, 'shell': False}
+[13.221868] (-) TimerEvent: {}
+[13.324631] (-) TimerEvent: {}
+[13.427317] (-) TimerEvent: {}
+[13.530136] (-) TimerEvent: {}
+[13.633111] (-) TimerEvent: {}
+[13.735972] (-) TimerEvent: {}
+[13.838612] (-) TimerEvent: {}
+[13.941681] (-) TimerEvent: {}
+[13.949914] (aruco_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[13.956233] (aruco_publisher) StdoutLine: {'line': b'writing aruco_publisher.egg-info/PKG-INFO\n'}
+[13.959266] (aruco_publisher) StdoutLine: {'line': b'writing dependency_links to aruco_publisher.egg-info/dependency_links.txt\n'}
+[13.966045] (aruco_publisher) StdoutLine: {'line': b'writing entry points to aruco_publisher.egg-info/entry_points.txt\n'}
+[13.970447] (aruco_publisher) StdoutLine: {'line': b'writing requirements to aruco_publisher.egg-info/requires.txt\n'}
+[13.973270] (aruco_publisher) StdoutLine: {'line': b'writing top-level names to aruco_publisher.egg-info/top_level.txt\n'}
+[13.985397] (aruco_publisher) StdoutLine: {'line': b"reading manifest file 'aruco_publisher.egg-info/SOURCES.txt'\n"}
+[14.035821] (aruco_publisher) StdoutLine: {'line': b"writing manifest file 'aruco_publisher.egg-info/SOURCES.txt'\n"}
+[14.041928] (-) TimerEvent: {}
+[14.054485] (aruco_publisher) StdoutLine: {'line': b'running build_ext\n'}
+[14.056101] (aruco_publisher) StdoutLine: {'line': b'Creating /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco-publisher.egg-link (link to .)\n'}
+[14.064196] (aruco_publisher) StdoutLine: {'line': b'Installing aruco_detector script to /home/timoha/KSAROmni/install/aruco_publisher/lib/aruco_publisher\n'}
+[14.068730] (aruco_publisher) StdoutLine: {'line': b'\n'}
+[14.069528] (aruco_publisher) StdoutLine: {'line': b'Installed /home/timoha/KSAROmni/build/aruco_publisher\n'}
+[14.070899] (aruco_publisher) StdoutLine: {'line': b'running symlink_data\n'}
+[14.073098] (kolonka) StdoutLine: {'line': b'running egg_info\n'}
+[14.074366] (kolonka) StdoutLine: {'line': b'writing kolonka.egg-info/PKG-INFO\n'}
+[14.075391] (kolonka) StdoutLine: {'line': b'writing dependency_links to kolonka.egg-info/dependency_links.txt\n'}
+[14.076202] (kolonka) StdoutLine: {'line': b'writing entry points to kolonka.egg-info/entry_points.txt\n'}
+[14.077190] (kolonka) StdoutLine: {'line': b'writing requirements to kolonka.egg-info/requires.txt\n'}
+[14.078887] (kolonka) StdoutLine: {'line': b'writing top-level names to kolonka.egg-info/top_level.txt\n'}
+[14.079477] (aruco_publisher) StdoutLine: {'line': b'symbolically linking /home/timoha/KSAROmni/build/aruco_publisher/resource/aruco_publisher -> /home/timoha/KSAROmni/install/aruco_publisher/share/ament_index/resource_index/packages\n'}
+[14.082901] (aruco_publisher) StdoutLine: {'line': b'symbolically linking /home/timoha/KSAROmni/build/aruco_publisher/package.xml -> /home/timoha/KSAROmni/install/aruco_publisher/share/aruco_publisher\n'}
+[14.088701] (kolonka) StdoutLine: {'line': b"reading manifest file 'kolonka.egg-info/SOURCES.txt'\n"}
+[14.106366] (kolonka) StdoutLine: {'line': b"writing manifest file 'kolonka.egg-info/SOURCES.txt'\n"}
+[14.120335] (kolonka) StdoutLine: {'line': b'running build_ext\n'}
+[14.123273] (kolonka) StdoutLine: {'line': b'Creating /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka.egg-link (link to .)\n'}
+[14.134286] (kolonka) StdoutLine: {'line': b'Installing audio script to /home/timoha/KSAROmni/install/kolonka/lib/kolonka\n'}
+[14.139482] (kolonka) StdoutLine: {'line': b'\n'}
+[14.140461] (kolonka) StdoutLine: {'line': b'Installed /home/timoha/KSAROmni/build/kolonka\n'}
+[14.141032] (kolonka) StdoutLine: {'line': b'running symlink_data\n'}
+[14.142109] (-) TimerEvent: {}
+[14.145140] (kolonka) StdoutLine: {'line': b'symbolically linking /home/timoha/KSAROmni/build/kolonka/resource/kolonka -> /home/timoha/KSAROmni/install/kolonka/share/ament_index/resource_index/packages\n'}
+[14.148888] (kolonka) StdoutLine: {'line': b'symbolically linking /home/timoha/KSAROmni/build/kolonka/package.xml -> /home/timoha/KSAROmni/install/kolonka/share/kolonka\n'}
+[14.242468] (-) TimerEvent: {}
+[14.343854] (-) TimerEvent: {}
+[14.426184] (aruco_publisher) CommandEnded: {'returncode': 0}
+[14.442599] (distance_node) StdoutLine: {'line': b'running egg_info\n'}
+[14.446787] (-) TimerEvent: {}
+[14.447689] (distance_node) StdoutLine: {'line': b'writing distance_node.egg-info/PKG-INFO\n'}
+[14.451033] (distance_node) StdoutLine: {'line': b'writing dependency_links to distance_node.egg-info/dependency_links.txt\n'}
+[14.454196] (distance_node) StdoutLine: {'line': b'writing entry points to distance_node.egg-info/entry_points.txt\n'}
+[14.458521] (distance_node) StdoutLine: {'line': b'writing requirements to distance_node.egg-info/requires.txt\n'}
+[14.461274] (distance_node) StdoutLine: {'line': b'writing top-level names to distance_node.egg-info/top_level.txt\n'}
+[14.463219] (distance_node) StdoutLine: {'line': b"reading manifest file 'distance_node.egg-info/SOURCES.txt'\n"}
+[14.463766] (distance_node) StdoutLine: {'line': b"writing manifest file 'distance_node.egg-info/SOURCES.txt'\n"}
+[14.472888] (distance_node) StdoutLine: {'line': b'running build_ext\n'}
+[14.474228] (distance_node) StdoutLine: {'line': b'Creating /home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages/distance-node.egg-link (link to .)\n'}
+[14.478152] (distance_node) StdoutLine: {'line': b'Installing distance_publisher script to /home/timoha/KSAROmni/install/distance_node/lib/distance_node\n'}
+[14.479969] (distance_node) StdoutLine: {'line': b'\n'}
+[14.480585] (distance_node) StdoutLine: {'line': b'Installed /home/timoha/KSAROmni/build/distance_node\n'}
+[14.481073] (distance_node) StdoutLine: {'line': b'running symlink_data\n'}
+[14.481755] (distance_node) StdoutLine: {'line': b'symbolically linking /home/timoha/KSAROmni/build/distance_node/resource/distance_node -> /home/timoha/KSAROmni/install/distance_node/share/ament_index/resource_index/packages\n'}
+[14.482883] (distance_node) StdoutLine: {'line': b'symbolically linking /home/timoha/KSAROmni/build/distance_node/package.xml -> /home/timoha/KSAROmni/install/distance_node/share/distance_node\n'}
+[14.522464] (aruco_publisher) JobEnded: {'identifier': 'aruco_publisher', 'rc': 0}
+[14.527492] (lidar_template) JobStarted: {'identifier': 'lidar_template'}
+[14.547544] (-) TimerEvent: {}
+[14.581294] (kolonka) CommandEnded: {'returncode': 0}
+[14.648498] (-) TimerEvent: {}
+[14.662548] (kolonka) JobEnded: {'identifier': 'kolonka', 'rc': 0}
+[14.677117] (main_package_robot) JobStarted: {'identifier': 'main_package_robot'}
+[14.748795] (-) TimerEvent: {}
+[14.849733] (-) TimerEvent: {}
+[14.950800] (-) TimerEvent: {}
+[15.051797] (-) TimerEvent: {}
+[15.152727] (-) TimerEvent: {}
+[15.233371] (laser_follow) StdoutLine: {'line': b'running develop\n'}
+[15.234997] (laser_follow) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[15.235685] (laser_follow) StderrLine: {'line': b'  warnings.warn(\n'}
+[15.252897] (-) TimerEvent: {}
+[15.353694] (-) TimerEvent: {}
+[15.454579] (-) TimerEvent: {}
+[15.555466] (-) TimerEvent: {}
+[15.656410] (-) TimerEvent: {}
+[15.757266] (-) TimerEvent: {}
+[15.858166] (-) TimerEvent: {}
+[15.959001] (-) TimerEvent: {}
+[16.060020] (-) TimerEvent: {}
+[16.161657] (-) TimerEvent: {}
+[16.165428] (distance_node) CommandEnded: {'returncode': 0}
+[16.214467] (distance_node) JobEnded: {'identifier': 'distance_node', 'rc': 0}
+[16.221412] (motor_control_node) JobStarted: {'identifier': 'motor_control_node'}
+[16.261986] (-) TimerEvent: {}
+[16.292283] (laser_follow) StdoutLine: {'line': b'running egg_info\n'}
+[16.294232] (laser_follow) StdoutLine: {'line': b'writing laser_follow.egg-info/PKG-INFO\n'}
+[16.295773] (laser_follow) StdoutLine: {'line': b'writing dependency_links to laser_follow.egg-info/dependency_links.txt\n'}
+[16.297502] (laser_follow) StdoutLine: {'line': b'writing entry points to laser_follow.egg-info/entry_points.txt\n'}
+[16.299298] (laser_follow) StdoutLine: {'line': b'writing requirements to laser_follow.egg-info/requires.txt\n'}
+[16.299904] (laser_follow) StdoutLine: {'line': b'writing top-level names to laser_follow.egg-info/top_level.txt\n'}
+[16.307604] (laser_follow) StdoutLine: {'line': b"reading manifest file 'laser_follow.egg-info/SOURCES.txt'\n"}
+[16.312280] (laser_follow) StdoutLine: {'line': b"writing manifest file 'laser_follow.egg-info/SOURCES.txt'\n"}
+[16.319588] (laser_follow) StdoutLine: {'line': b'running build_ext\n'}
+[16.321319] (laser_follow) StdoutLine: {'line': b'Creating /home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages/laser-follow.egg-link (link to .)\n'}
+[16.326994] (laser_follow) StdoutLine: {'line': b'Installing laser_follow script to /home/timoha/KSAROmni/install/laser_follow/lib/laser_follow\n'}
+[16.328627] (laser_follow) StdoutLine: {'line': b'\n'}
+[16.329479] (laser_follow) StdoutLine: {'line': b'Installed /home/timoha/KSAROmni/build/laser_follow\n'}
+[16.330443] (laser_follow) StdoutLine: {'line': b'running symlink_data\n'}
+[16.332271] (laser_follow) StdoutLine: {'line': b'symbolically linking /home/timoha/KSAROmni/build/laser_follow/resource/laser_follow -> /home/timoha/KSAROmni/install/laser_follow/share/ament_index/resource_index/packages\n'}
+[16.333538] (laser_follow) StdoutLine: {'line': b'symbolically linking /home/timoha/KSAROmni/build/laser_follow/package.xml -> /home/timoha/KSAROmni/install/laser_follow/share/laser_follow\n'}
+[16.362227] (-) TimerEvent: {}
+[16.463896] (-) TimerEvent: {}
+[16.565143] (-) TimerEvent: {}
+[16.665973] (-) TimerEvent: {}
+[16.766836] (-) TimerEvent: {}
+[16.867596] (-) TimerEvent: {}
+[16.968374] (-) TimerEvent: {}
+[17.069164] (-) TimerEvent: {}
+[17.169897] (-) TimerEvent: {}
+[17.270623] (-) TimerEvent: {}
+[17.371490] (-) TimerEvent: {}
+[17.472285] (-) TimerEvent: {}
+[17.573213] (-) TimerEvent: {}
+[17.674539] (-) TimerEvent: {}
+[17.678218] (laser_follow) CommandEnded: {'returncode': 0}
+[17.727601] (laser_follow) JobEnded: {'identifier': 'laser_follow', 'rc': 0}
+[17.774692] (-) TimerEvent: {}
+[17.875555] (-) TimerEvent: {}
+[17.976652] (-) TimerEvent: {}
+[18.078957] (-) TimerEvent: {}
+[18.181532] (-) TimerEvent: {}
+[18.282385] (-) TimerEvent: {}
+[18.383198] (-) TimerEvent: {}
+[18.484110] (-) TimerEvent: {}
+[18.584965] (-) TimerEvent: {}
+[18.685824] (-) TimerEvent: {}
+[18.786612] (-) TimerEvent: {}
+[18.887541] (-) TimerEvent: {}
+[18.988494] (-) TimerEvent: {}
+[19.089818] (-) TimerEvent: {}
+[19.192208] (-) TimerEvent: {}
+[19.240578] (opencv_pub) JobStarted: {'identifier': 'opencv_pub'}
+[19.292664] (-) TimerEvent: {}
+[19.393832] (-) TimerEvent: {}
+[19.495408] (-) TimerEvent: {}
+[19.600157] (-) TimerEvent: {}
+[19.703010] (-) TimerEvent: {}
+[19.805129] (-) TimerEvent: {}
+[19.906048] (-) TimerEvent: {}
+[20.006930] (-) TimerEvent: {}
+[20.109291] (-) TimerEvent: {}
+[20.210297] (-) TimerEvent: {}
+[20.314236] (-) TimerEvent: {}
+[20.415085] (-) TimerEvent: {}
+[20.515955] (-) TimerEvent: {}
+[20.616808] (-) TimerEvent: {}
+[20.719415] (-) TimerEvent: {}
+[20.824420] (-) TimerEvent: {}
+[20.925357] (-) TimerEvent: {}
+[21.028127] (-) TimerEvent: {}
+[21.132921] (-) TimerEvent: {}
+[21.170016] (lidar_template) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/lidar_template/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/timoha/KSAROmni/build/lidar_template', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'SSH_CLIENT': '192.168.22.235 44560 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha/.vscode-server', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4adfb22a-f067-4454-be3b-f12959e1ac37.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/home/timoha/.local/bin:/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-23fea89a6a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/timoha/KSAROmni/build/lidar_template', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.22.235 44560 192.168.22.120 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/lidar_template/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1'}, 'shell': False}
+[21.233298] (-) TimerEvent: {}
+[21.338209] (-) TimerEvent: {}
+[21.442206] (-) TimerEvent: {}
+[21.545192] (-) TimerEvent: {}
+[21.650951] (-) TimerEvent: {}
+[21.691716] (main_package_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/main_package_robot/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/timoha/KSAROmni/build/main_package_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'SSH_CLIENT': '192.168.22.235 44560 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha/.vscode-server', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4adfb22a-f067-4454-be3b-f12959e1ac37.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/home/timoha/.local/bin:/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-23fea89a6a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/timoha/KSAROmni/build/main_package_robot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.22.235 44560 192.168.22.120 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/main_package_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1'}, 'shell': False}
+[21.752703] (-) TimerEvent: {}
+[21.855390] (-) TimerEvent: {}
+[21.959750] (-) TimerEvent: {}
+[22.063976] (-) TimerEvent: {}
+[22.144434] (motor_control_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/motor_control_node/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/timoha/KSAROmni/build/motor_control_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'SSH_CLIENT': '192.168.22.235 44560 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha/.vscode-server', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4adfb22a-f067-4454-be3b-f12959e1ac37.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/home/timoha/.local/bin:/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-23fea89a6a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/timoha/KSAROmni/build/motor_control_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.22.235 44560 192.168.22.120 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/motor_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1'}, 'shell': False}
+[22.176698] (-) TimerEvent: {}
+[22.280998] (-) TimerEvent: {}
+[22.388190] (-) TimerEvent: {}
+[22.495068] (-) TimerEvent: {}
+[22.596552] (-) TimerEvent: {}
+[22.698972] (-) TimerEvent: {}
+[22.802430] (-) TimerEvent: {}
+[22.905411] (-) TimerEvent: {}
+[23.007001] (-) TimerEvent: {}
+[23.111045] (-) TimerEvent: {}
+[23.216197] (-) TimerEvent: {}
+[23.318532] (-) TimerEvent: {}
+[23.419888] (-) TimerEvent: {}
+[23.521317] (-) TimerEvent: {}
+[23.622978] (-) TimerEvent: {}
+[23.724434] (-) TimerEvent: {}
+[23.827044] (-) TimerEvent: {}
+[23.928456] (-) TimerEvent: {}
+[24.034734] (-) TimerEvent: {}
+[24.136057] (-) TimerEvent: {}
+[24.238949] (-) TimerEvent: {}
+[24.270008] (lidar_template) StdoutLine: {'line': b'running develop\n'}
+[24.273029] (lidar_template) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[24.277812] (lidar_template) StderrLine: {'line': b'  warnings.warn(\n'}
+[24.339157] (-) TimerEvent: {}
+[24.408164] (main_package_robot) StdoutLine: {'line': b'running develop\n'}
+[24.426287] (main_package_robot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[24.433829] (main_package_robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[24.439370] (-) TimerEvent: {}
+[24.540758] (-) TimerEvent: {}
+[24.611397] (motor_control_node) StdoutLine: {'line': b'running develop\n'}
+[24.613418] (motor_control_node) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[24.614885] (motor_control_node) StderrLine: {'line': b'  warnings.warn(\n'}
+[24.641095] (-) TimerEvent: {}
+[24.743858] (-) TimerEvent: {}
+[24.759630] (opencv_pub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/opencv_pub/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/timoha/KSAROmni/build/opencv_pub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'SSH_CLIENT': '192.168.22.235 44560 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha/.vscode-server', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4adfb22a-f067-4454-be3b-f12959e1ac37.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/home/timoha/.local/bin:/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-23fea89a6a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/timoha/KSAROmni/build/opencv_pub', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.22.235 44560 192.168.22.120 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/opencv_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1'}, 'shell': False}
+[24.844082] (-) TimerEvent: {}
+[24.946940] (-) TimerEvent: {}
+[25.050589] (-) TimerEvent: {}
+[25.164753] (-) TimerEvent: {}
+[25.271774] (-) TimerEvent: {}
+[25.374687] (-) TimerEvent: {}
+[25.477854] (-) TimerEvent: {}
+[25.585400] (-) TimerEvent: {}
+[25.688265] (-) TimerEvent: {}
+[25.791387] (-) TimerEvent: {}
+[25.894512] (-) TimerEvent: {}
+[25.997415] (-) TimerEvent: {}
+[26.100484] (-) TimerEvent: {}
+[26.203386] (-) TimerEvent: {}
+[26.285637] (lidar_template) StdoutLine: {'line': b'running egg_info\n'}
+[26.288141] (lidar_template) StdoutLine: {'line': b'writing lidar_template.egg-info/PKG-INFO\n'}
+[26.298485] (lidar_template) StdoutLine: {'line': b'writing dependency_links to lidar_template.egg-info/dependency_links.txt\n'}
+[26.299270] (lidar_template) StdoutLine: {'line': b'writing entry points to lidar_template.egg-info/entry_points.txt\n'}
+[26.299888] (lidar_template) StdoutLine: {'line': b'writing requirements to lidar_template.egg-info/requires.txt\n'}
+[26.303148] (lidar_template) StdoutLine: {'line': b'writing top-level names to lidar_template.egg-info/top_level.txt\n'}
+[26.303877] (-) TimerEvent: {}
+[26.312693] (lidar_template) StdoutLine: {'line': b"reading manifest file 'lidar_template.egg-info/SOURCES.txt'\n"}
+[26.322230] (lidar_template) StdoutLine: {'line': b"writing manifest file 'lidar_template.egg-info/SOURCES.txt'\n"}
+[26.338099] (lidar_template) StdoutLine: {'line': b'running build_ext\n'}
+[26.342740] (lidar_template) StdoutLine: {'line': b'Creating /home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages/lidar-template.egg-link (link to .)\n'}
+[26.346640] (main_package_robot) StdoutLine: {'line': b'running egg_info\n'}
+[26.351014] (main_package_robot) StdoutLine: {'line': b'writing main_package_robot.egg-info/PKG-INFO\n'}
+[26.351825] (motor_control_node) StdoutLine: {'line': b'running egg_info\n'}
+[26.352814] (main_package_robot) StdoutLine: {'line': b'writing dependency_links to main_package_robot.egg-info/dependency_links.txt\n'}
+[26.353462] (motor_control_node) StdoutLine: {'line': b'writing motor_control_node.egg-info/PKG-INFO\n'}
+[26.354327] (main_package_robot) StdoutLine: {'line': b'writing entry points to main_package_robot.egg-info/entry_points.txt\n'}
+[26.355010] (motor_control_node) StdoutLine: {'line': b'writing dependency_links to motor_control_node.egg-info/dependency_links.txt\n'}
+[26.355779] (main_package_robot) StdoutLine: {'line': b'writing requirements to main_package_robot.egg-info/requires.txt\n'}
+[26.356352] (motor_control_node) StdoutLine: {'line': b'writing entry points to motor_control_node.egg-info/entry_points.txt\n'}
+[26.356832] (motor_control_node) StdoutLine: {'line': b'writing requirements to motor_control_node.egg-info/requires.txt\n'}
+[26.357344] (motor_control_node) StdoutLine: {'line': b'writing top-level names to motor_control_node.egg-info/top_level.txt\n'}
+[26.359190] (main_package_robot) StdoutLine: {'line': b'writing top-level names to main_package_robot.egg-info/top_level.txt\n'}
+[26.363908] (motor_control_node) StdoutLine: {'line': b"reading manifest file 'motor_control_node.egg-info/SOURCES.txt'\n"}
+[26.367364] (lidar_template) StdoutLine: {'line': b'Installing lidar_temp script to /home/timoha/KSAROmni/install/lidar_template/lib/lidar_template\n'}
+[26.368349] (lidar_template) StdoutLine: {'line': b'\n'}
+[26.368918] (lidar_template) StdoutLine: {'line': b'Installed /home/timoha/KSAROmni/build/lidar_template\n'}
+[26.369736] (lidar_template) StdoutLine: {'line': b'running symlink_data\n'}
+[26.370376] (lidar_template) StdoutLine: {'line': b'symbolically linking /home/timoha/KSAROmni/build/lidar_template/resource/lidar_template -> /home/timoha/KSAROmni/install/lidar_template/share/ament_index/resource_index/packages\n'}
+[26.375428] (lidar_template) StdoutLine: {'line': b'symbolically linking /home/timoha/KSAROmni/build/lidar_template/package.xml -> /home/timoha/KSAROmni/install/lidar_template/share/lidar_template\n'}
+[26.380495] (motor_control_node) StdoutLine: {'line': b"writing manifest file 'motor_control_node.egg-info/SOURCES.txt'\n"}
+[26.381320] (main_package_robot) StdoutLine: {'line': b"reading manifest file 'main_package_robot.egg-info/SOURCES.txt'\n"}
+[26.390582] (main_package_robot) StdoutLine: {'line': b"writing manifest file 'main_package_robot.egg-info/SOURCES.txt'\n"}
+[26.393331] (motor_control_node) StdoutLine: {'line': b'running build_ext\n'}
+[26.398771] (motor_control_node) StdoutLine: {'line': b'Creating /home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages/motor-control-node.egg-link (link to .)\n'}
+[26.404242] (-) TimerEvent: {}
+[26.409293] (motor_control_node) StdoutLine: {'line': b'Installing motor_control script to /home/timoha/KSAROmni/install/motor_control_node/lib/motor_control_node\n'}
+[26.411796] (main_package_robot) StdoutLine: {'line': b'running build_ext\n'}
+[26.415267] (main_package_robot) StdoutLine: {'line': b'Creating /home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages/main-package-robot.egg-link (link to .)\n'}
+[26.419796] (motor_control_node) StdoutLine: {'line': b'\n'}
+[26.421540] (motor_control_node) StdoutLine: {'line': b'Installed /home/timoha/KSAROmni/build/motor_control_node\n'}
+[26.422713] (motor_control_node) StdoutLine: {'line': b'running symlink_data\n'}
+[26.426944] (motor_control_node) StdoutLine: {'line': b'symbolically linking /home/timoha/KSAROmni/build/motor_control_node/resource/motor_control_node -> /home/timoha/KSAROmni/install/motor_control_node/share/ament_index/resource_index/packages\n'}
+[26.432002] (main_package_robot) StdoutLine: {'line': b'Installing main_node script to /home/timoha/KSAROmni/install/main_package_robot/lib/main_package_robot\n'}
+[26.433268] (motor_control_node) StdoutLine: {'line': b'symbolically linking /home/timoha/KSAROmni/build/motor_control_node/package.xml -> /home/timoha/KSAROmni/install/motor_control_node/share/motor_control_node\n'}
+[26.438993] (main_package_robot) StdoutLine: {'line': b'\n'}
+[26.440698] (motor_control_node) StdoutLine: {'line': b'symbolically linking /home/timoha/KSAROmni/build/motor_control_node/launch/motor+distance_test.launch.py -> /home/timoha/KSAROmni/install/motor_control_node/share/motor_control_node\n'}
+[26.443001] (main_package_robot) StdoutLine: {'line': b'Installed /home/timoha/KSAROmni/build/main_package_robot\n'}
+[26.447076] (main_package_robot) StdoutLine: {'line': b'running symlink_data\n'}
+[26.451623] (main_package_robot) StdoutLine: {'line': b'symbolically linking /home/timoha/KSAROmni/build/main_package_robot/resource/main_package_robot -> /home/timoha/KSAROmni/install/main_package_robot/share/ament_index/resource_index/packages\n'}
+[26.456849] (main_package_robot) StdoutLine: {'line': b'symbolically linking /home/timoha/KSAROmni/build/main_package_robot/package.xml -> /home/timoha/KSAROmni/install/main_package_robot/share/main_package_robot\n'}
+[26.504661] (-) TimerEvent: {}
+[26.608825] (-) TimerEvent: {}
+[26.713360] (-) TimerEvent: {}
+[26.721276] (lidar_template) CommandEnded: {'returncode': 0}
+[26.815005] (-) TimerEvent: {}
+[26.843299] (lidar_template) JobEnded: {'identifier': 'lidar_template', 'rc': 0}
+[26.846688] (peredelka) JobStarted: {'identifier': 'peredelka'}
+[26.870342] (motor_control_node) CommandEnded: {'returncode': 0}
+[26.915119] (-) TimerEvent: {}
+[26.918565] (motor_control_node) JobEnded: {'identifier': 'motor_control_node', 'rc': 0}
+[26.923041] (main_package_robot) CommandEnded: {'returncode': 0}
+[26.972731] (main_package_robot) JobEnded: {'identifier': 'main_package_robot', 'rc': 0}
+[26.980294] (py_barrel_detector) JobStarted: {'identifier': 'py_barrel_detector'}
+[27.010120] (py_main_alg) JobStarted: {'identifier': 'py_main_alg'}
+[27.016065] (-) TimerEvent: {}
+[27.047864] (peredelka) JobProgress: {'identifier': 'peredelka', 'progress': 'cmake'}
+[27.055084] (peredelka) Command: {'cmd': ['/usr/bin/cmake', '/home/timoha/KSAROmni/src/peredelka', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/timoha/KSAROmni/install/peredelka'], 'cwd': '/home/timoha/KSAROmni/build/peredelka', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'timoha'), ('SSH_CLIENT', '192.168.22.235 44560 22'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/timoha'), ('OLDPWD', '/home/timoha/.vscode-server'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4adfb22a-f067-4454-be3b-f12959e1ac37.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'timoha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/home/timoha/.local/bin:/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-23fea89a6a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/timoha/KSAROmni/build/peredelka'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.22.235 44560 192.168.22.120 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[27.075487] (opencv_pub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[27.082208] (opencv_pub) StderrLine: {'line': b'  warnings.warn(\n'}
+[27.085851] (opencv_pub) StdoutLine: {'line': b'running develop\n'}
+[27.116285] (-) TimerEvent: {}
+[27.128008] (peredelka) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[27.216502] (-) TimerEvent: {}
+[27.319341] (-) TimerEvent: {}
+[27.421590] (-) TimerEvent: {}
+[27.530086] (-) TimerEvent: {}
+[27.634254] (-) TimerEvent: {}
+[27.735315] (-) TimerEvent: {}
+[27.836852] (-) TimerEvent: {}
+[27.912701] (peredelka) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[27.937007] (-) TimerEvent: {}
+[27.970578] (peredelka) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[28.037369] (-) TimerEvent: {}
+[28.138525] (-) TimerEvent: {}
+[28.200211] (peredelka) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[28.214696] (peredelka) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[28.238772] (-) TimerEvent: {}
+[28.247288] (peredelka) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[28.313360] (peredelka) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[28.339003] (-) TimerEvent: {}
+[28.420678] (peredelka) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[28.427248] (opencv_pub) StdoutLine: {'line': b'running egg_info\n'}
+[28.431493] (opencv_pub) StdoutLine: {'line': b'writing opencv_pub.egg-info/PKG-INFO\n'}
+[28.435490] (opencv_pub) StdoutLine: {'line': b'writing dependency_links to opencv_pub.egg-info/dependency_links.txt\n'}
+[28.439435] (-) TimerEvent: {}
+[28.440595] (opencv_pub) StdoutLine: {'line': b'writing entry points to opencv_pub.egg-info/entry_points.txt\n'}
+[28.443499] (opencv_pub) StdoutLine: {'line': b'writing requirements to opencv_pub.egg-info/requires.txt\n'}
+[28.446104] (opencv_pub) StdoutLine: {'line': b'writing top-level names to opencv_pub.egg-info/top_level.txt\n'}
+[28.448799] (opencv_pub) StdoutLine: {'line': b"reading manifest file 'opencv_pub.egg-info/SOURCES.txt'\n"}
+[28.452554] (opencv_pub) StdoutLine: {'line': b"writing manifest file 'opencv_pub.egg-info/SOURCES.txt'\n"}
+[28.458026] (opencv_pub) StdoutLine: {'line': b'running build_ext\n'}
+[28.461289] (opencv_pub) StdoutLine: {'line': b'Creating /home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages/opencv-pub.egg-link (link to .)\n'}
+[28.464838] (opencv_pub) StdoutLine: {'line': b'Installing CAM script to /home/timoha/KSAROmni/install/opencv_pub/lib/opencv_pub\n'}
+[28.469180] (opencv_pub) StdoutLine: {'line': b'\n'}
+[28.475848] (opencv_pub) StdoutLine: {'line': b'Installed /home/timoha/KSAROmni/build/opencv_pub\n'}
+[28.480392] (opencv_pub) StdoutLine: {'line': b'running symlink_data\n'}
+[28.485124] (opencv_pub) StdoutLine: {'line': b'symbolically linking /home/timoha/KSAROmni/build/opencv_pub/resource/opencv_pub -> /home/timoha/KSAROmni/install/opencv_pub/share/ament_index/resource_index/packages\n'}
+[28.491378] (opencv_pub) StdoutLine: {'line': b'symbolically linking /home/timoha/KSAROmni/build/opencv_pub/package.xml -> /home/timoha/KSAROmni/install/opencv_pub/share/opencv_pub\n'}
+[28.539840] (-) TimerEvent: {}
+[28.643984] (-) TimerEvent: {}
+[28.748978] (-) TimerEvent: {}
+[28.762859] (peredelka) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[28.773015] (peredelka) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[28.849324] (-) TimerEvent: {}
+[28.952437] (-) TimerEvent: {}
+[29.054291] (-) TimerEvent: {}
+[29.155651] (-) TimerEvent: {}
+[29.270518] (-) TimerEvent: {}
+[29.371386] (-) TimerEvent: {}
+[29.472167] (-) TimerEvent: {}
+[29.572974] (-) TimerEvent: {}
+[29.673798] (-) TimerEvent: {}
+[29.774560] (-) TimerEvent: {}
+[29.875982] (-) TimerEvent: {}
+[29.878456] (peredelka) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[29.976172] (-) TimerEvent: {}
+[30.077025] (-) TimerEvent: {}
+[30.177943] (-) TimerEvent: {}
+[30.278946] (-) TimerEvent: {}
+[30.316995] (opencv_pub) CommandEnded: {'returncode': 0}
+[30.362359] (opencv_pub) JobEnded: {'identifier': 'opencv_pub', 'rc': 0}
+[30.366620] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[30.379105] (-) TimerEvent: {}
+[30.434879] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[30.443277] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/timoha/KSAROmni/src/rplidar_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/timoha/KSAROmni/install/rplidar_ros'], 'cwd': '/home/timoha/KSAROmni/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'timoha'), ('SSH_CLIENT', '192.168.22.235 44560 22'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/timoha'), ('OLDPWD', '/home/timoha/.vscode-server'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4adfb22a-f067-4454-be3b-f12959e1ac37.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'timoha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/home/timoha/.local/bin:/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-23fea89a6a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/timoha/KSAROmni/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.22.235 44560 192.168.22.120 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[30.479391] (-) TimerEvent: {}
+[30.531022] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[30.579650] (-) TimerEvent: {}
+[30.647042] (peredelka) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[30.680004] (-) TimerEvent: {}
+[30.784177] (-) TimerEvent: {}
+[30.887840] (-) TimerEvent: {}
+[30.992222] (-) TimerEvent: {}
+[31.094941] (-) TimerEvent: {}
+[31.197639] (-) TimerEvent: {}
+[31.271140] (peredelka) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[31.272794] (peredelka) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[31.273508] (peredelka) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[31.282464] (peredelka) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[31.293548] (peredelka) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[31.294456] (peredelka) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[31.297920] (-) TimerEvent: {}
+[31.300198] (peredelka) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[31.325657] (peredelka) StdoutLine: {'line': b'-- Configuring done\n'}
+[31.397704] (rplidar_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[31.398493] (-) TimerEvent: {}
+[31.433120] (peredelka) StdoutLine: {'line': b'-- Generating done\n'}
+[31.461311] (peredelka) StdoutLine: {'line': b'-- Build files have been written to: /home/timoha/KSAROmni/build/peredelka\n'}
+[31.495302] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[31.498691] (-) TimerEvent: {}
+[31.514095] (peredelka) CommandEnded: {'returncode': 0}
+[31.516008] (peredelka) JobProgress: {'identifier': 'peredelka', 'progress': 'build'}
+[31.516213] (peredelka) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/timoha/KSAROmni/build/peredelka', '--', '-j4', '-l4'], 'cwd': '/home/timoha/KSAROmni/build/peredelka', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'timoha'), ('SSH_CLIENT', '192.168.22.235 44560 22'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/timoha'), ('OLDPWD', '/home/timoha/.vscode-server'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4adfb22a-f067-4454-be3b-f12959e1ac37.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'timoha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/home/timoha/.local/bin:/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-23fea89a6a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/timoha/KSAROmni/build/peredelka'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.22.235 44560 192.168.22.120 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[31.599035] (-) TimerEvent: {}
+[31.701108] (-) TimerEvent: {}
+[31.769222] (peredelka) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[31.801324] (-) TimerEvent: {}
+[31.902280] (-) TimerEvent: {}
+[32.003393] (-) TimerEvent: {}
+[32.074987] (peredelka) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/main.cpp.o\x1b[0m\n'}
+[32.103631] (-) TimerEvent: {}
+[32.161884] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[32.176994] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[32.203833] (-) TimerEvent: {}
+[32.215270] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[32.279567] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[32.304095] (-) TimerEvent: {}
+[32.381875] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[32.404315] (-) TimerEvent: {}
+[32.505548] (-) TimerEvent: {}
+[32.606900] (-) TimerEvent: {}
+[32.710205] (-) TimerEvent: {}
+[32.813742] (-) TimerEvent: {}
+[32.882394] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[32.896296] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[32.914029] (-) TimerEvent: {}
+[32.980824] (py_barrel_detector) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/py_barrel_detector/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/timoha/KSAROmni/build/py_barrel_detector', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'SSH_CLIENT': '192.168.22.235 44560 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha/.vscode-server', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4adfb22a-f067-4454-be3b-f12959e1ac37.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/home/timoha/.local/bin:/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-23fea89a6a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/timoha/KSAROmni/build/py_barrel_detector', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.22.235 44560 192.168.22.120 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/py_barrel_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1'}, 'shell': False}
+[33.014465] (-) TimerEvent: {}
+[33.118908] (-) TimerEvent: {}
+[33.201976] (py_main_alg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/py_main_alg/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/timoha/KSAROmni/build/py_main_alg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'SSH_CLIENT': '192.168.22.235 44560 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha/.vscode-server', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4adfb22a-f067-4454-be3b-f12959e1ac37.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/timoha/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/home/timoha/.local/bin:/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-23fea89a6a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/timoha/KSAROmni/build/py_main_alg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.22.235 44560 192.168.22.120 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/py_main_alg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1'}, 'shell': False}
+[33.219373] (-) TimerEvent: {}
+[33.321915] (-) TimerEvent: {}
+[33.424705] (-) TimerEvent: {}
+[33.527361] (-) TimerEvent: {}
+[33.630422] (-) TimerEvent: {}
+[33.732900] (-) TimerEvent: {}
+[33.840793] (-) TimerEvent: {}
+[33.941989] (-) TimerEvent: {}
+[34.044584] (-) TimerEvent: {}
+[34.146911] (-) TimerEvent: {}
+[34.155601] (rplidar_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[34.247213] (-) TimerEvent: {}
+[34.349883] (-) TimerEvent: {}
+[34.451730] (-) TimerEvent: {}
+[34.554170] (-) TimerEvent: {}
+[34.658791] (-) TimerEvent: {}
+[34.764349] (-) TimerEvent: {}
+[34.867762] (-) TimerEvent: {}
+[34.893165] (py_barrel_detector) StdoutLine: {'line': b'running develop\n'}
+[34.897577] (py_barrel_detector) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[34.900496] (py_barrel_detector) StderrLine: {'line': b'  warnings.warn(\n'}
+[34.967984] (-) TimerEvent: {}
+[35.070793] (-) TimerEvent: {}
+[35.133459] (py_main_alg) StdoutLine: {'line': b'running develop\n'}
+[35.136419] (py_main_alg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[35.140900] (py_main_alg) StderrLine: {'line': b'  warnings.warn(\n'}
+[35.170989] (-) TimerEvent: {}
+[35.273254] (-) TimerEvent: {}
+[35.363035] (peredelka) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timoha/KSAROmni/src/peredelka/src/main.cpp:8:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksensor_msgs/msg/laser_scan.hpp: No such file or directory\n'}
+[35.366312] (peredelka) StderrLine: {'line': b'    8 | #include \x1b[01;31m\x1b[K"sensor_msgs/msg/laser_scan.hpp"\x1b[m\x1b[K\n'}
+[35.369981] (peredelka) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.373604] (peredelka) StderrLine: {'line': b'compilation terminated.\n'}
+[35.376475] (-) TimerEvent: {}
+[35.407865] (peredelka) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/main.cpp.o] Error 1\n'}
+[35.411381] (peredelka) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2\n'}
+[35.413889] (peredelka) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[35.425218] (peredelka) CommandEnded: {'returncode': 2}
+[35.476832] (-) TimerEvent: {}
+[35.578024] (-) TimerEvent: {}
+[35.679247] (-) TimerEvent: {}
+[35.769993] (peredelka) JobEnded: {'identifier': 'peredelka', 'rc': 2}
+[35.779535] (-) TimerEvent: {}
+[35.880520] (-) TimerEvent: {}
+[35.981492] (-) TimerEvent: {}
+[36.083741] (-) TimerEvent: {}
+[36.185058] (-) TimerEvent: {}
+[36.288881] (-) TimerEvent: {}
+[36.322832] (py_barrel_detector) StdoutLine: {'line': b'running egg_info\n'}
+[36.326064] (py_barrel_detector) StdoutLine: {'line': b'writing py_barrel_detector.egg-info/PKG-INFO\n'}
+[36.330404] (py_barrel_detector) StdoutLine: {'line': b'writing dependency_links to py_barrel_detector.egg-info/dependency_links.txt\n'}
+[36.338193] (py_barrel_detector) StdoutLine: {'line': b'writing entry points to py_barrel_detector.egg-info/entry_points.txt\n'}
+[36.338932] (py_barrel_detector) StdoutLine: {'line': b'writing requirements to py_barrel_detector.egg-info/requires.txt\n'}
+[36.339611] (py_barrel_detector) StdoutLine: {'line': b'writing top-level names to py_barrel_detector.egg-info/top_level.txt\n'}
+[36.346696] (py_barrel_detector) StdoutLine: {'line': b"reading manifest file 'py_barrel_detector.egg-info/SOURCES.txt'\n"}
+[36.352797] (py_barrel_detector) StdoutLine: {'line': b"writing manifest file 'py_barrel_detector.egg-info/SOURCES.txt'\n"}
+[36.359414] (py_barrel_detector) StdoutLine: {'line': b'running build_ext\n'}
+[36.360553] (py_barrel_detector) StdoutLine: {'line': b'Creating /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py-barrel-detector.egg-link (link to .)\n'}
+[36.367378] (py_barrel_detector) StdoutLine: {'line': b'Installing barrel_detector script to /home/timoha/KSAROmni/install/py_barrel_detector/lib/py_barrel_detector\n'}
+[36.368672] (py_barrel_detector) StdoutLine: {'line': b'\n'}
+[36.369433] (py_barrel_detector) StdoutLine: {'line': b'Installed /home/timoha/KSAROmni/build/py_barrel_detector\n'}
+[36.370291] (py_barrel_detector) StdoutLine: {'line': b'running symlink_data\n'}
+[36.371407] (py_barrel_detector) StdoutLine: {'line': b'symbolically linking /home/timoha/KSAROmni/build/py_barrel_detector/resource/py_barrel_detector -> /home/timoha/KSAROmni/install/py_barrel_detector/share/ament_index/resource_index/packages\n'}
+[36.372785] (py_barrel_detector) StdoutLine: {'line': b'symbolically linking /home/timoha/KSAROmni/build/py_barrel_detector/package.xml -> /home/timoha/KSAROmni/install/py_barrel_detector/share/py_barrel_detector\n'}
+[36.397864] (-) TimerEvent: {}
+[36.462585] (rplidar_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[36.502032] (-) TimerEvent: {}
+[36.542396] (py_main_alg) StdoutLine: {'line': b'running egg_info\n'}
+[36.544678] (py_main_alg) StdoutLine: {'line': b'writing py_main_alg.egg-info/PKG-INFO\n'}
+[36.554823] (py_main_alg) StdoutLine: {'line': b'writing dependency_links to py_main_alg.egg-info/dependency_links.txt\n'}
+[36.565464] (py_main_alg) StdoutLine: {'line': b'writing entry points to py_main_alg.egg-info/entry_points.txt\n'}
+[36.579137] (py_main_alg) StdoutLine: {'line': b'writing requirements to py_main_alg.egg-info/requires.txt\n'}
+[36.584147] (py_main_alg) StdoutLine: {'line': b'writing top-level names to py_main_alg.egg-info/top_level.txt\n'}
+[36.594088] (py_barrel_detector) JobEnded: {'identifier': 'py_barrel_detector', 'rc': 'SIGINT'}
+[36.601707] (py_main_alg) StdoutLine: {'line': b"reading manifest file 'py_main_alg.egg-info/SOURCES.txt'\n"}
+[36.602454] (-) TimerEvent: {}
+[36.605915] (py_main_alg) StdoutLine: {'line': b"writing manifest file 'py_main_alg.egg-info/SOURCES.txt'\n"}
+[36.615151] (py_main_alg) StdoutLine: {'line': b'running build_ext\n'}
+[36.616711] (py_main_alg) StdoutLine: {'line': b'Creating /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py-main-alg.egg-link (link to .)\n'}
+[36.621184] (py_main_alg) StdoutLine: {'line': b'Installing main_alg script to /home/timoha/KSAROmni/install/py_main_alg/lib/py_main_alg\n'}
+[36.622970] (py_main_alg) StdoutLine: {'line': b'\n'}
+[36.623772] (py_main_alg) StdoutLine: {'line': b'Installed /home/timoha/KSAROmni/build/py_main_alg\n'}
+[36.626154] (py_main_alg) StdoutLine: {'line': b'running symlink_data\n'}
+[36.627231] (py_main_alg) StdoutLine: {'line': b'symbolically linking /home/timoha/KSAROmni/build/py_main_alg/resource/py_main_alg -> /home/timoha/KSAROmni/install/py_main_alg/share/ament_index/resource_index/packages\n'}
+[36.631785] (py_main_alg) StdoutLine: {'line': b'symbolically linking /home/timoha/KSAROmni/build/py_main_alg/package.xml -> /home/timoha/KSAROmni/install/py_main_alg/share/py_main_alg\n'}
+[36.683912] (rplidar_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[36.703131] (-) TimerEvent: {}
+[36.709403] (rplidar_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/timoha/KSAROmni/build/rplidar_ros\n'}
+[36.767744] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 'SIGINT'}
+[36.803440] (-) TimerEvent: {}
+[36.826612] (py_main_alg) JobEnded: {'identifier': 'py_main_alg', 'rc': 'SIGINT'}
+[36.833343] (test_pub) JobSkipped: {'identifier': 'test_pub'}
+[36.833531] (-) EventReactorShutdown: {}

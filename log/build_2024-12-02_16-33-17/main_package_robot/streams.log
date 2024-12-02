@@ -1,0 +1,21 @@
+[7.027s] Invoking command in '/home/timoha/KSAROmni/build/main_package_robot': PYTHONPATH=/home/timoha/KSAROmni/build/main_package_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/main_package_robot/build --no-deps symlink_data --force
+[9.739s] running develop
+[9.756s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.760s]   warnings.warn(
+[11.673s] running egg_info
+[11.674s] writing main_package_robot.egg-info/PKG-INFO
+[11.676s] writing dependency_links to main_package_robot.egg-info/dependency_links.txt
+[11.677s] writing entry points to main_package_robot.egg-info/entry_points.txt
+[11.679s] writing requirements to main_package_robot.egg-info/requires.txt
+[11.683s] writing top-level names to main_package_robot.egg-info/top_level.txt
+[11.704s] reading manifest file 'main_package_robot.egg-info/SOURCES.txt'
+[11.714s] writing manifest file 'main_package_robot.egg-info/SOURCES.txt'
+[11.735s] running build_ext
+[11.739s] Creating /home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages/main-package-robot.egg-link (link to .)
+[11.755s] Installing main_node script to /home/timoha/KSAROmni/install/main_package_robot/lib/main_package_robot
+[11.763s] 
+[11.767s] Installed /home/timoha/KSAROmni/build/main_package_robot
+[11.771s] running symlink_data
+[11.776s] symbolically linking /home/timoha/KSAROmni/build/main_package_robot/resource/main_package_robot -> /home/timoha/KSAROmni/install/main_package_robot/share/ament_index/resource_index/packages
+[11.781s] symbolically linking /home/timoha/KSAROmni/build/main_package_robot/package.xml -> /home/timoha/KSAROmni/install/main_package_robot/share/main_package_robot
+[12.247s] Invoked command in '/home/timoha/KSAROmni/build/main_package_robot' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/main_package_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/main_package_robot/build --no-deps symlink_data --force

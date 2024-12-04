@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/aruco_publisher/aruco_publisher.egg-info/PKG-INFO
+../../build/aruco_publisher/aruco_publisher.egg-info/SOURCES.txt
+../../build/aruco_publisher/aruco_publisher.egg-info/dependency_links.txt
+../../build/aruco_publisher/aruco_publisher.egg-info/entry_points.txt
+../../build/aruco_publisher/aruco_publisher.egg-info/requires.txt
+../../build/aruco_publisher/aruco_publisher.egg-info/top_level.txt
+../../build/aruco_publisher/aruco_publisher.egg-info/zip-safe
+aruco_publisher/__init__.py
+aruco_publisher/aruco_detector.py
+resource/aruco_publisher
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

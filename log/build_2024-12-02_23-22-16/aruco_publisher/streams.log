@@ -1,0 +1,19 @@
+[6.555s] Invoking command in '/home/timoha/KSAROmni/build/aruco_publisher': PYTHONPATH=/home/timoha/KSAROmni/build/aruco_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/aruco_publisher/build --no-deps symlink_data
+[8.382s] running develop
+[8.385s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.387s]   warnings.warn(
+[10.089s] running egg_info
+[10.091s] writing aruco_publisher.egg-info/PKG-INFO
+[10.093s] writing dependency_links to aruco_publisher.egg-info/dependency_links.txt
+[10.093s] writing entry points to aruco_publisher.egg-info/entry_points.txt
+[10.094s] writing requirements to aruco_publisher.egg-info/requires.txt
+[10.095s] writing top-level names to aruco_publisher.egg-info/top_level.txt
+[10.106s] reading manifest file 'aruco_publisher.egg-info/SOURCES.txt'
+[10.113s] writing manifest file 'aruco_publisher.egg-info/SOURCES.txt'
+[10.142s] running build_ext
+[10.145s] Creating /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco-publisher.egg-link (link to .)
+[10.146s] Installing aruco_detector script to /home/timoha/KSAROmni/install/aruco_publisher/lib/aruco_publisher
+[10.148s] 
+[10.149s] Installed /home/timoha/KSAROmni/build/aruco_publisher
+[10.151s] running symlink_data
+[11.702s] Invoked command in '/home/timoha/KSAROmni/build/aruco_publisher' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/aruco_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/aruco_publisher/build --no-deps symlink_data

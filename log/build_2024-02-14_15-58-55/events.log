@@ -1,0 +1,828 @@
+[0.000000] (-) TimerEvent: {}
+[0.001698] (arrow_package) JobQueued: {'identifier': 'arrow_package', 'dependencies': OrderedDict()}
+[0.002285] (aruco_publisher) JobQueued: {'identifier': 'aruco_publisher', 'dependencies': OrderedDict()}
+[0.002569] (distance_node) JobQueued: {'identifier': 'distance_node', 'dependencies': OrderedDict()}
+[0.002732] (kolonka) JobQueued: {'identifier': 'kolonka', 'dependencies': OrderedDict()}
+[0.003055] (laser_follow) JobQueued: {'identifier': 'laser_follow', 'dependencies': OrderedDict()}
+[0.003149] (lidar_template) JobQueued: {'identifier': 'lidar_template', 'dependencies': OrderedDict()}
+[0.003228] (main_package_robot) JobQueued: {'identifier': 'main_package_robot', 'dependencies': OrderedDict()}
+[0.003304] (motor_control_node) JobQueued: {'identifier': 'motor_control_node', 'dependencies': OrderedDict()}
+[0.003378] (opencv_pub) JobQueued: {'identifier': 'opencv_pub', 'dependencies': OrderedDict()}
+[0.003452] (py_barrel_detector) JobQueued: {'identifier': 'py_barrel_detector', 'dependencies': OrderedDict()}
+[0.003526] (py_main_alg) JobQueued: {'identifier': 'py_main_alg', 'dependencies': OrderedDict()}
+[0.003600] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.003673] (test_pub) JobQueued: {'identifier': 'test_pub', 'dependencies': OrderedDict()}
+[0.003749] (arrow_package) JobStarted: {'identifier': 'arrow_package'}
+[0.107491] (-) TimerEvent: {}
+[0.212857] (-) TimerEvent: {}
+[0.289906] (aruco_publisher) JobStarted: {'identifier': 'aruco_publisher'}
+[0.313192] (-) TimerEvent: {}
+[0.414251] (-) TimerEvent: {}
+[0.515316] (-) TimerEvent: {}
+[0.591206] (distance_node) JobStarted: {'identifier': 'distance_node'}
+[0.615479] (-) TimerEvent: {}
+[0.716808] (-) TimerEvent: {}
+[0.817696] (-) TimerEvent: {}
+[0.886574] (kolonka) JobStarted: {'identifier': 'kolonka'}
+[0.918279] (-) TimerEvent: {}
+[1.020150] (-) TimerEvent: {}
+[1.121246] (-) TimerEvent: {}
+[1.192683] (arrow_package) JobProgress: {'identifier': 'arrow_package', 'progress': 'cmake'}
+[1.198159] (arrow_package) Command: {'cmd': ['/usr/bin/cmake', '/home/timoha/KSAROmni/src/arrow_package', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/timoha/KSAROmni/install/arrow_package'], 'cwd': '/home/timoha/KSAROmni/build/arrow_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'timoha'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/timoha'), ('OLDPWD', '/home/timoha/KSAROmni/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1779'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'timoha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'timoha'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/timoha-desktop:@/tmp/.ICE-unix/1779,unix/timoha-desktop:/tmp/.ICE-unix/1779'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b8aadcd3_e5bc_41e4_9ad2_2b672225ad15'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W7QWI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/timoha/KSAROmni/build/arrow_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.221441] (-) TimerEvent: {}
+[1.322433] (-) TimerEvent: {}
+[1.423125] (-) TimerEvent: {}
+[1.523905] (-) TimerEvent: {}
+[1.624707] (-) TimerEvent: {}
+[1.725503] (-) TimerEvent: {}
+[1.826355] (-) TimerEvent: {}
+[1.927402] (-) TimerEvent: {}
+[2.028328] (-) TimerEvent: {}
+[2.129116] (-) TimerEvent: {}
+[2.229959] (-) TimerEvent: {}
+[2.330808] (-) TimerEvent: {}
+[2.431630] (-) TimerEvent: {}
+[2.532704] (-) TimerEvent: {}
+[2.634081] (-) TimerEvent: {}
+[2.735111] (-) TimerEvent: {}
+[2.836320] (-) TimerEvent: {}
+[2.937625] (-) TimerEvent: {}
+[3.038726] (-) TimerEvent: {}
+[3.139539] (-) TimerEvent: {}
+[3.240355] (-) TimerEvent: {}
+[3.341137] (-) TimerEvent: {}
+[3.441898] (-) TimerEvent: {}
+[3.542708] (-) TimerEvent: {}
+[3.643418] (-) TimerEvent: {}
+[3.744128] (-) TimerEvent: {}
+[3.844817] (-) TimerEvent: {}
+[3.945592] (-) TimerEvent: {}
+[4.046619] (-) TimerEvent: {}
+[4.147464] (-) TimerEvent: {}
+[4.256646] (-) TimerEvent: {}
+[4.357901] (-) TimerEvent: {}
+[4.414142] (arrow_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.416198] (arrow_package) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.417165] (arrow_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.418337] (arrow_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.419777] (arrow_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.423688] (arrow_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.424543] (arrow_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.425481] (arrow_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.428978] (arrow_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.429519] (arrow_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.429853] (arrow_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.458114] (-) TimerEvent: {}
+[4.558888] (-) TimerEvent: {}
+[4.659654] (-) TimerEvent: {}
+[4.760435] (-) TimerEvent: {}
+[4.861306] (-) TimerEvent: {}
+[4.962057] (-) TimerEvent: {}
+[5.062841] (-) TimerEvent: {}
+[5.086485] (arrow_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.163022] (-) TimerEvent: {}
+[5.263810] (-) TimerEvent: {}
+[5.364774] (-) TimerEvent: {}
+[5.465928] (-) TimerEvent: {}
+[5.469217] (arrow_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.469991] (arrow_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/timoha/KSAROmni/src/arrow_package/include>\n'}
+[5.470733] (arrow_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.474440] (arrow_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.480943] (arrow_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.481606] (arrow_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.483638] (arrow_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.499116] (arrow_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.566182] (-) TimerEvent: {}
+[5.585713] (arrow_package) StdoutLine: {'line': b'-- Generating done\n'}
+[5.595787] (arrow_package) StdoutLine: {'line': b'-- Build files have been written to: /home/timoha/KSAROmni/build/arrow_package\n'}
+[5.666373] (-) TimerEvent: {}
+[5.767262] (-) TimerEvent: {}
+[5.868686] (-) TimerEvent: {}
+[5.969479] (-) TimerEvent: {}
+[6.042010] (arrow_package) CommandEnded: {'returncode': 0}
+[6.044853] (arrow_package) JobProgress: {'identifier': 'arrow_package', 'progress': 'build'}
+[6.047931] (arrow_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/timoha/KSAROmni/build/arrow_package', '--', '-j4', '-l4'], 'cwd': '/home/timoha/KSAROmni/build/arrow_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'timoha'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/timoha'), ('OLDPWD', '/home/timoha/KSAROmni/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1779'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'timoha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'timoha'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/timoha-desktop:@/tmp/.ICE-unix/1779,unix/timoha-desktop:/tmp/.ICE-unix/1779'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b8aadcd3_e5bc_41e4_9ad2_2b672225ad15'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W7QWI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/timoha/KSAROmni/build/arrow_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.069833] (-) TimerEvent: {}
+[6.170905] (-) TimerEvent: {}
+[6.271903] (-) TimerEvent: {}
+[6.293904] (arrow_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target arrow_node\x1b[0m\n'}
+[6.372122] (-) TimerEvent: {}
+[6.473713] (-) TimerEvent: {}
+[6.540574] (arrow_package) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable arrow_node\x1b[0m\n'}
+[6.573957] (-) TimerEvent: {}
+[6.675086] (-) TimerEvent: {}
+[6.776307] (-) TimerEvent: {}
+[6.877666] (-) TimerEvent: {}
+[6.979167] (-) TimerEvent: {}
+[7.080625] (-) TimerEvent: {}
+[7.181434] (-) TimerEvent: {}
+[7.282351] (-) TimerEvent: {}
+[7.384481] (-) TimerEvent: {}
+[7.485884] (-) TimerEvent: {}
+[7.587469] (-) TimerEvent: {}
+[7.688927] (-) TimerEvent: {}
+[7.790386] (-) TimerEvent: {}
+[7.891723] (-) TimerEvent: {}
+[7.993045] (-) TimerEvent: {}
+[8.094174] (-) TimerEvent: {}
+[8.195311] (-) TimerEvent: {}
+[8.215937] (arrow_package) StdoutLine: {'line': b'[100%] Built target arrow_node\n'}
+[8.284389] (arrow_package) CommandEnded: {'returncode': 0}
+[8.295522] (-) TimerEvent: {}
+[8.396498] (-) TimerEvent: {}
+[8.467829] (arrow_package) JobProgress: {'identifier': 'arrow_package', 'progress': 'install'}
+[8.497177] (-) TimerEvent: {}
+[8.565060] (arrow_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/timoha/KSAROmni/build/arrow_package'], 'cwd': '/home/timoha/KSAROmni/build/arrow_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'timoha'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/timoha'), ('OLDPWD', '/home/timoha/KSAROmni/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1779'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'timoha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'timoha'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/timoha-desktop:@/tmp/.ICE-unix/1779,unix/timoha-desktop:/tmp/.ICE-unix/1779'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b8aadcd3_e5bc_41e4_9ad2_2b672225ad15'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W7QWI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/timoha/KSAROmni/build/arrow_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.597793] (-) TimerEvent: {}
+[8.657020] (arrow_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.664796] (arrow_package) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.674583] (arrow_package) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/arrow_package/lib/arrow_package/arrow_node\n'}
+[8.698425] (-) TimerEvent: {}
+[8.761655] (arrow_package) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/arrow_package/share/ament_index/resource_index/package_run_dependencies/arrow_package\n'}
+[8.793890] (distance_node) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/distance_node/build', '--no-deps', 'install_data'], 'cwd': '/home/timoha/KSAROmni/build/distance_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha/KSAROmni/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1779', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'timoha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/timoha-desktop:@/tmp/.ICE-unix/1779,unix/timoha-desktop:/tmp/.ICE-unix/1779', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b8aadcd3_e5bc_41e4_9ad2_2b672225ad15', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W7QWI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.137', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/timoha/KSAROmni/build/distance_node', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/distance_node/prefix_override:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[8.807856] (-) TimerEvent: {}
+[8.810692] (arrow_package) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/arrow_package/share/ament_index/resource_index/parent_prefix_path/arrow_package\n'}
+[8.827725] (aruco_publisher) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/aruco_publisher/build', '--no-deps', 'install_data'], 'cwd': '/home/timoha/KSAROmni/build/aruco_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha/KSAROmni/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1779', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'timoha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/timoha-desktop:@/tmp/.ICE-unix/1779,unix/timoha-desktop:/tmp/.ICE-unix/1779', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b8aadcd3_e5bc_41e4_9ad2_2b672225ad15', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W7QWI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.137', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/timoha/KSAROmni/build/aruco_publisher', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/aruco_publisher/prefix_override:/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[8.849914] (kolonka) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/kolonka/build', '--no-deps', 'install_data'], 'cwd': '/home/timoha/KSAROmni/build/kolonka', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha/KSAROmni/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1779', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'timoha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/timoha-desktop:@/tmp/.ICE-unix/1779,unix/timoha-desktop:/tmp/.ICE-unix/1779', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b8aadcd3_e5bc_41e4_9ad2_2b672225ad15', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W7QWI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.137', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/timoha/KSAROmni/build/kolonka', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/kolonka/prefix_override:/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[8.860435] (arrow_package) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/environment/ament_prefix_path.sh\n'}
+[8.899677] (arrow_package) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/environment/ament_prefix_path.dsv\n'}
+[8.908096] (-) TimerEvent: {}
+[8.949235] (arrow_package) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/environment/path.sh\n'}
+[8.995930] (arrow_package) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/environment/path.dsv\n'}
+[9.008564] (-) TimerEvent: {}
+[9.043670] (arrow_package) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/local_setup.bash\n'}
+[9.096945] (arrow_package) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/local_setup.sh\n'}
+[9.108769] (-) TimerEvent: {}
+[9.146429] (arrow_package) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/local_setup.zsh\n'}
+[9.209154] (-) TimerEvent: {}
+[9.233879] (arrow_package) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/local_setup.dsv\n'}
+[9.282784] (arrow_package) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/package.dsv\n'}
+[9.309320] (-) TimerEvent: {}
+[9.331801] (arrow_package) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/arrow_package/share/ament_index/resource_index/packages/arrow_package\n'}
+[9.392447] (arrow_package) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/cmake/arrow_packageConfig.cmake\n'}
+[9.409623] (-) TimerEvent: {}
+[9.436684] (arrow_package) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/cmake/arrow_packageConfig-version.cmake\n'}
+[9.480123] (arrow_package) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/package.xml\n'}
+[9.509881] (-) TimerEvent: {}
+[9.538385] (arrow_package) CommandEnded: {'returncode': 0}
+[9.610892] (-) TimerEvent: {}
+[9.711958] (-) TimerEvent: {}
+[9.813393] (-) TimerEvent: {}
+[9.914765] (-) TimerEvent: {}
+[10.015743] (-) TimerEvent: {}
+[10.116792] (-) TimerEvent: {}
+[10.218192] (-) TimerEvent: {}
+[10.319357] (-) TimerEvent: {}
+[10.420804] (-) TimerEvent: {}
+[10.521672] (-) TimerEvent: {}
+[10.597963] (distance_node) StdoutLine: {'line': b'running develop\n'}
+[10.602685] (distance_node) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[10.603612] (distance_node) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.610639] (distance_node) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[10.611612] (distance_node) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.622094] (-) TimerEvent: {}
+[10.633645] (kolonka) StdoutLine: {'line': b'running develop\n'}
+[10.635751] (kolonka) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[10.639259] (kolonka) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.641689] (kolonka) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[10.642762] (kolonka) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.722833] (-) TimerEvent: {}
+[10.798521] (arrow_package) JobEnded: {'identifier': 'arrow_package', 'rc': 0}
+[10.802114] (laser_follow) JobStarted: {'identifier': 'laser_follow'}
+[10.802913] (aruco_publisher) StdoutLine: {'line': b'running develop\n'}
+[10.804983] (aruco_publisher) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[10.805714] (aruco_publisher) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.819541] (aruco_publisher) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[10.820209] (aruco_publisher) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.824042] (-) TimerEvent: {}
+[10.925072] (-) TimerEvent: {}
+[11.026111] (-) TimerEvent: {}
+[11.127244] (-) TimerEvent: {}
+[11.228235] (-) TimerEvent: {}
+[11.329244] (-) TimerEvent: {}
+[11.430369] (-) TimerEvent: {}
+[11.531275] (-) TimerEvent: {}
+[11.632167] (-) TimerEvent: {}
+[11.733099] (-) TimerEvent: {}
+[11.834110] (-) TimerEvent: {}
+[11.931091] (kolonka) StdoutLine: {'line': b'running egg_info\n'}
+[11.932228] (kolonka) StdoutLine: {'line': b'writing kolonka.egg-info/PKG-INFO\n'}
+[11.934430] (-) TimerEvent: {}
+[11.935329] (kolonka) StdoutLine: {'line': b'writing dependency_links to kolonka.egg-info/dependency_links.txt\n'}
+[11.936206] (kolonka) StdoutLine: {'line': b'writing entry points to kolonka.egg-info/entry_points.txt\n'}
+[11.937276] (kolonka) StdoutLine: {'line': b'writing requirements to kolonka.egg-info/requires.txt\n'}
+[11.938134] (kolonka) StdoutLine: {'line': b'writing top-level names to kolonka.egg-info/top_level.txt\n'}
+[11.947809] (kolonka) StdoutLine: {'line': b"reading manifest file 'kolonka.egg-info/SOURCES.txt'\n"}
+[11.952765] (kolonka) StdoutLine: {'line': b"writing manifest file 'kolonka.egg-info/SOURCES.txt'\n"}
+[11.959582] (kolonka) StdoutLine: {'line': b'running build_ext\n'}
+[11.960643] (kolonka) StdoutLine: {'line': b'Creating /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka.egg-link (link to .)\n'}
+[11.965548] (kolonka) StdoutLine: {'line': b'Installing audio script to /home/timoha/KSAROmni/install/kolonka/lib/kolonka\n'}
+[11.967342] (kolonka) StdoutLine: {'line': b'\n'}
+[11.968002] (kolonka) StdoutLine: {'line': b'Installed /home/timoha/KSAROmni/build/kolonka\n'}
+[11.969245] (kolonka) StdoutLine: {'line': b'running install_data\n'}
+[11.998136] (distance_node) StdoutLine: {'line': b'running egg_info\n'}
+[11.999313] (distance_node) StdoutLine: {'line': b'writing distance_node.egg-info/PKG-INFO\n'}
+[12.003141] (distance_node) StdoutLine: {'line': b'writing dependency_links to distance_node.egg-info/dependency_links.txt\n'}
+[12.005275] (distance_node) StdoutLine: {'line': b'writing entry points to distance_node.egg-info/entry_points.txt\n'}
+[12.008012] (distance_node) StdoutLine: {'line': b'writing requirements to distance_node.egg-info/requires.txt\n'}
+[12.009357] (distance_node) StdoutLine: {'line': b'writing top-level names to distance_node.egg-info/top_level.txt\n'}
+[12.026690] (distance_node) StdoutLine: {'line': b"reading manifest file 'distance_node.egg-info/SOURCES.txt'\n"}
+[12.034133] (distance_node) StdoutLine: {'line': b"writing manifest file 'distance_node.egg-info/SOURCES.txt'\n"}
+[12.035386] (-) TimerEvent: {}
+[12.045166] (distance_node) StdoutLine: {'line': b'running build_ext\n'}
+[12.046651] (distance_node) StdoutLine: {'line': b'Creating /home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages/distance-node.egg-link (link to .)\n'}
+[12.055326] (distance_node) StdoutLine: {'line': b'Installing distance_publisher script to /home/timoha/KSAROmni/install/distance_node/lib/distance_node\n'}
+[12.057871] (distance_node) StdoutLine: {'line': b'\n'}
+[12.059052] (distance_node) StdoutLine: {'line': b'Installed /home/timoha/KSAROmni/build/distance_node\n'}
+[12.060234] (distance_node) StdoutLine: {'line': b'running install_data\n'}
+[12.135872] (-) TimerEvent: {}
+[12.238008] (-) TimerEvent: {}
+[12.339193] (aruco_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[12.339787] (-) TimerEvent: {}
+[12.340619] (aruco_publisher) StdoutLine: {'line': b'writing aruco_publisher.egg-info/PKG-INFO\n'}
+[12.341929] (aruco_publisher) StdoutLine: {'line': b'writing dependency_links to aruco_publisher.egg-info/dependency_links.txt\n'}
+[12.343188] (aruco_publisher) StdoutLine: {'line': b'writing entry points to aruco_publisher.egg-info/entry_points.txt\n'}
+[12.343973] (aruco_publisher) StdoutLine: {'line': b'writing requirements to aruco_publisher.egg-info/requires.txt\n'}
+[12.344697] (aruco_publisher) StdoutLine: {'line': b'writing top-level names to aruco_publisher.egg-info/top_level.txt\n'}
+[12.354485] (aruco_publisher) StdoutLine: {'line': b"reading manifest file 'aruco_publisher.egg-info/SOURCES.txt'\n"}
+[12.358974] (aruco_publisher) StdoutLine: {'line': b"writing manifest file 'aruco_publisher.egg-info/SOURCES.txt'\n"}
+[12.364747] (aruco_publisher) StdoutLine: {'line': b'running build_ext\n'}
+[12.365683] (aruco_publisher) StdoutLine: {'line': b'Creating /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco-publisher.egg-link (link to .)\n'}
+[12.372927] (aruco_publisher) StdoutLine: {'line': b'Installing aruco_detector script to /home/timoha/KSAROmni/install/aruco_publisher/lib/aruco_publisher\n'}
+[12.375636] (aruco_publisher) StdoutLine: {'line': b'\n'}
+[12.376836] (aruco_publisher) StdoutLine: {'line': b'Installed /home/timoha/KSAROmni/build/aruco_publisher\n'}
+[12.378274] (aruco_publisher) StdoutLine: {'line': b'running install_data\n'}
+[12.440153] (-) TimerEvent: {}
+[12.541212] (-) TimerEvent: {}
+[12.641917] (-) TimerEvent: {}
+[12.742607] (-) TimerEvent: {}
+[12.843276] (-) TimerEvent: {}
+[12.944083] (-) TimerEvent: {}
+[13.045289] (-) TimerEvent: {}
+[13.146115] (-) TimerEvent: {}
+[13.248382] (-) TimerEvent: {}
+[13.252716] (kolonka) CommandEnded: {'returncode': 0}
+[13.348599] (-) TimerEvent: {}
+[13.449627] (-) TimerEvent: {}
+[13.550843] (-) TimerEvent: {}
+[13.555864] (kolonka) JobEnded: {'identifier': 'kolonka', 'rc': 0}
+[13.559272] (distance_node) CommandEnded: {'returncode': 0}
+[13.651136] (-) TimerEvent: {}
+[13.751791] (-) TimerEvent: {}
+[13.853131] (-) TimerEvent: {}
+[13.860888] (distance_node) JobEnded: {'identifier': 'distance_node', 'rc': 0}
+[13.865260] (lidar_template) JobStarted: {'identifier': 'lidar_template'}
+[13.953343] (-) TimerEvent: {}
+[14.054174] (-) TimerEvent: {}
+[14.155411] (-) TimerEvent: {}
+[14.170162] (main_package_robot) JobStarted: {'identifier': 'main_package_robot'}
+[14.255588] (-) TimerEvent: {}
+[14.356341] (-) TimerEvent: {}
+[14.457132] (-) TimerEvent: {}
+[14.498979] (aruco_publisher) CommandEnded: {'returncode': 0}
+[14.557373] (-) TimerEvent: {}
+[14.658400] (-) TimerEvent: {}
+[14.759485] (-) TimerEvent: {}
+[14.801062] (aruco_publisher) JobEnded: {'identifier': 'aruco_publisher', 'rc': 0}
+[14.804529] (motor_control_node) JobStarted: {'identifier': 'motor_control_node'}
+[14.859772] (-) TimerEvent: {}
+[14.960615] (-) TimerEvent: {}
+[15.061819] (-) TimerEvent: {}
+[15.162660] (-) TimerEvent: {}
+[15.263435] (-) TimerEvent: {}
+[15.364512] (-) TimerEvent: {}
+[15.465388] (-) TimerEvent: {}
+[15.566182] (-) TimerEvent: {}
+[15.666926] (-) TimerEvent: {}
+[15.767656] (-) TimerEvent: {}
+[15.868442] (-) TimerEvent: {}
+[15.969175] (-) TimerEvent: {}
+[16.069924] (-) TimerEvent: {}
+[16.170765] (-) TimerEvent: {}
+[16.271646] (-) TimerEvent: {}
+[16.372533] (-) TimerEvent: {}
+[16.473892] (-) TimerEvent: {}
+[16.575793] (-) TimerEvent: {}
+[16.676966] (-) TimerEvent: {}
+[16.778653] (-) TimerEvent: {}
+[16.881365] (-) TimerEvent: {}
+[16.982187] (-) TimerEvent: {}
+[17.082995] (-) TimerEvent: {}
+[17.183707] (-) TimerEvent: {}
+[17.284407] (-) TimerEvent: {}
+[17.385127] (-) TimerEvent: {}
+[17.485854] (-) TimerEvent: {}
+[17.586547] (-) TimerEvent: {}
+[17.687214] (-) TimerEvent: {}
+[17.787921] (-) TimerEvent: {}
+[17.888655] (-) TimerEvent: {}
+[17.989490] (-) TimerEvent: {}
+[18.090715] (-) TimerEvent: {}
+[18.195015] (-) TimerEvent: {}
+[18.295711] (-) TimerEvent: {}
+[18.396435] (-) TimerEvent: {}
+[18.497147] (-) TimerEvent: {}
+[18.597870] (-) TimerEvent: {}
+[18.698561] (-) TimerEvent: {}
+[18.799220] (-) TimerEvent: {}
+[18.899954] (-) TimerEvent: {}
+[19.000610] (-) TimerEvent: {}
+[19.101293] (-) TimerEvent: {}
+[19.201959] (-) TimerEvent: {}
+[19.302907] (-) TimerEvent: {}
+[19.403966] (-) TimerEvent: {}
+[19.505131] (-) TimerEvent: {}
+[19.593599] (laser_follow) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/laser_follow/build', '--no-deps', 'install_data'], 'cwd': '/home/timoha/KSAROmni/build/laser_follow', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha/KSAROmni/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1779', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'timoha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/timoha-desktop:@/tmp/.ICE-unix/1779,unix/timoha-desktop:/tmp/.ICE-unix/1779', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b8aadcd3_e5bc_41e4_9ad2_2b672225ad15', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W7QWI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.137', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/timoha/KSAROmni/build/laser_follow', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/laser_follow/prefix_override:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[19.605763] (-) TimerEvent: {}
+[19.707005] (-) TimerEvent: {}
+[19.808017] (-) TimerEvent: {}
+[19.909027] (-) TimerEvent: {}
+[20.010139] (-) TimerEvent: {}
+[20.111370] (-) TimerEvent: {}
+[20.212929] (-) TimerEvent: {}
+[20.313981] (-) TimerEvent: {}
+[20.415041] (-) TimerEvent: {}
+[20.516104] (-) TimerEvent: {}
+[20.617055] (-) TimerEvent: {}
+[20.717877] (-) TimerEvent: {}
+[20.818722] (-) TimerEvent: {}
+[20.919532] (-) TimerEvent: {}
+[21.020356] (-) TimerEvent: {}
+[21.121373] (-) TimerEvent: {}
+[21.222406] (-) TimerEvent: {}
+[21.323569] (-) TimerEvent: {}
+[21.356440] (laser_follow) StdoutLine: {'line': b'running develop\n'}
+[21.361278] (laser_follow) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[21.362323] (laser_follow) StderrLine: {'line': b'  warnings.warn(\n'}
+[21.366546] (laser_follow) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[21.367500] (laser_follow) StderrLine: {'line': b'  warnings.warn(\n'}
+[21.423809] (-) TimerEvent: {}
+[21.524987] (-) TimerEvent: {}
+[21.626183] (-) TimerEvent: {}
+[21.727708] (-) TimerEvent: {}
+[21.829205] (-) TimerEvent: {}
+[21.833877] (lidar_template) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/lidar_template/build', '--no-deps', 'install_data'], 'cwd': '/home/timoha/KSAROmni/build/lidar_template', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha/KSAROmni/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1779', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'timoha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/timoha-desktop:@/tmp/.ICE-unix/1779,unix/timoha-desktop:/tmp/.ICE-unix/1779', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b8aadcd3_e5bc_41e4_9ad2_2b672225ad15', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W7QWI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.137', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/timoha/KSAROmni/build/lidar_template', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/lidar_template/prefix_override:/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[21.929779] (-) TimerEvent: {}
+[22.032303] (-) TimerEvent: {}
+[22.134783] (-) TimerEvent: {}
+[22.188228] (main_package_robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/main_package_robot/build', '--no-deps', 'install_data'], 'cwd': '/home/timoha/KSAROmni/build/main_package_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha/KSAROmni/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1779', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'timoha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/timoha-desktop:@/tmp/.ICE-unix/1779,unix/timoha-desktop:/tmp/.ICE-unix/1779', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b8aadcd3_e5bc_41e4_9ad2_2b672225ad15', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W7QWI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.137', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/timoha/KSAROmni/build/main_package_robot', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/main_package_robot/prefix_override:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[22.234985] (-) TimerEvent: {}
+[22.239236] (motor_control_node) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/motor_control_node/build', '--no-deps', 'install_data'], 'cwd': '/home/timoha/KSAROmni/build/motor_control_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha/KSAROmni/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1779', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'timoha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/timoha-desktop:@/tmp/.ICE-unix/1779,unix/timoha-desktop:/tmp/.ICE-unix/1779', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b8aadcd3_e5bc_41e4_9ad2_2b672225ad15', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W7QWI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.137', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/timoha/KSAROmni/build/motor_control_node', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/motor_control_node/prefix_override:/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[22.335403] (-) TimerEvent: {}
+[22.437283] (-) TimerEvent: {}
+[22.538488] (-) TimerEvent: {}
+[22.639600] (-) TimerEvent: {}
+[22.740872] (-) TimerEvent: {}
+[22.841776] (-) TimerEvent: {}
+[22.942694] (-) TimerEvent: {}
+[23.043567] (-) TimerEvent: {}
+[23.056205] (laser_follow) StdoutLine: {'line': b'running egg_info\n'}
+[23.057371] (laser_follow) StdoutLine: {'line': b'writing laser_follow.egg-info/PKG-INFO\n'}
+[23.060163] (laser_follow) StdoutLine: {'line': b'writing dependency_links to laser_follow.egg-info/dependency_links.txt\n'}
+[23.061949] (laser_follow) StdoutLine: {'line': b'writing entry points to laser_follow.egg-info/entry_points.txt\n'}
+[23.063399] (laser_follow) StdoutLine: {'line': b'writing requirements to laser_follow.egg-info/requires.txt\n'}
+[23.064565] (laser_follow) StdoutLine: {'line': b'writing top-level names to laser_follow.egg-info/top_level.txt\n'}
+[23.076274] (laser_follow) StdoutLine: {'line': b"reading manifest file 'laser_follow.egg-info/SOURCES.txt'\n"}
+[23.082878] (laser_follow) StdoutLine: {'line': b"writing manifest file 'laser_follow.egg-info/SOURCES.txt'\n"}
+[23.091955] (laser_follow) StdoutLine: {'line': b'running build_ext\n'}
+[23.094101] (laser_follow) StdoutLine: {'line': b'Creating /home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages/laser-follow.egg-link (link to .)\n'}
+[23.099929] (laser_follow) StdoutLine: {'line': b'Installing laser_follow script to /home/timoha/KSAROmni/install/laser_follow/lib/laser_follow\n'}
+[23.103227] (laser_follow) StdoutLine: {'line': b'\n'}
+[23.104220] (laser_follow) StdoutLine: {'line': b'Installed /home/timoha/KSAROmni/build/laser_follow\n'}
+[23.105854] (laser_follow) StdoutLine: {'line': b'running install_data\n'}
+[23.143780] (-) TimerEvent: {}
+[23.244892] (-) TimerEvent: {}
+[23.318759] (laser_follow) CommandEnded: {'returncode': 0}
+[23.345188] (-) TimerEvent: {}
+[23.446534] (-) TimerEvent: {}
+[23.547674] (-) TimerEvent: {}
+[23.648964] (-) TimerEvent: {}
+[23.750144] (-) TimerEvent: {}
+[23.851499] (-) TimerEvent: {}
+[23.858256] (laser_follow) JobEnded: {'identifier': 'laser_follow', 'rc': 0}
+[23.861901] (opencv_pub) JobStarted: {'identifier': 'opencv_pub'}
+[23.951943] (-) TimerEvent: {}
+[24.053290] (lidar_template) StdoutLine: {'line': b'running develop\n'}
+[24.054855] (-) TimerEvent: {}
+[24.055650] (lidar_template) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[24.056864] (lidar_template) StderrLine: {'line': b'  warnings.warn(\n'}
+[24.061077] (lidar_template) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[24.062704] (lidar_template) StderrLine: {'line': b'  warnings.warn(\n'}
+[24.064043] (main_package_robot) StdoutLine: {'line': b'running develop\n'}
+[24.067870] (main_package_robot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[24.069351] (main_package_robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[24.077164] (main_package_robot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[24.078677] (main_package_robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[24.155108] (-) TimerEvent: {}
+[24.250716] (motor_control_node) StdoutLine: {'line': b'running develop\n'}
+[24.252789] (motor_control_node) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[24.253545] (motor_control_node) StderrLine: {'line': b'  warnings.warn(\n'}
+[24.255466] (-) TimerEvent: {}
+[24.259143] (motor_control_node) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[24.259846] (motor_control_node) StderrLine: {'line': b'  warnings.warn(\n'}
+[24.355907] (-) TimerEvent: {}
+[24.457149] (-) TimerEvent: {}
+[24.558092] (-) TimerEvent: {}
+[24.659093] (-) TimerEvent: {}
+[24.759980] (-) TimerEvent: {}
+[24.861064] (-) TimerEvent: {}
+[24.962089] (-) TimerEvent: {}
+[25.063004] (-) TimerEvent: {}
+[25.163840] (-) TimerEvent: {}
+[25.264778] (-) TimerEvent: {}
+[25.365709] (-) TimerEvent: {}
+[25.373581] (main_package_robot) StdoutLine: {'line': b'running egg_info\n'}
+[25.375133] (main_package_robot) StdoutLine: {'line': b'writing main_package_robot.egg-info/PKG-INFO\n'}
+[25.377720] (main_package_robot) StdoutLine: {'line': b'writing dependency_links to main_package_robot.egg-info/dependency_links.txt\n'}
+[25.379483] (main_package_robot) StdoutLine: {'line': b'writing entry points to main_package_robot.egg-info/entry_points.txt\n'}
+[25.380977] (main_package_robot) StdoutLine: {'line': b'writing requirements to main_package_robot.egg-info/requires.txt\n'}
+[25.382350] (main_package_robot) StdoutLine: {'line': b'writing top-level names to main_package_robot.egg-info/top_level.txt\n'}
+[25.394677] (main_package_robot) StdoutLine: {'line': b"reading manifest file 'main_package_robot.egg-info/SOURCES.txt'\n"}
+[25.411467] (main_package_robot) StdoutLine: {'line': b"writing manifest file 'main_package_robot.egg-info/SOURCES.txt'\n"}
+[25.417047] (lidar_template) StdoutLine: {'line': b'running egg_info\n'}
+[25.418159] (lidar_template) StdoutLine: {'line': b'writing lidar_template.egg-info/PKG-INFO\n'}
+[25.420477] (main_package_robot) StdoutLine: {'line': b'running build_ext\n'}
+[25.421339] (lidar_template) StdoutLine: {'line': b'writing dependency_links to lidar_template.egg-info/dependency_links.txt\n'}
+[25.422077] (main_package_robot) StdoutLine: {'line': b'Creating /home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages/main-package-robot.egg-link (link to .)\n'}
+[25.422902] (lidar_template) StdoutLine: {'line': b'writing entry points to lidar_template.egg-info/entry_points.txt\n'}
+[25.423724] (lidar_template) StdoutLine: {'line': b'writing requirements to lidar_template.egg-info/requires.txt\n'}
+[25.424483] (lidar_template) StdoutLine: {'line': b'writing top-level names to lidar_template.egg-info/top_level.txt\n'}
+[25.427376] (main_package_robot) StdoutLine: {'line': b'Installing main_node script to /home/timoha/KSAROmni/install/main_package_robot/lib/main_package_robot\n'}
+[25.429105] (main_package_robot) StdoutLine: {'line': b'\n'}
+[25.429993] (main_package_robot) StdoutLine: {'line': b'Installed /home/timoha/KSAROmni/build/main_package_robot\n'}
+[25.430713] (main_package_robot) StdoutLine: {'line': b'running install_data\n'}
+[25.435757] (lidar_template) StdoutLine: {'line': b"reading manifest file 'lidar_template.egg-info/SOURCES.txt'\n"}
+[25.444615] (lidar_template) StdoutLine: {'line': b"writing manifest file 'lidar_template.egg-info/SOURCES.txt'\n"}
+[25.455741] (lidar_template) StdoutLine: {'line': b'running build_ext\n'}
+[25.457487] (lidar_template) StdoutLine: {'line': b'Creating /home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages/lidar-template.egg-link (link to .)\n'}
+[25.465451] (lidar_template) StdoutLine: {'line': b'Installing lidar_temp script to /home/timoha/KSAROmni/install/lidar_template/lib/lidar_template\n'}
+[25.466367] (-) TimerEvent: {}
+[25.468087] (lidar_template) StdoutLine: {'line': b'\n'}
+[25.469642] (lidar_template) StdoutLine: {'line': b'Installed /home/timoha/KSAROmni/build/lidar_template\n'}
+[25.471193] (lidar_template) StdoutLine: {'line': b'running install_data\n'}
+[25.566797] (-) TimerEvent: {}
+[25.668792] (-) TimerEvent: {}
+[25.757212] (motor_control_node) StdoutLine: {'line': b'running egg_info\n'}
+[25.758138] (motor_control_node) StdoutLine: {'line': b'writing motor_control_node.egg-info/PKG-INFO\n'}
+[25.760078] (motor_control_node) StdoutLine: {'line': b'writing dependency_links to motor_control_node.egg-info/dependency_links.txt\n'}
+[25.761209] (motor_control_node) StdoutLine: {'line': b'writing entry points to motor_control_node.egg-info/entry_points.txt\n'}
+[25.762279] (motor_control_node) StdoutLine: {'line': b'writing requirements to motor_control_node.egg-info/requires.txt\n'}
+[25.763265] (motor_control_node) StdoutLine: {'line': b'writing top-level names to motor_control_node.egg-info/top_level.txt\n'}
+[25.768888] (-) TimerEvent: {}
+[25.772894] (motor_control_node) StdoutLine: {'line': b"reading manifest file 'motor_control_node.egg-info/SOURCES.txt'\n"}
+[25.777000] (motor_control_node) StdoutLine: {'line': b"writing manifest file 'motor_control_node.egg-info/SOURCES.txt'\n"}
+[25.783062] (motor_control_node) StdoutLine: {'line': b'running build_ext\n'}
+[25.783890] (motor_control_node) StdoutLine: {'line': b'Creating /home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages/motor-control-node.egg-link (link to .)\n'}
+[25.787424] (motor_control_node) StdoutLine: {'line': b'Installing motor_control script to /home/timoha/KSAROmni/install/motor_control_node/lib/motor_control_node\n'}
+[25.788734] (motor_control_node) StdoutLine: {'line': b'\n'}
+[25.789392] (motor_control_node) StdoutLine: {'line': b'Installed /home/timoha/KSAROmni/build/motor_control_node\n'}
+[25.789787] (motor_control_node) StdoutLine: {'line': b'running install_data\n'}
+[25.869219] (-) TimerEvent: {}
+[25.970335] (-) TimerEvent: {}
+[26.071153] (-) TimerEvent: {}
+[26.171880] (-) TimerEvent: {}
+[26.272753] (-) TimerEvent: {}
+[26.375592] (-) TimerEvent: {}
+[26.480966] (-) TimerEvent: {}
+[26.527340] (main_package_robot) CommandEnded: {'returncode': 0}
+[26.581262] (-) TimerEvent: {}
+[26.682346] (-) TimerEvent: {}
+[26.783087] (-) TimerEvent: {}
+[26.827188] (main_package_robot) JobEnded: {'identifier': 'main_package_robot', 'rc': 0}
+[26.830065] (lidar_template) CommandEnded: {'returncode': 0}
+[26.883389] (-) TimerEvent: {}
+[26.984465] (-) TimerEvent: {}
+[27.085225] (-) TimerEvent: {}
+[27.132497] (lidar_template) JobEnded: {'identifier': 'lidar_template', 'rc': 0}
+[27.136342] (motor_control_node) CommandEnded: {'returncode': 0}
+[27.185461] (-) TimerEvent: {}
+[27.286442] (-) TimerEvent: {}
+[27.387615] (-) TimerEvent: {}
+[27.441329] (motor_control_node) JobEnded: {'identifier': 'motor_control_node', 'rc': 0}
+[27.446688] (py_barrel_detector) JobStarted: {'identifier': 'py_barrel_detector'}
+[27.487879] (-) TimerEvent: {}
+[27.593123] (-) TimerEvent: {}
+[27.693980] (-) TimerEvent: {}
+[27.736489] (py_main_alg) JobStarted: {'identifier': 'py_main_alg'}
+[27.794248] (-) TimerEvent: {}
+[27.895216] (-) TimerEvent: {}
+[27.996006] (-) TimerEvent: {}
+[28.075324] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[28.096176] (-) TimerEvent: {}
+[28.196994] (-) TimerEvent: {}
+[28.297803] (-) TimerEvent: {}
+[28.399357] (-) TimerEvent: {}
+[28.500228] (-) TimerEvent: {}
+[28.600987] (-) TimerEvent: {}
+[28.701769] (-) TimerEvent: {}
+[28.802581] (-) TimerEvent: {}
+[28.903371] (-) TimerEvent: {}
+[29.004218] (-) TimerEvent: {}
+[29.104997] (-) TimerEvent: {}
+[29.205717] (-) TimerEvent: {}
+[29.306422] (-) TimerEvent: {}
+[29.407275] (-) TimerEvent: {}
+[29.508344] (-) TimerEvent: {}
+[29.609407] (-) TimerEvent: {}
+[29.710723] (-) TimerEvent: {}
+[29.812223] (-) TimerEvent: {}
+[29.913689] (-) TimerEvent: {}
+[30.016626] (-) TimerEvent: {}
+[30.117388] (-) TimerEvent: {}
+[30.218141] (-) TimerEvent: {}
+[30.318923] (-) TimerEvent: {}
+[30.419602] (-) TimerEvent: {}
+[30.520288] (-) TimerEvent: {}
+[30.620965] (-) TimerEvent: {}
+[30.721703] (-) TimerEvent: {}
+[30.822443] (-) TimerEvent: {}
+[30.923161] (-) TimerEvent: {}
+[31.023845] (-) TimerEvent: {}
+[31.124793] (-) TimerEvent: {}
+[31.226583] (-) TimerEvent: {}
+[31.327654] (-) TimerEvent: {}
+[31.408400] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[31.414355] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/timoha/KSAROmni/src/rplidar_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/timoha/KSAROmni/install/rplidar_ros'], 'cwd': '/home/timoha/KSAROmni/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'timoha'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/timoha'), ('OLDPWD', '/home/timoha/KSAROmni/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1779'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'timoha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'timoha'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/timoha-desktop:@/tmp/.ICE-unix/1779,unix/timoha-desktop:/tmp/.ICE-unix/1779'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b8aadcd3_e5bc_41e4_9ad2_2b672225ad15'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W7QWI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/timoha/KSAROmni/build/rplidar_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[31.428045] (-) TimerEvent: {}
+[31.443148] (opencv_pub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/opencv_pub/build', '--no-deps', 'install_data'], 'cwd': '/home/timoha/KSAROmni/build/opencv_pub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha/KSAROmni/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1779', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'timoha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/timoha-desktop:@/tmp/.ICE-unix/1779,unix/timoha-desktop:/tmp/.ICE-unix/1779', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b8aadcd3_e5bc_41e4_9ad2_2b672225ad15', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W7QWI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.137', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/timoha/KSAROmni/build/opencv_pub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/opencv_pub/prefix_override:/home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[31.497552] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.7 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[31.528255] (-) TimerEvent: {}
+[31.629563] (-) TimerEvent: {}
+[31.730679] (-) TimerEvent: {}
+[31.831804] (-) TimerEvent: {}
+[31.932866] (-) TimerEvent: {}
+[32.033891] (-) TimerEvent: {}
+[32.134853] (-) TimerEvent: {}
+[32.236321] (-) TimerEvent: {}
+[32.337857] (-) TimerEvent: {}
+[32.439277] (-) TimerEvent: {}
+[32.474861] (rplidar_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[32.539540] (-) TimerEvent: {}
+[32.542667] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[32.639762] (-) TimerEvent: {}
+[32.741092] (-) TimerEvent: {}
+[32.842450] (-) TimerEvent: {}
+[32.944048] (-) TimerEvent: {}
+[33.045622] (-) TimerEvent: {}
+[33.146796] (-) TimerEvent: {}
+[33.230394] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[33.247019] (-) TimerEvent: {}
+[33.248418] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[33.293713] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[33.327393] (opencv_pub) StdoutLine: {'line': b'running develop\n'}
+[33.329437] (opencv_pub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[33.330464] (opencv_pub) StderrLine: {'line': b'  warnings.warn(\n'}
+[33.337051] (opencv_pub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[33.338060] (opencv_pub) StderrLine: {'line': b'  warnings.warn(\n'}
+[33.347235] (-) TimerEvent: {}
+[33.366974] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[33.447467] (-) TimerEvent: {}
+[33.481940] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[33.547763] (-) TimerEvent: {}
+[33.649277] (-) TimerEvent: {}
+[33.751521] (-) TimerEvent: {}
+[33.798760] (py_main_alg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/py_main_alg/build', '--no-deps', 'install_data'], 'cwd': '/home/timoha/KSAROmni/build/py_main_alg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha/KSAROmni/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1779', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'timoha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/timoha-desktop:@/tmp/.ICE-unix/1779,unix/timoha-desktop:/tmp/.ICE-unix/1779', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b8aadcd3_e5bc_41e4_9ad2_2b672225ad15', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W7QWI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.137', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/timoha/KSAROmni/build/py_main_alg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/py_main_alg/prefix_override:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[33.851756] (-) TimerEvent: {}
+[33.899998] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[33.921649] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[33.952039] (-) TimerEvent: {}
+[34.053369] (-) TimerEvent: {}
+[34.095047] (py_barrel_detector) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/py_barrel_detector/build', '--no-deps', 'install_data'], 'cwd': '/home/timoha/KSAROmni/build/py_barrel_detector', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha/KSAROmni/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1779', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'timoha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/timoha-desktop:@/tmp/.ICE-unix/1779,unix/timoha-desktop:/tmp/.ICE-unix/1779', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b8aadcd3_e5bc_41e4_9ad2_2b672225ad15', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W7QWI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.137', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/timoha/KSAROmni/build/py_barrel_detector', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/py_barrel_detector/prefix_override:/home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[34.153582] (-) TimerEvent: {}
+[34.254785] (-) TimerEvent: {}
+[34.355833] (-) TimerEvent: {}
+[34.456873] (-) TimerEvent: {}
+[34.557901] (-) TimerEvent: {}
+[34.659392] (-) TimerEvent: {}
+[34.760753] (-) TimerEvent: {}
+[34.805262] (opencv_pub) StdoutLine: {'line': b'running egg_info\n'}
+[34.807619] (opencv_pub) StdoutLine: {'line': b'writing opencv_pub.egg-info/PKG-INFO\n'}
+[34.810871] (opencv_pub) StdoutLine: {'line': b'writing dependency_links to opencv_pub.egg-info/dependency_links.txt\n'}
+[34.813078] (opencv_pub) StdoutLine: {'line': b'writing entry points to opencv_pub.egg-info/entry_points.txt\n'}
+[34.815260] (opencv_pub) StdoutLine: {'line': b'writing requirements to opencv_pub.egg-info/requires.txt\n'}
+[34.817027] (opencv_pub) StdoutLine: {'line': b'writing top-level names to opencv_pub.egg-info/top_level.txt\n'}
+[34.828266] (opencv_pub) StdoutLine: {'line': b"reading manifest file 'opencv_pub.egg-info/SOURCES.txt'\n"}
+[34.833455] (opencv_pub) StdoutLine: {'line': b"writing manifest file 'opencv_pub.egg-info/SOURCES.txt'\n"}
+[34.841041] (opencv_pub) StdoutLine: {'line': b'running build_ext\n'}
+[34.843111] (opencv_pub) StdoutLine: {'line': b'Creating /home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages/opencv-pub.egg-link (link to .)\n'}
+[34.848716] (opencv_pub) StdoutLine: {'line': b'Installing CAM script to /home/timoha/KSAROmni/install/opencv_pub/lib/opencv_pub\n'}
+[34.851486] (opencv_pub) StdoutLine: {'line': b'\n'}
+[34.852560] (opencv_pub) StdoutLine: {'line': b'Installed /home/timoha/KSAROmni/build/opencv_pub\n'}
+[34.854184] (opencv_pub) StdoutLine: {'line': b'running install_data\n'}
+[34.860978] (-) TimerEvent: {}
+[34.962401] (-) TimerEvent: {}
+[35.058777] (opencv_pub) CommandEnded: {'returncode': 0}
+[35.062544] (-) TimerEvent: {}
+[35.131401] (rplidar_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[35.162937] (-) TimerEvent: {}
+[35.265262] (-) TimerEvent: {}
+[35.366394] (-) TimerEvent: {}
+[35.467391] (-) TimerEvent: {}
+[35.568315] (-) TimerEvent: {}
+[35.612621] (opencv_pub) JobEnded: {'identifier': 'opencv_pub', 'rc': 0}
+[35.616435] (test_pub) JobStarted: {'identifier': 'test_pub'}
+[35.636679] (py_main_alg) StdoutLine: {'line': b'running develop\n'}
+[35.639484] (py_main_alg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[35.641157] (py_main_alg) StderrLine: {'line': b'  warnings.warn(\n'}
+[35.649560] (py_main_alg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[35.651298] (py_main_alg) StderrLine: {'line': b'  warnings.warn(\n'}
+[35.668663] (-) TimerEvent: {}
+[35.770134] (-) TimerEvent: {}
+[35.871732] (-) TimerEvent: {}
+[35.972925] (-) TimerEvent: {}
+[36.060341] (py_barrel_detector) StdoutLine: {'line': b'running develop\n'}
+[36.062342] (py_barrel_detector) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[36.063217] (py_barrel_detector) StderrLine: {'line': b'  warnings.warn(\n'}
+[36.068496] (py_barrel_detector) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[36.069176] (py_barrel_detector) StderrLine: {'line': b'  warnings.warn(\n'}
+[36.073733] (-) TimerEvent: {}
+[36.175057] (-) TimerEvent: {}
+[36.276005] (-) TimerEvent: {}
+[36.377464] (-) TimerEvent: {}
+[36.478506] (-) TimerEvent: {}
+[36.579624] (-) TimerEvent: {}
+[36.680628] (-) TimerEvent: {}
+[36.781599] (-) TimerEvent: {}
+[36.883100] (-) TimerEvent: {}
+[36.978523] (py_main_alg) StdoutLine: {'line': b'running egg_info\n'}
+[36.979531] (py_main_alg) StdoutLine: {'line': b'writing py_main_alg.egg-info/PKG-INFO\n'}
+[36.983313] (-) TimerEvent: {}
+[36.985026] (py_main_alg) StdoutLine: {'line': b'writing dependency_links to py_main_alg.egg-info/dependency_links.txt\n'}
+[36.987823] (py_main_alg) StdoutLine: {'line': b'writing entry points to py_main_alg.egg-info/entry_points.txt\n'}
+[36.990419] (py_main_alg) StdoutLine: {'line': b'writing requirements to py_main_alg.egg-info/requires.txt\n'}
+[36.992884] (py_main_alg) StdoutLine: {'line': b'writing top-level names to py_main_alg.egg-info/top_level.txt\n'}
+[37.003850] (py_main_alg) StdoutLine: {'line': b"reading manifest file 'py_main_alg.egg-info/SOURCES.txt'\n"}
+[37.010397] (py_main_alg) StdoutLine: {'line': b"writing manifest file 'py_main_alg.egg-info/SOURCES.txt'\n"}
+[37.019902] (py_main_alg) StdoutLine: {'line': b'running build_ext\n'}
+[37.022519] (py_main_alg) StdoutLine: {'line': b'Creating /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py-main-alg.egg-link (link to .)\n'}
+[37.028243] (py_main_alg) StdoutLine: {'line': b'Installing main_alg script to /home/timoha/KSAROmni/install/py_main_alg/lib/py_main_alg\n'}
+[37.030886] (py_main_alg) StdoutLine: {'line': b'\n'}
+[37.031584] (py_main_alg) StdoutLine: {'line': b'Installed /home/timoha/KSAROmni/build/py_main_alg\n'}
+[37.032798] (py_main_alg) StdoutLine: {'line': b'running install_data\n'}
+[37.083553] (-) TimerEvent: {}
+[37.184435] (-) TimerEvent: {}
+[37.285364] (-) TimerEvent: {}
+[37.304169] (rplidar_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[37.385606] (-) TimerEvent: {}
+[37.421591] (py_barrel_detector) StdoutLine: {'line': b'running egg_info\n'}
+[37.422938] (py_barrel_detector) StdoutLine: {'line': b'writing py_barrel_detector.egg-info/PKG-INFO\n'}
+[37.425246] (py_barrel_detector) StdoutLine: {'line': b'writing dependency_links to py_barrel_detector.egg-info/dependency_links.txt\n'}
+[37.426474] (py_barrel_detector) StdoutLine: {'line': b'writing entry points to py_barrel_detector.egg-info/entry_points.txt\n'}
+[37.427435] (py_barrel_detector) StdoutLine: {'line': b'writing requirements to py_barrel_detector.egg-info/requires.txt\n'}
+[37.428126] (py_barrel_detector) StdoutLine: {'line': b'writing top-level names to py_barrel_detector.egg-info/top_level.txt\n'}
+[37.436069] (rplidar_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[37.442383] (py_barrel_detector) StdoutLine: {'line': b"reading manifest file 'py_barrel_detector.egg-info/SOURCES.txt'\n"}
+[37.447534] (rplidar_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/timoha/KSAROmni/build/rplidar_ros\n'}
+[37.451396] (py_barrel_detector) StdoutLine: {'line': b"writing manifest file 'py_barrel_detector.egg-info/SOURCES.txt'\n"}
+[37.461220] (py_barrel_detector) StdoutLine: {'line': b'running build_ext\n'}
+[37.462809] (py_barrel_detector) StdoutLine: {'line': b'Creating /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py-barrel-detector.egg-link (link to .)\n'}
+[37.469302] (py_barrel_detector) StdoutLine: {'line': b'Installing barrel_detector script to /home/timoha/KSAROmni/install/py_barrel_detector/lib/py_barrel_detector\n'}
+[37.472839] (py_barrel_detector) StdoutLine: {'line': b'\n'}
+[37.474824] (py_barrel_detector) StdoutLine: {'line': b'Installed /home/timoha/KSAROmni/build/py_barrel_detector\n'}
+[37.476929] (py_barrel_detector) StdoutLine: {'line': b'running install_data\n'}
+[37.491176] (-) TimerEvent: {}
+[37.594367] (-) TimerEvent: {}
+[37.695634] (-) TimerEvent: {}
+[37.796322] (-) TimerEvent: {}
+[37.897131] (-) TimerEvent: {}
+[37.998412] (-) TimerEvent: {}
+[38.099271] (-) TimerEvent: {}
+[38.177054] (py_main_alg) CommandEnded: {'returncode': 0}
+[38.199551] (-) TimerEvent: {}
+[38.300499] (-) TimerEvent: {}
+[38.401758] (-) TimerEvent: {}
+[38.477956] (py_main_alg) JobEnded: {'identifier': 'py_main_alg', 'rc': 0}
+[38.486835] (rplidar_ros) CommandEnded: {'returncode': 0}
+[38.488988] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[38.489891] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/timoha/KSAROmni/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/timoha/KSAROmni/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'timoha'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/timoha'), ('OLDPWD', '/home/timoha/KSAROmni/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1779'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'timoha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'timoha'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/timoha-desktop:@/tmp/.ICE-unix/1779,unix/timoha-desktop:/tmp/.ICE-unix/1779'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b8aadcd3_e5bc_41e4_9ad2_2b672225ad15'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W7QWI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/timoha/KSAROmni/build/rplidar_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[38.493052] (py_barrel_detector) CommandEnded: {'returncode': 0}
+[38.502048] (-) TimerEvent: {}
+[38.603384] (-) TimerEvent: {}
+[38.704774] (-) TimerEvent: {}
+[38.805875] (-) TimerEvent: {}
+[38.869221] (py_barrel_detector) JobEnded: {'identifier': 'py_barrel_detector', 'rc': 0}
+[38.876232] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_composition_node\x1b[0m\n'}
+[38.876989] (rplidar_ros) StdoutLine: {'line': b'[ 11%] \x1b[32m\x1b[1mLinking CXX shared library librplidar_composition_node.so\x1b[0m\n'}
+[38.906180] (-) TimerEvent: {}
+[39.007463] (-) TimerEvent: {}
+[39.109172] (-) TimerEvent: {}
+[39.210310] (-) TimerEvent: {}
+[39.311231] (-) TimerEvent: {}
+[39.412252] (-) TimerEvent: {}
+[39.513778] (-) TimerEvent: {}
+[39.615295] (-) TimerEvent: {}
+[39.716392] (-) TimerEvent: {}
+[39.817966] (-) TimerEvent: {}
+[39.919262] (-) TimerEvent: {}
+[40.020171] (-) TimerEvent: {}
+[40.121585] (-) TimerEvent: {}
+[40.222403] (-) TimerEvent: {}
+[40.323492] (-) TimerEvent: {}
+[40.424429] (-) TimerEvent: {}
+[40.524677] (rplidar_ros) StdoutLine: {'line': b'[ 77%] Built target rplidar_composition_node\n'}
+[40.525407] (-) TimerEvent: {}
+[40.575671] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_composition\x1b[0m\n'}
+[40.625624] (-) TimerEvent: {}
+[40.665621] (rplidar_ros) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable rplidar_composition\x1b[0m\n'}
+[40.725879] (-) TimerEvent: {}
+[40.827045] (-) TimerEvent: {}
+[40.929222] (-) TimerEvent: {}
+[41.028091] (test_pub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/timoha/KSAROmni/build/test_pub/build', '--no-deps', 'install_data'], 'cwd': '/home/timoha/KSAROmni/build/test_pub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timoha', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/timoha', 'OLDPWD': '/home/timoha/KSAROmni/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1779', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'timoha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'timoha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/timoha-desktop:@/tmp/.ICE-unix/1779,unix/timoha-desktop:/tmp/.ICE-unix/1779', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b8aadcd3_e5bc_41e4_9ad2_2b672225ad15', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W7QWI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.137', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/timoha/KSAROmni/build/test_pub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timoha/KSAROmni/build/test_pub/prefix_override:/home/timoha/KSAROmni/install/test_pub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[41.039689] (-) TimerEvent: {}
+[41.142027] (-) TimerEvent: {}
+[41.243181] (-) TimerEvent: {}
+[41.344932] (-) TimerEvent: {}
+[41.446165] (-) TimerEvent: {}
+[41.547018] (-) TimerEvent: {}
+[41.648095] (-) TimerEvent: {}
+[41.748910] (-) TimerEvent: {}
+[41.800681] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[41.841908] (rplidar_ros) CommandEnded: {'returncode': 0}
+[41.849075] (-) TimerEvent: {}
+[41.950239] (-) TimerEvent: {}
+[42.050957] (-) TimerEvent: {}
+[42.057279] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[42.058347] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/timoha/KSAROmni/build/rplidar_ros'], 'cwd': '/home/timoha/KSAROmni/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'timoha'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/timoha'), ('OLDPWD', '/home/timoha/KSAROmni/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1779'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'timoha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'timoha'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/timoha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/timoha-desktop:@/tmp/.ICE-unix/1779,unix/timoha-desktop:/tmp/.ICE-unix/1779'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b8aadcd3_e5bc_41e4_9ad2_2b672225ad15'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W7QWI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/timoha/KSAROmni/build/rplidar_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e9ed4f930e1ee8e5032c643265ccb7e7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[42.092680] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[42.094986] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[42.097299] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[42.133599] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py\n'}
+[42.151146] (-) TimerEvent: {}
+[42.166140] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py\n'}
+[42.201530] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py\n'}
+[42.234679] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py\n'}
+[42.251330] (-) TimerEvent: {}
+[42.267727] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py\n'}
+[42.303980] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py\n'}
+[42.338129] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py\n'}
+[42.351549] (-) TimerEvent: {}
+[42.371697] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py\n'}
+[42.409755] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py\n'}
+[42.444873] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz\n'}
+[42.451743] (-) TimerEvent: {}
+[42.477977] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/lib/librplidar_composition_node.so\n'}
+[42.515655] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/include/rplidar_node.hpp\n'}
+[42.549639] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/include/visibility.h\n'}
+[42.551928] (-) TimerEvent: {}
+[42.591495] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[42.592326] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[42.626856] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[42.634826] (test_pub) StdoutLine: {'line': b'running develop\n'}
+[42.636335] (test_pub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[42.636945] (test_pub) StderrLine: {'line': b'  warnings.warn(\n'}
+[42.641875] (test_pub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[42.642568] (test_pub) StderrLine: {'line': b'  warnings.warn(\n'}
+[42.652152] (-) TimerEvent: {}
+[42.662500] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[42.698479] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[42.731670] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[42.752444] (-) TimerEvent: {}
+[42.765149] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[42.801903] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[42.835095] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[42.852638] (-) TimerEvent: {}
+[42.869066] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[42.904868] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[42.938583] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[42.952811] (-) TimerEvent: {}
+[42.973932] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[43.010979] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros\n'}
+[43.044803] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[43.053014] (-) TimerEvent: {}
+[43.078444] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[43.114601] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[43.147163] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[43.153212] (-) TimerEvent: {}
+[43.180012] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[43.220596] (rplidar_ros) CommandEnded: {'returncode': 0}
+[43.253421] (-) TimerEvent: {}
+[43.354752] (-) TimerEvent: {}
+[43.456186] (-) TimerEvent: {}
+[43.557647] (-) TimerEvent: {}
+[43.648991] (test_pub) StdoutLine: {'line': b'running egg_info\n'}
+[43.649836] (test_pub) StdoutLine: {'line': b'writing test_pub.egg-info/PKG-INFO\n'}
+[43.651776] (test_pub) StdoutLine: {'line': b'writing dependency_links to test_pub.egg-info/dependency_links.txt\n'}
+[43.652800] (test_pub) StdoutLine: {'line': b'writing entry points to test_pub.egg-info/entry_points.txt\n'}
+[43.653680] (test_pub) StdoutLine: {'line': b'writing requirements to test_pub.egg-info/requires.txt\n'}
+[43.655382] (test_pub) StdoutLine: {'line': b'writing top-level names to test_pub.egg-info/top_level.txt\n'}
+[43.657814] (-) TimerEvent: {}
+[43.665178] (test_pub) StdoutLine: {'line': b"reading manifest file 'test_pub.egg-info/SOURCES.txt'\n"}
+[43.670135] (test_pub) StdoutLine: {'line': b"writing manifest file 'test_pub.egg-info/SOURCES.txt'\n"}
+[43.675599] (test_pub) StdoutLine: {'line': b'running build_ext\n'}
+[43.676456] (test_pub) StdoutLine: {'line': b'Creating /home/timoha/KSAROmni/install/test_pub/lib/python3.10/site-packages/test-pub.egg-link (link to .)\n'}
+[43.679902] (test_pub) StdoutLine: {'line': b'Installing test_publisher script to /home/timoha/KSAROmni/install/test_pub/lib/test_pub\n'}
+[43.681419] (test_pub) StdoutLine: {'line': b'\n'}
+[43.682029] (test_pub) StdoutLine: {'line': b'Installed /home/timoha/KSAROmni/build/test_pub\n'}
+[43.682740] (test_pub) StdoutLine: {'line': b'running install_data\n'}
+[43.758134] (-) TimerEvent: {}
+[43.837186] (test_pub) CommandEnded: {'returncode': 0}
+[43.858623] (-) TimerEvent: {}
+[43.959598] (-) TimerEvent: {}
+[44.060894] (-) TimerEvent: {}
+[44.138643] (test_pub) JobEnded: {'identifier': 'test_pub', 'rc': 0}
+[44.161112] (-) TimerEvent: {}
+[44.261723] (-) TimerEvent: {}
+[44.362613] (-) TimerEvent: {}
+[44.463524] (-) TimerEvent: {}
+[44.508992] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[44.511974] (-) EventReactorShutdown: {}

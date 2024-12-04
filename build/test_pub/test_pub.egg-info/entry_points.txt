@@ -1,0 +1,3 @@
+[console_scripts]
+test_publisher = test_pub.test_publisher:main
+

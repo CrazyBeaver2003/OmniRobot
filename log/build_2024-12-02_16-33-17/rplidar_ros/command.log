@@ -1,0 +1,1 @@
+Invoking command in '/home/timoha/KSAROmni/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/timoha/KSAROmni/src/rplidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/timoha/KSAROmni/install/rplidar_ros

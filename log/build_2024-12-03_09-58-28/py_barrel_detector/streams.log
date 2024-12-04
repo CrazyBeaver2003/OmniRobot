@@ -1,0 +1,33 @@
+[5.066s] Invoking command in '/home/timoha/KSAROmni/build/py_barrel_detector': PYTHONPATH=/home/timoha/KSAROmni/build/py_barrel_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/py_barrel_detector/build
+[6.701s] running develop
+[6.703s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.704s]   warnings.warn(
+[7.839s] Removing /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py-barrel-detector.egg-link (link to .)
+[8.136s] Invoked command in '/home/timoha/KSAROmni/build/py_barrel_detector' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/py_barrel_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/py_barrel_detector/build
+[8.148s] Invoking command in '/home/timoha/KSAROmni/src/py_barrel_detector': PYTHONPATH=/home/timoha/KSAROmni/build/py_barrel_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_barrel_detector build --build-base /home/timoha/KSAROmni/build/py_barrel_detector/build install --record /home/timoha/KSAROmni/build/py_barrel_detector/install.log --single-version-externally-managed install_data --force
+[9.399s] running egg_info
+[9.403s] writing ../../build/py_barrel_detector/py_barrel_detector.egg-info/PKG-INFO
+[9.404s] writing dependency_links to ../../build/py_barrel_detector/py_barrel_detector.egg-info/dependency_links.txt
+[9.406s] writing entry points to ../../build/py_barrel_detector/py_barrel_detector.egg-info/entry_points.txt
+[9.407s] writing requirements to ../../build/py_barrel_detector/py_barrel_detector.egg-info/requires.txt
+[9.408s] writing top-level names to ../../build/py_barrel_detector/py_barrel_detector.egg-info/top_level.txt
+[9.416s] reading manifest file '../../build/py_barrel_detector/py_barrel_detector.egg-info/SOURCES.txt'
+[9.421s] writing manifest file '../../build/py_barrel_detector/py_barrel_detector.egg-info/SOURCES.txt'
+[9.422s] running build
+[9.422s] running build_py
+[9.425s] running install
+[9.427s] running install_lib
+[9.431s] creating /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py_barrel_detector
+[9.432s] copying /home/timoha/KSAROmni/build/py_barrel_detector/build/lib/py_barrel_detector/barrel_detector.py -> /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py_barrel_detector
+[9.434s] copying /home/timoha/KSAROmni/build/py_barrel_detector/build/lib/py_barrel_detector/__init__.py -> /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py_barrel_detector
+[9.436s] byte-compiling /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py_barrel_detector/barrel_detector.py to barrel_detector.cpython-310.pyc
+[9.442s] byte-compiling /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py_barrel_detector/__init__.py to __init__.cpython-310.pyc
+[9.443s] running install_data
+[9.444s] copying resource/py_barrel_detector -> /home/timoha/KSAROmni/install/py_barrel_detector/share/ament_index/resource_index/packages
+[9.448s] copying package.xml -> /home/timoha/KSAROmni/install/py_barrel_detector/share/py_barrel_detector
+[9.448s] running install_egg_info
+[9.457s] Copying ../../build/py_barrel_detector/py_barrel_detector.egg-info to /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py_barrel_detector-0.0.0-py3.10.egg-info
+[9.465s] running install_scripts
+[9.568s] Installing barrel_detector script to /home/timoha/KSAROmni/install/py_barrel_detector/lib/py_barrel_detector
+[9.572s] writing list of installed files to '/home/timoha/KSAROmni/build/py_barrel_detector/install.log'
+[9.757s] Invoked command in '/home/timoha/KSAROmni/src/py_barrel_detector' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/py_barrel_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_barrel_detector build --build-base /home/timoha/KSAROmni/build/py_barrel_detector/build install --record /home/timoha/KSAROmni/build/py_barrel_detector/install.log --single-version-externally-managed install_data --force

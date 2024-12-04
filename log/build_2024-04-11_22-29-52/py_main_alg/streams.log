@@ -1,0 +1,41 @@
+[4.106s] Invoking command in '/home/timoha/KSAROmni/build/py_main_alg': PYTHONPATH=/home/timoha/KSAROmni/build/py_main_alg/prefix_override:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/py_main_alg/build
+[5.636s] running develop
+[5.638s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.638s]   warnings.warn(
+[5.643s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.643s]   warnings.warn(
+[6.688s] Removing /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py-main-alg.egg-link (link to .)
+[6.822s] Invoked command in '/home/timoha/KSAROmni/build/py_main_alg' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/py_main_alg/prefix_override:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/py_main_alg/build
+[6.831s] Invoking command in '/home/timoha/KSAROmni/src/py_main_alg': PYTHONPATH=/home/timoha/KSAROmni/build/py_main_alg/prefix_override:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_main_alg build --build-base /home/timoha/KSAROmni/build/py_main_alg/build install --record /home/timoha/KSAROmni/build/py_main_alg/install.log --single-version-externally-managed
+[8.245s] running egg_info
+[8.248s] writing ../../build/py_main_alg/py_main_alg.egg-info/PKG-INFO
+[8.249s] writing dependency_links to ../../build/py_main_alg/py_main_alg.egg-info/dependency_links.txt
+[8.250s] writing entry points to ../../build/py_main_alg/py_main_alg.egg-info/entry_points.txt
+[8.251s] writing requirements to ../../build/py_main_alg/py_main_alg.egg-info/requires.txt
+[8.251s] writing top-level names to ../../build/py_main_alg/py_main_alg.egg-info/top_level.txt
+[8.260s] reading manifest file '../../build/py_main_alg/py_main_alg.egg-info/SOURCES.txt'
+[8.264s] writing manifest file '../../build/py_main_alg/py_main_alg.egg-info/SOURCES.txt'
+[8.266s] running build
+[8.266s] running build_py
+[8.267s] copying py_main_alg/main_alg.py -> /home/timoha/KSAROmni/build/py_main_alg/build/lib/py_main_alg
+[8.268s] running install
+[8.268s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.269s]   warnings.warn(
+[8.270s] running install_lib
+[8.273s] creating /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg
+[8.275s] copying /home/timoha/KSAROmni/build/py_main_alg/build/lib/py_main_alg/__init__.py -> /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg
+[8.276s] copying /home/timoha/KSAROmni/build/py_main_alg/build/lib/py_main_alg/main_alg.py -> /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg
+[8.278s] byte-compiling /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg/__init__.py to __init__.cpython-310.pyc
+[8.279s] byte-compiling /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg/main_alg.py to main_alg.cpython-310.pyc
+[8.282s]   File "/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg/main_alg.py", line 79
+[8.283s]     if (abs(self.x_centerDiff > 20):
+[8.283s]                                    ^
+[8.283s] SyntaxError: invalid syntax
+[8.284s] 
+[8.284s] running install_data
+[8.284s] running install_egg_info
+[8.293s] Copying ../../build/py_main_alg/py_main_alg.egg-info to /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg-0.0.0-py3.10.egg-info
+[8.299s] running install_scripts
+[8.395s] Installing main_alg script to /home/timoha/KSAROmni/install/py_main_alg/lib/py_main_alg
+[8.397s] writing list of installed files to '/home/timoha/KSAROmni/build/py_main_alg/install.log'
+[8.535s] Invoked command in '/home/timoha/KSAROmni/src/py_main_alg' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/py_main_alg/prefix_override:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_main_alg build --build-base /home/timoha/KSAROmni/build/py_main_alg/build install --record /home/timoha/KSAROmni/build/py_main_alg/install.log --single-version-externally-managed

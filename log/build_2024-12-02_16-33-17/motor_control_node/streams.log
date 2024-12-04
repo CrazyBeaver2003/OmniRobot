@@ -1,0 +1,22 @@
+[5.935s] Invoking command in '/home/timoha/KSAROmni/build/motor_control_node': PYTHONPATH=/home/timoha/KSAROmni/build/motor_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/motor_control_node/build --no-deps symlink_data --force
+[8.391s] running develop
+[8.393s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.394s]   warnings.warn(
+[10.131s] running egg_info
+[10.132s] writing motor_control_node.egg-info/PKG-INFO
+[10.134s] writing dependency_links to motor_control_node.egg-info/dependency_links.txt
+[10.135s] writing entry points to motor_control_node.egg-info/entry_points.txt
+[10.136s] writing requirements to motor_control_node.egg-info/requires.txt
+[10.136s] writing top-level names to motor_control_node.egg-info/top_level.txt
+[10.143s] reading manifest file 'motor_control_node.egg-info/SOURCES.txt'
+[10.159s] writing manifest file 'motor_control_node.egg-info/SOURCES.txt'
+[10.173s] running build_ext
+[10.178s] Creating /home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages/motor-control-node.egg-link (link to .)
+[10.188s] Installing motor_control script to /home/timoha/KSAROmni/install/motor_control_node/lib/motor_control_node
+[10.200s] 
+[10.201s] Installed /home/timoha/KSAROmni/build/motor_control_node
+[10.202s] running symlink_data
+[10.206s] symbolically linking /home/timoha/KSAROmni/build/motor_control_node/resource/motor_control_node -> /home/timoha/KSAROmni/install/motor_control_node/share/ament_index/resource_index/packages
+[10.213s] symbolically linking /home/timoha/KSAROmni/build/motor_control_node/package.xml -> /home/timoha/KSAROmni/install/motor_control_node/share/motor_control_node
+[10.220s] symbolically linking /home/timoha/KSAROmni/build/motor_control_node/launch/motor+distance_test.launch.py -> /home/timoha/KSAROmni/install/motor_control_node/share/motor_control_node
+[10.651s] Invoked command in '/home/timoha/KSAROmni/build/motor_control_node' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/motor_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/motor_control_node/build --no-deps symlink_data --force

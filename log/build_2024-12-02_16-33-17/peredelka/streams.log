@@ -1,0 +1,35 @@
+[0.220s] Invoking command in '/home/timoha/KSAROmni/build/peredelka': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/timoha/KSAROmni/src/peredelka -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/timoha/KSAROmni/install/peredelka
+[0.283s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.067s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.124s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.353s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.368s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.402s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.471s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.916s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.926s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.033s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.802s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.424s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.426s] -- Configured cppcheck include dirs: 
+[4.427s] -- Configured cppcheck exclude dirs and/or files: 
+[4.436s] -- Added test 'lint_cmake' to check CMake code style
+[4.447s] -- Added test 'uncrustify' to check C / C++ code style
+[4.448s] -- Configured uncrustify additional arguments: 
+[4.454s] -- Added test 'xmllint' to check XML markup files
+[4.479s] -- Configuring done
+[4.587s] -- Generating done
+[4.615s] -- Build files have been written to: /home/timoha/KSAROmni/build/peredelka
+[4.668s] Invoked command in '/home/timoha/KSAROmni/build/peredelka' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/timoha/KSAROmni/src/peredelka -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/timoha/KSAROmni/install/peredelka
+[4.670s] Invoking command in '/home/timoha/KSAROmni/build/peredelka': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/timoha/KSAROmni/build/peredelka -- -j4 -l4
+[4.922s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[5.230s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/main.cpp.o[0m
+[8.518s] [01m[K/home/timoha/KSAROmni/src/peredelka/src/main.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/laser_scan.hpp: No such file or directory
+[8.521s]     8 | #include [01;31m[K"sensor_msgs/msg/laser_scan.hpp"[m[K
+[8.525s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.528s] compilation terminated.
+[8.563s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/main.cpp.o] Error 1
+[8.566s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+[8.568s] gmake: *** [Makefile:146: all] Error 2
+[8.579s] Invoked command in '/home/timoha/KSAROmni/build/peredelka' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/timoha/KSAROmni/build/peredelka -- -j4 -l4

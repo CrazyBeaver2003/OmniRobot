@@ -1,0 +1,6 @@
+Invoking command in '/home/timoha/KSAROmni/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/timoha/KSAROmni/src/rplidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/timoha/KSAROmni/install/rplidar_ros
+Invoked command in '/home/timoha/KSAROmni/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/timoha/KSAROmni/src/rplidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/timoha/KSAROmni/install/rplidar_ros
+Invoking command in '/home/timoha/KSAROmni/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/timoha/KSAROmni/build/rplidar_ros -- -j4 -l4
+Invoked command in '/home/timoha/KSAROmni/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/timoha/KSAROmni/build/rplidar_ros -- -j4 -l4
+Invoking command in '/home/timoha/KSAROmni/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/timoha/KSAROmni/build/rplidar_ros
+Invoked command in '/home/timoha/KSAROmni/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/timoha/KSAROmni/build/rplidar_ros

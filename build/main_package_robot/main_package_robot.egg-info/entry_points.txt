@@ -1,0 +1,3 @@
+[console_scripts]
+main_node = main_package_robot.main_node:main
+

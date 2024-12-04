@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/py_main_alg/py_main_alg.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_main_alg/py_main_alg.egg-info/dependency_links.txt
+writing entry points to ../../build/py_main_alg/py_main_alg.egg-info/entry_points.txt
+writing requirements to ../../build/py_main_alg/py_main_alg.egg-info/requires.txt
+writing top-level names to ../../build/py_main_alg/py_main_alg.egg-info/top_level.txt
+reading manifest file '../../build/py_main_alg/py_main_alg.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_main_alg/py_main_alg.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/py_main_alg/py_main_alg.egg-info to /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing main_alg script to /home/timoha/KSAROmni/install/py_main_alg/lib/py_main_alg
+writing list of installed files to '/home/timoha/KSAROmni/build/py_main_alg/install.log'

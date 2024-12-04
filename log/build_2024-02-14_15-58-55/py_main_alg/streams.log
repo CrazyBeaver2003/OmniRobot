@@ -1,0 +1,21 @@
+[6.065s] Invoking command in '/home/timoha/KSAROmni/build/py_main_alg': PYTHONPATH=/home/timoha/KSAROmni/build/py_main_alg/prefix_override:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/py_main_alg/build --no-deps install_data
+[7.900s] running develop
+[7.904s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.906s]   warnings.warn(
+[7.914s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.915s]   warnings.warn(
+[9.242s] running egg_info
+[9.243s] writing py_main_alg.egg-info/PKG-INFO
+[9.249s] writing dependency_links to py_main_alg.egg-info/dependency_links.txt
+[9.251s] writing entry points to py_main_alg.egg-info/entry_points.txt
+[9.254s] writing requirements to py_main_alg.egg-info/requires.txt
+[9.256s] writing top-level names to py_main_alg.egg-info/top_level.txt
+[9.267s] reading manifest file 'py_main_alg.egg-info/SOURCES.txt'
+[9.274s] writing manifest file 'py_main_alg.egg-info/SOURCES.txt'
+[9.283s] running build_ext
+[9.286s] Creating /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py-main-alg.egg-link (link to .)
+[9.292s] Installing main_alg script to /home/timoha/KSAROmni/install/py_main_alg/lib/py_main_alg
+[9.294s] 
+[9.295s] Installed /home/timoha/KSAROmni/build/py_main_alg
+[9.296s] running install_data
+[10.441s] Invoked command in '/home/timoha/KSAROmni/build/py_main_alg' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/py_main_alg/prefix_override:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/py_main_alg/build --no-deps install_data

@@ -1,0 +1,39 @@
+[7.963s] Invoking command in '/home/timoha/KSAROmni/src/distance_node': PYTHONPATH=/home/timoha/KSAROmni/build/distance_node/prefix_override:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/distance_node build --build-base /home/timoha/KSAROmni/build/distance_node/build install --record /home/timoha/KSAROmni/build/distance_node/install.log --single-version-externally-managed
+[9.645s] running egg_info
+[9.649s] creating ../../build/distance_node/distance_node.egg-info
+[9.651s] writing ../../build/distance_node/distance_node.egg-info/PKG-INFO
+[9.653s] writing dependency_links to ../../build/distance_node/distance_node.egg-info/dependency_links.txt
+[9.653s] writing entry points to ../../build/distance_node/distance_node.egg-info/entry_points.txt
+[9.655s] writing requirements to ../../build/distance_node/distance_node.egg-info/requires.txt
+[9.660s] writing top-level names to ../../build/distance_node/distance_node.egg-info/top_level.txt
+[9.663s] writing manifest file '../../build/distance_node/distance_node.egg-info/SOURCES.txt'
+[9.690s] reading manifest file '../../build/distance_node/distance_node.egg-info/SOURCES.txt'
+[9.691s] writing manifest file '../../build/distance_node/distance_node.egg-info/SOURCES.txt'
+[9.691s] running build
+[9.692s] running build_py
+[9.692s] creating /home/timoha/KSAROmni/build/distance_node/build
+[9.693s] creating /home/timoha/KSAROmni/build/distance_node/build/lib
+[9.694s] creating /home/timoha/KSAROmni/build/distance_node/build/lib/distance_node
+[9.695s] copying distance_node/__init__.py -> /home/timoha/KSAROmni/build/distance_node/build/lib/distance_node
+[9.701s] copying distance_node/distance_publisher.py -> /home/timoha/KSAROmni/build/distance_node/build/lib/distance_node
+[9.701s] running install
+[9.703s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.703s]   warnings.warn(
+[9.706s] running install_lib
+[9.716s] creating /home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages/distance_node
+[9.720s] copying /home/timoha/KSAROmni/build/distance_node/build/lib/distance_node/__init__.py -> /home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages/distance_node
+[9.721s] copying /home/timoha/KSAROmni/build/distance_node/build/lib/distance_node/distance_publisher.py -> /home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages/distance_node
+[9.723s] byte-compiling /home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages/distance_node/__init__.py to __init__.cpython-310.pyc
+[9.724s] byte-compiling /home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages/distance_node/distance_publisher.py to distance_publisher.cpython-310.pyc
+[9.726s] running install_data
+[9.727s] creating /home/timoha/KSAROmni/install/distance_node/share/ament_index
+[9.728s] creating /home/timoha/KSAROmni/install/distance_node/share/ament_index/resource_index
+[9.728s] creating /home/timoha/KSAROmni/install/distance_node/share/ament_index/resource_index/packages
+[9.729s] copying resource/distance_node -> /home/timoha/KSAROmni/install/distance_node/share/ament_index/resource_index/packages
+[9.729s] copying package.xml -> /home/timoha/KSAROmni/install/distance_node/share/distance_node
+[9.744s] running install_egg_info
+[9.745s] Copying ../../build/distance_node/distance_node.egg-info to /home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages/distance_node-0.0.0-py3.10.egg-info
+[9.747s] running install_scripts
+[9.840s] Installing distance_publisher script to /home/timoha/KSAROmni/install/distance_node/lib/distance_node
+[9.845s] writing list of installed files to '/home/timoha/KSAROmni/build/distance_node/install.log'
+[11.150s] Invoked command in '/home/timoha/KSAROmni/src/distance_node' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/distance_node/prefix_override:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/distance_node build --build-base /home/timoha/KSAROmni/build/distance_node/build install --record /home/timoha/KSAROmni/build/distance_node/install.log --single-version-externally-managed

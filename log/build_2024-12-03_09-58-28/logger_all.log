@@ -1,0 +1,661 @@
+[0.779s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.780s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffbac1df30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbac1d9f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbac1d9f0>>, mixin_verb=('build',))
+[2.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.052s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.052s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.052s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.052s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/timoha/KSAROmni'
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_publisher) by extensions ['ignore', 'ignore_ament_install']
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_publisher) by extension 'ignore'
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_publisher) by extension 'ignore_ament_install'
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_publisher) by extensions ['colcon_pkg']
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_publisher) by extension 'colcon_pkg'
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_publisher) by extensions ['colcon_meta']
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_publisher) by extension 'colcon_meta'
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_publisher) by extensions ['ros']
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_publisher) by extension 'ros'
+[2.125s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_publisher' with type 'ros.ament_python' and name 'aruco_publisher'
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_node) by extensions ['ignore', 'ignore_ament_install']
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_node) by extension 'ignore'
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_node) by extension 'ignore_ament_install'
+[2.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_node) by extensions ['colcon_pkg']
+[2.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_node) by extension 'colcon_pkg'
+[2.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_node) by extensions ['colcon_meta']
+[2.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_node) by extension 'colcon_meta'
+[2.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_node) by extensions ['ros']
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_node) by extension 'ros'
+[2.131s] DEBUG:colcon.colcon_core.package_identification:Package 'src/distance_node' with type 'ros.ament_python' and name 'distance_node'
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/kolonka) by extensions ['ignore', 'ignore_ament_install']
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/kolonka) by extension 'ignore'
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/kolonka) by extension 'ignore_ament_install'
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/kolonka) by extensions ['colcon_pkg']
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/kolonka) by extension 'colcon_pkg'
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/kolonka) by extensions ['colcon_meta']
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/kolonka) by extension 'colcon_meta'
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/kolonka) by extensions ['ros']
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/kolonka) by extension 'ros'
+[2.137s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kolonka' with type 'ros.ament_python' and name 'kolonka'
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_follow) by extensions ['ignore', 'ignore_ament_install']
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_follow) by extension 'ignore'
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_follow) by extension 'ignore_ament_install'
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_follow) by extensions ['colcon_pkg']
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_follow) by extension 'colcon_pkg'
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_follow) by extensions ['colcon_meta']
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_follow) by extension 'colcon_meta'
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_follow) by extensions ['ros']
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_follow) by extension 'ros'
+[2.143s] DEBUG:colcon.colcon_core.package_identification:Package 'src/laser_follow' with type 'ros.ament_python' and name 'laser_follow'
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['ignore', 'ignore_ament_install']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ignore'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ignore_ament_install'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['colcon_pkg']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'colcon_pkg'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['colcon_meta']
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'colcon_meta'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['ros']
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ros'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['cmake', 'python']
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'cmake'
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'python'
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['python_setup_py']
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'python_setup_py'
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_template) by extensions ['ignore', 'ignore_ament_install']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_template) by extension 'ignore'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_template) by extension 'ignore_ament_install'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_template) by extensions ['colcon_pkg']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_template) by extension 'colcon_pkg'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_template) by extensions ['colcon_meta']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_template) by extension 'colcon_meta'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_template) by extensions ['ros']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_template) by extension 'ros'
+[2.152s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_template' with type 'ros.ament_python' and name 'lidar_template'
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_package_robot) by extensions ['ignore', 'ignore_ament_install']
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_package_robot) by extension 'ignore'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_package_robot) by extension 'ignore_ament_install'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_package_robot) by extensions ['colcon_pkg']
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_package_robot) by extension 'colcon_pkg'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_package_robot) by extensions ['colcon_meta']
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_package_robot) by extension 'colcon_meta'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_package_robot) by extensions ['ros']
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_package_robot) by extension 'ros'
+[2.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/main_package_robot' with type 'ros.ament_python' and name 'main_package_robot'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extensions ['ignore', 'ignore_ament_install']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extension 'ignore'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extension 'ignore_ament_install'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extensions ['colcon_pkg']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extension 'colcon_pkg'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extensions ['colcon_meta']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extension 'colcon_meta'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extensions ['ros']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extension 'ros'
+[2.163s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_control_node' with type 'ros.ament_python' and name 'motor_control_node'
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnirobot) by extensions ['ignore', 'ignore_ament_install']
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnirobot) by extension 'ignore'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnirobot) by extension 'ignore_ament_install'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnirobot) by extensions ['colcon_pkg']
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnirobot) by extension 'colcon_pkg'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnirobot) by extensions ['colcon_meta']
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnirobot) by extension 'colcon_meta'
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnirobot) by extensions ['ros']
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnirobot) by extension 'ros'
+[2.167s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omnirobot' with type 'ros.ament_python' and name 'omnirobot'
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_pub) by extensions ['ignore', 'ignore_ament_install']
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_pub) by extension 'ignore'
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_pub) by extension 'ignore_ament_install'
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_pub) by extensions ['colcon_pkg']
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_pub) by extension 'colcon_pkg'
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_pub) by extensions ['colcon_meta']
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_pub) by extension 'colcon_meta'
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_pub) by extensions ['ros']
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_pub) by extension 'ros'
+[2.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/opencv_pub' with type 'ros.ament_python' and name 'opencv_pub'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_barrel_detector) by extensions ['ignore', 'ignore_ament_install']
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_barrel_detector) by extension 'ignore'
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_barrel_detector) by extension 'ignore_ament_install'
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_barrel_detector) by extensions ['colcon_pkg']
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_barrel_detector) by extension 'colcon_pkg'
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_barrel_detector) by extensions ['colcon_meta']
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_barrel_detector) by extension 'colcon_meta'
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_barrel_detector) by extensions ['ros']
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_barrel_detector) by extension 'ros'
+[2.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_barrel_detector' with type 'ros.ament_python' and name 'py_barrel_detector'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_main_alg) by extensions ['ignore', 'ignore_ament_install']
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_main_alg) by extension 'ignore'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_main_alg) by extension 'ignore_ament_install'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_main_alg) by extensions ['colcon_pkg']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_main_alg) by extension 'colcon_pkg'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_main_alg) by extensions ['colcon_meta']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_main_alg) by extension 'colcon_meta'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_main_alg) by extensions ['ros']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_main_alg) by extension 'ros'
+[2.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_main_alg' with type 'ros.ament_python' and name 'py_main_alg'
+[2.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.392s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 316 installed packages in /opt/ros/humble
+[2.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.586s] Level 5:colcon.colcon_core.verb:set package 'aruco_publisher' build argument 'cmake_args' from command line to 'None'
+[2.586s] Level 5:colcon.colcon_core.verb:set package 'aruco_publisher' build argument 'cmake_target' from command line to 'None'
+[2.586s] Level 5:colcon.colcon_core.verb:set package 'aruco_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.586s] Level 5:colcon.colcon_core.verb:set package 'aruco_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[2.586s] Level 5:colcon.colcon_core.verb:set package 'aruco_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[2.586s] Level 5:colcon.colcon_core.verb:set package 'aruco_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[2.586s] Level 5:colcon.colcon_core.verb:set package 'aruco_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[2.586s] Level 5:colcon.colcon_core.verb:set package 'aruco_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[2.587s] Level 5:colcon.colcon_core.verb:set package 'aruco_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.587s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/timoha/KSAROmni/build/aruco_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/timoha/KSAROmni/install/aruco_publisher', 'merge_install': False, 'path': '/home/timoha/KSAROmni/src/aruco_publisher', 'symlink_install': False, 'test_result_base': None}
+[2.588s] Level 5:colcon.colcon_core.verb:set package 'distance_node' build argument 'cmake_args' from command line to 'None'
+[2.589s] Level 5:colcon.colcon_core.verb:set package 'distance_node' build argument 'cmake_target' from command line to 'None'
+[2.589s] Level 5:colcon.colcon_core.verb:set package 'distance_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.589s] Level 5:colcon.colcon_core.verb:set package 'distance_node' build argument 'cmake_clean_cache' from command line to 'False'
+[2.589s] Level 5:colcon.colcon_core.verb:set package 'distance_node' build argument 'cmake_clean_first' from command line to 'False'
+[2.589s] Level 5:colcon.colcon_core.verb:set package 'distance_node' build argument 'cmake_force_configure' from command line to 'False'
+[2.589s] Level 5:colcon.colcon_core.verb:set package 'distance_node' build argument 'ament_cmake_args' from command line to 'None'
+[2.589s] Level 5:colcon.colcon_core.verb:set package 'distance_node' build argument 'catkin_cmake_args' from command line to 'None'
+[2.589s] Level 5:colcon.colcon_core.verb:set package 'distance_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.589s] DEBUG:colcon.colcon_core.verb:Building package 'distance_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/timoha/KSAROmni/build/distance_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/timoha/KSAROmni/install/distance_node', 'merge_install': False, 'path': '/home/timoha/KSAROmni/src/distance_node', 'symlink_install': False, 'test_result_base': None}
+[2.591s] Level 5:colcon.colcon_core.verb:set package 'kolonka' build argument 'cmake_args' from command line to 'None'
+[2.591s] Level 5:colcon.colcon_core.verb:set package 'kolonka' build argument 'cmake_target' from command line to 'None'
+[2.591s] Level 5:colcon.colcon_core.verb:set package 'kolonka' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.591s] Level 5:colcon.colcon_core.verb:set package 'kolonka' build argument 'cmake_clean_cache' from command line to 'False'
+[2.591s] Level 5:colcon.colcon_core.verb:set package 'kolonka' build argument 'cmake_clean_first' from command line to 'False'
+[2.591s] Level 5:colcon.colcon_core.verb:set package 'kolonka' build argument 'cmake_force_configure' from command line to 'False'
+[2.591s] Level 5:colcon.colcon_core.verb:set package 'kolonka' build argument 'ament_cmake_args' from command line to 'None'
+[2.592s] Level 5:colcon.colcon_core.verb:set package 'kolonka' build argument 'catkin_cmake_args' from command line to 'None'
+[2.592s] Level 5:colcon.colcon_core.verb:set package 'kolonka' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.592s] DEBUG:colcon.colcon_core.verb:Building package 'kolonka' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/timoha/KSAROmni/build/kolonka', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/timoha/KSAROmni/install/kolonka', 'merge_install': False, 'path': '/home/timoha/KSAROmni/src/kolonka', 'symlink_install': False, 'test_result_base': None}
+[2.593s] Level 5:colcon.colcon_core.verb:set package 'laser_follow' build argument 'cmake_args' from command line to 'None'
+[2.593s] Level 5:colcon.colcon_core.verb:set package 'laser_follow' build argument 'cmake_target' from command line to 'None'
+[2.593s] Level 5:colcon.colcon_core.verb:set package 'laser_follow' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.593s] Level 5:colcon.colcon_core.verb:set package 'laser_follow' build argument 'cmake_clean_cache' from command line to 'False'
+[2.594s] Level 5:colcon.colcon_core.verb:set package 'laser_follow' build argument 'cmake_clean_first' from command line to 'False'
+[2.594s] Level 5:colcon.colcon_core.verb:set package 'laser_follow' build argument 'cmake_force_configure' from command line to 'False'
+[2.594s] Level 5:colcon.colcon_core.verb:set package 'laser_follow' build argument 'ament_cmake_args' from command line to 'None'
+[2.594s] Level 5:colcon.colcon_core.verb:set package 'laser_follow' build argument 'catkin_cmake_args' from command line to 'None'
+[2.594s] Level 5:colcon.colcon_core.verb:set package 'laser_follow' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.594s] DEBUG:colcon.colcon_core.verb:Building package 'laser_follow' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/timoha/KSAROmni/build/laser_follow', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/timoha/KSAROmni/install/laser_follow', 'merge_install': False, 'path': '/home/timoha/KSAROmni/src/laser_follow', 'symlink_install': False, 'test_result_base': None}
+[2.595s] Level 5:colcon.colcon_core.verb:set package 'lidar_template' build argument 'cmake_args' from command line to 'None'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'lidar_template' build argument 'cmake_target' from command line to 'None'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'lidar_template' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'lidar_template' build argument 'cmake_clean_cache' from command line to 'False'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'lidar_template' build argument 'cmake_clean_first' from command line to 'False'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'lidar_template' build argument 'cmake_force_configure' from command line to 'False'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'lidar_template' build argument 'ament_cmake_args' from command line to 'None'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'lidar_template' build argument 'catkin_cmake_args' from command line to 'None'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'lidar_template' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.596s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_template' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/timoha/KSAROmni/build/lidar_template', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/timoha/KSAROmni/install/lidar_template', 'merge_install': False, 'path': '/home/timoha/KSAROmni/src/lidar_template', 'symlink_install': False, 'test_result_base': None}
+[2.598s] Level 5:colcon.colcon_core.verb:set package 'main_package_robot' build argument 'cmake_args' from command line to 'None'
+[2.598s] Level 5:colcon.colcon_core.verb:set package 'main_package_robot' build argument 'cmake_target' from command line to 'None'
+[2.598s] Level 5:colcon.colcon_core.verb:set package 'main_package_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.598s] Level 5:colcon.colcon_core.verb:set package 'main_package_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[2.598s] Level 5:colcon.colcon_core.verb:set package 'main_package_robot' build argument 'cmake_clean_first' from command line to 'False'
+[2.598s] Level 5:colcon.colcon_core.verb:set package 'main_package_robot' build argument 'cmake_force_configure' from command line to 'False'
+[2.598s] Level 5:colcon.colcon_core.verb:set package 'main_package_robot' build argument 'ament_cmake_args' from command line to 'None'
+[2.598s] Level 5:colcon.colcon_core.verb:set package 'main_package_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[2.599s] Level 5:colcon.colcon_core.verb:set package 'main_package_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.599s] DEBUG:colcon.colcon_core.verb:Building package 'main_package_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/timoha/KSAROmni/build/main_package_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/timoha/KSAROmni/install/main_package_robot', 'merge_install': False, 'path': '/home/timoha/KSAROmni/src/main_package_robot', 'symlink_install': False, 'test_result_base': None}
+[2.600s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'cmake_args' from command line to 'None'
+[2.600s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'cmake_target' from command line to 'None'
+[2.600s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.600s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'cmake_clean_cache' from command line to 'False'
+[2.601s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'cmake_clean_first' from command line to 'False'
+[2.601s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'cmake_force_configure' from command line to 'False'
+[2.601s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'ament_cmake_args' from command line to 'None'
+[2.601s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'catkin_cmake_args' from command line to 'None'
+[2.601s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.601s] DEBUG:colcon.colcon_core.verb:Building package 'motor_control_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/timoha/KSAROmni/build/motor_control_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/timoha/KSAROmni/install/motor_control_node', 'merge_install': False, 'path': '/home/timoha/KSAROmni/src/motor_control_node', 'symlink_install': False, 'test_result_base': None}
+[2.602s] Level 5:colcon.colcon_core.verb:set package 'omnirobot' build argument 'cmake_args' from command line to 'None'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'omnirobot' build argument 'cmake_target' from command line to 'None'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'omnirobot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'omnirobot' build argument 'cmake_clean_cache' from command line to 'False'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'omnirobot' build argument 'cmake_clean_first' from command line to 'False'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'omnirobot' build argument 'cmake_force_configure' from command line to 'False'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'omnirobot' build argument 'ament_cmake_args' from command line to 'None'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'omnirobot' build argument 'catkin_cmake_args' from command line to 'None'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'omnirobot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.603s] DEBUG:colcon.colcon_core.verb:Building package 'omnirobot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/timoha/KSAROmni/build/omnirobot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/timoha/KSAROmni/install/omnirobot', 'merge_install': False, 'path': '/home/timoha/KSAROmni/src/omnirobot', 'symlink_install': False, 'test_result_base': None}
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'opencv_pub' build argument 'cmake_args' from command line to 'None'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'opencv_pub' build argument 'cmake_target' from command line to 'None'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'opencv_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'opencv_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'opencv_pub' build argument 'cmake_clean_first' from command line to 'False'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'opencv_pub' build argument 'cmake_force_configure' from command line to 'False'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'opencv_pub' build argument 'ament_cmake_args' from command line to 'None'
+[2.606s] Level 5:colcon.colcon_core.verb:set package 'opencv_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[2.606s] Level 5:colcon.colcon_core.verb:set package 'opencv_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.606s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/timoha/KSAROmni/build/opencv_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/timoha/KSAROmni/install/opencv_pub', 'merge_install': False, 'path': '/home/timoha/KSAROmni/src/opencv_pub', 'symlink_install': False, 'test_result_base': None}
+[2.607s] Level 5:colcon.colcon_core.verb:set package 'py_barrel_detector' build argument 'cmake_args' from command line to 'None'
+[2.607s] Level 5:colcon.colcon_core.verb:set package 'py_barrel_detector' build argument 'cmake_target' from command line to 'None'
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'py_barrel_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'py_barrel_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'py_barrel_detector' build argument 'cmake_clean_first' from command line to 'False'
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'py_barrel_detector' build argument 'cmake_force_configure' from command line to 'False'
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'py_barrel_detector' build argument 'ament_cmake_args' from command line to 'None'
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'py_barrel_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'py_barrel_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.608s] DEBUG:colcon.colcon_core.verb:Building package 'py_barrel_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/timoha/KSAROmni/build/py_barrel_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/timoha/KSAROmni/install/py_barrel_detector', 'merge_install': False, 'path': '/home/timoha/KSAROmni/src/py_barrel_detector', 'symlink_install': False, 'test_result_base': None}
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'py_main_alg' build argument 'cmake_args' from command line to 'None'
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'py_main_alg' build argument 'cmake_target' from command line to 'None'
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'py_main_alg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'py_main_alg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'py_main_alg' build argument 'cmake_clean_first' from command line to 'False'
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'py_main_alg' build argument 'cmake_force_configure' from command line to 'False'
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'py_main_alg' build argument 'ament_cmake_args' from command line to 'None'
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'py_main_alg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'py_main_alg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.611s] DEBUG:colcon.colcon_core.verb:Building package 'py_main_alg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/timoha/KSAROmni/build/py_main_alg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/timoha/KSAROmni/install/py_main_alg', 'merge_install': False, 'path': '/home/timoha/KSAROmni/src/py_main_alg', 'symlink_install': False, 'test_result_base': None}
+[2.611s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.615s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.616s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/timoha/KSAROmni/src/aruco_publisher' with build type 'ament_python'
+[2.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_publisher', 'ament_prefix_path')
+[2.638s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/aruco_publisher/share/aruco_publisher/hook/ament_prefix_path.ps1'
+[2.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/aruco_publisher/share/aruco_publisher/hook/ament_prefix_path.dsv'
+[2.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/aruco_publisher/share/aruco_publisher/hook/ament_prefix_path.sh'
+[2.653s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.653s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.672s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/timoha/KSAROmni/src/distance_node' with build type 'ament_python'
+[2.673s] Level 1:colcon.colcon_core.shell:create_environment_hook('distance_node', 'ament_prefix_path')
+[2.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/distance_node/share/distance_node/hook/ament_prefix_path.ps1'
+[2.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/distance_node/share/distance_node/hook/ament_prefix_path.dsv'
+[2.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/distance_node/share/distance_node/hook/ament_prefix_path.sh'
+[2.684s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.684s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.701s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/timoha/KSAROmni/src/kolonka' with build type 'ament_python'
+[2.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('kolonka', 'ament_prefix_path')
+[2.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/kolonka/share/kolonka/hook/ament_prefix_path.ps1'
+[2.708s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/kolonka/share/kolonka/hook/ament_prefix_path.dsv'
+[2.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/kolonka/share/kolonka/hook/ament_prefix_path.sh'
+[2.714s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.714s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.733s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/timoha/KSAROmni/src/laser_follow' with build type 'ament_python'
+[2.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_follow', 'ament_prefix_path')
+[2.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/laser_follow/share/laser_follow/hook/ament_prefix_path.ps1'
+[2.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/laser_follow/share/laser_follow/hook/ament_prefix_path.dsv'
+[2.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/laser_follow/share/laser_follow/hook/ament_prefix_path.sh'
+[2.745s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.746s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.927s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/timoha/KSAROmni/src/aruco_publisher'
+[3.928s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.929s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.099s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/timoha/KSAROmni/src/distance_node'
+[5.100s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.101s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.276s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/timoha/KSAROmni/src/kolonka'
+[6.278s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.278s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.466s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/timoha/KSAROmni/src/laser_follow'
+[7.468s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/timoha/KSAROmni/build/laser_follow': PYTHONPATH=/home/timoha/KSAROmni/build/laser_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/laser_follow/build
+[10.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/timoha/KSAROmni/build/kolonka': PYTHONPATH=/home/timoha/KSAROmni/build/kolonka/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/kolonka/build
+[10.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/timoha/KSAROmni/build/aruco_publisher': PYTHONPATH=/home/timoha/KSAROmni/build/aruco_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/aruco_publisher/build
+[10.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/timoha/KSAROmni/build/distance_node': PYTHONPATH=/home/timoha/KSAROmni/build/distance_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/distance_node/build
+[13.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/timoha/KSAROmni/build/kolonka' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/kolonka/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/kolonka/build
+[13.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/timoha/KSAROmni/src/kolonka': PYTHONPATH=/home/timoha/KSAROmni/build/kolonka/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/kolonka build --build-base /home/timoha/KSAROmni/build/kolonka/build install --record /home/timoha/KSAROmni/build/kolonka/install.log --single-version-externally-managed install_data --force
+[13.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/timoha/KSAROmni/build/laser_follow' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/laser_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/laser_follow/build
+[13.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/timoha/KSAROmni/src/laser_follow': PYTHONPATH=/home/timoha/KSAROmni/build/laser_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/laser_follow build --build-base /home/timoha/KSAROmni/build/laser_follow/build install --record /home/timoha/KSAROmni/build/laser_follow/install.log --single-version-externally-managed install_data --force
+[13.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/timoha/KSAROmni/build/aruco_publisher' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/aruco_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/aruco_publisher/build
+[13.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/timoha/KSAROmni/src/aruco_publisher': PYTHONPATH=/home/timoha/KSAROmni/build/aruco_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/aruco_publisher build --build-base /home/timoha/KSAROmni/build/aruco_publisher/build install --record /home/timoha/KSAROmni/build/aruco_publisher/install.log --single-version-externally-managed install_data --force
+[13.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/timoha/KSAROmni/build/distance_node' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/distance_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/distance_node/build
+[13.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/timoha/KSAROmni/src/distance_node': PYTHONPATH=/home/timoha/KSAROmni/build/distance_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/distance_node build --build-base /home/timoha/KSAROmni/build/distance_node/build install --record /home/timoha/KSAROmni/build/distance_node/install.log --single-version-externally-managed install_data --force
+[15.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/timoha/KSAROmni/src/kolonka' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/kolonka/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/kolonka build --build-base /home/timoha/KSAROmni/build/kolonka/build install --record /home/timoha/KSAROmni/build/kolonka/install.log --single-version-externally-managed install_data --force
+[15.723s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/kolonka' for CMake module files
+[15.729s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/kolonka' for CMake config files
+[15.741s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/kolonka/lib'
+[15.743s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/kolonka/bin'
+[15.745s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/kolonka/lib/pkgconfig/kolonka.pc'
+[15.747s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages'
+[15.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('kolonka', 'pythonpath')
+[15.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/kolonka/share/kolonka/hook/pythonpath.ps1'
+[15.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/kolonka/share/kolonka/hook/pythonpath.dsv'
+[15.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/kolonka/share/kolonka/hook/pythonpath.sh'
+[15.762s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/kolonka/bin'
+[15.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kolonka)
+[15.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/kolonka/share/kolonka/package.ps1'
+[15.774s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/timoha/KSAROmni/install/kolonka/share/kolonka/package.dsv'
+[15.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/kolonka/share/kolonka/package.sh'
+[15.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/kolonka/share/kolonka/package.bash'
+[15.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/kolonka/share/kolonka/package.zsh'
+[15.811s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/timoha/KSAROmni/install/kolonka/share/colcon-core/packages/kolonka)
+[15.816s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/timoha/KSAROmni/src/lidar_template' with build type 'ament_python'
+[15.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_template', 'ament_prefix_path')
+[15.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/lidar_template/share/lidar_template/hook/ament_prefix_path.ps1'
+[15.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/lidar_template/share/lidar_template/hook/ament_prefix_path.dsv'
+[15.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/lidar_template/share/lidar_template/hook/ament_prefix_path.sh'
+[15.839s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.840s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.904s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/laser_follow' for CMake module files
+[15.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/timoha/KSAROmni/src/laser_follow' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/laser_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/laser_follow build --build-base /home/timoha/KSAROmni/build/laser_follow/build install --record /home/timoha/KSAROmni/build/laser_follow/install.log --single-version-externally-managed install_data --force
+[15.919s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/laser_follow' for CMake config files
+[15.937s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/laser_follow/lib'
+[15.938s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/laser_follow/bin'
+[15.940s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/laser_follow/lib/pkgconfig/laser_follow.pc'
+[15.943s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages'
+[15.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_follow', 'pythonpath')
+[15.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/laser_follow/share/laser_follow/hook/pythonpath.ps1'
+[15.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/laser_follow/share/laser_follow/hook/pythonpath.dsv'
+[15.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/laser_follow/share/laser_follow/hook/pythonpath.sh'
+[15.964s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/laser_follow/bin'
+[15.965s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(laser_follow)
+[15.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/laser_follow/share/laser_follow/package.ps1'
+[15.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/timoha/KSAROmni/install/laser_follow/share/laser_follow/package.dsv'
+[15.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/laser_follow/share/laser_follow/package.sh'
+[15.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/laser_follow/share/laser_follow/package.bash'
+[15.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/laser_follow/share/laser_follow/package.zsh'
+[15.998s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/timoha/KSAROmni/install/laser_follow/share/colcon-core/packages/laser_follow)
+[16.005s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/timoha/KSAROmni/src/main_package_robot' with build type 'ament_python'
+[16.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_package_robot', 'ament_prefix_path')
+[16.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/main_package_robot/share/main_package_robot/hook/ament_prefix_path.ps1'
+[16.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/main_package_robot/share/main_package_robot/hook/ament_prefix_path.dsv'
+[16.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/main_package_robot/share/main_package_robot/hook/ament_prefix_path.sh'
+[16.029s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.030s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.232s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/timoha/KSAROmni/src/lidar_template'
+[17.233s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.233s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.252s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/aruco_publisher' for CMake module files
+[17.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/timoha/KSAROmni/src/aruco_publisher' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/aruco_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/aruco_publisher build --build-base /home/timoha/KSAROmni/build/aruco_publisher/build install --record /home/timoha/KSAROmni/build/aruco_publisher/install.log --single-version-externally-managed install_data --force
+[17.257s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/aruco_publisher' for CMake config files
+[17.262s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/aruco_publisher/lib'
+[17.263s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/aruco_publisher/bin'
+[17.263s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/aruco_publisher/lib/pkgconfig/aruco_publisher.pc'
+[17.264s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages'
+[17.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_publisher', 'pythonpath')
+[17.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/aruco_publisher/share/aruco_publisher/hook/pythonpath.ps1'
+[17.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/aruco_publisher/share/aruco_publisher/hook/pythonpath.dsv'
+[17.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/aruco_publisher/share/aruco_publisher/hook/pythonpath.sh'
+[17.272s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/aruco_publisher/bin'
+[17.272s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_publisher)
+[17.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/aruco_publisher/share/aruco_publisher/package.ps1'
+[17.276s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/timoha/KSAROmni/install/aruco_publisher/share/aruco_publisher/package.dsv'
+[17.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/aruco_publisher/share/aruco_publisher/package.sh'
+[17.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/aruco_publisher/share/aruco_publisher/package.bash'
+[17.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/aruco_publisher/share/aruco_publisher/package.zsh'
+[17.284s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/timoha/KSAROmni/install/aruco_publisher/share/colcon-core/packages/aruco_publisher)
+[17.290s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/timoha/KSAROmni/src/motor_control_node' with build type 'ament_python'
+[17.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_control_node', 'ament_prefix_path')
+[17.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/motor_control_node/share/motor_control_node/hook/ament_prefix_path.ps1'
+[17.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/motor_control_node/share/motor_control_node/hook/ament_prefix_path.dsv'
+[17.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/motor_control_node/share/motor_control_node/hook/ament_prefix_path.sh'
+[17.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.322s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/distance_node' for CMake module files
+[17.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/timoha/KSAROmni/src/distance_node' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/distance_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/distance_node build --build-base /home/timoha/KSAROmni/build/distance_node/build install --record /home/timoha/KSAROmni/build/distance_node/install.log --single-version-externally-managed install_data --force
+[17.328s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/distance_node' for CMake config files
+[17.333s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/distance_node/lib'
+[17.334s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/distance_node/bin'
+[17.334s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/distance_node/lib/pkgconfig/distance_node.pc'
+[17.336s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages'
+[17.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('distance_node', 'pythonpath')
+[17.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/distance_node/share/distance_node/hook/pythonpath.ps1'
+[17.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/distance_node/share/distance_node/hook/pythonpath.dsv'
+[17.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/distance_node/share/distance_node/hook/pythonpath.sh'
+[17.345s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/distance_node/bin'
+[17.345s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(distance_node)
+[17.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/distance_node/share/distance_node/package.ps1'
+[17.349s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/timoha/KSAROmni/install/distance_node/share/distance_node/package.dsv'
+[17.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/distance_node/share/distance_node/package.sh'
+[17.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/distance_node/share/distance_node/package.bash'
+[17.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/distance_node/share/distance_node/package.zsh'
+[17.356s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/timoha/KSAROmni/install/distance_node/share/colcon-core/packages/distance_node)
+[18.518s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/timoha/KSAROmni/src/main_package_robot'
+[18.519s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.519s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.535s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/timoha/KSAROmni/src/omnirobot' with build type 'ament_python'
+[18.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnirobot', 'ament_prefix_path')
+[18.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/omnirobot/share/omnirobot/hook/ament_prefix_path.ps1'
+[18.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/omnirobot/share/omnirobot/hook/ament_prefix_path.dsv'
+[18.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/omnirobot/share/omnirobot/hook/ament_prefix_path.sh'
+[18.544s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.545s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.913s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/timoha/KSAROmni/src/motor_control_node'
+[19.914s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.914s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.400s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/timoha/KSAROmni/src/omnirobot'
+[21.401s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.401s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/timoha/KSAROmni/build/lidar_template': PYTHONPATH=/home/timoha/KSAROmni/build/lidar_template/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/lidar_template/build
+[21.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/timoha/KSAROmni/build/main_package_robot': PYTHONPATH=/home/timoha/KSAROmni/build/main_package_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/main_package_robot/build
+[23.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/timoha/KSAROmni/build/motor_control_node': PYTHONPATH=/home/timoha/KSAROmni/build/motor_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/motor_control_node/build
+[23.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/timoha/KSAROmni/src/omnirobot': PYTHONPATH=/home/timoha/KSAROmni/build/omnirobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/omnirobot build --build-base /home/timoha/KSAROmni/build/omnirobot/build install --record /home/timoha/KSAROmni/build/omnirobot/install.log --single-version-externally-managed install_data
+[25.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/timoha/KSAROmni/build/lidar_template' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/lidar_template/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/lidar_template/build
+[25.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/timoha/KSAROmni/src/lidar_template': PYTHONPATH=/home/timoha/KSAROmni/build/lidar_template/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar_template build --build-base /home/timoha/KSAROmni/build/lidar_template/build install --record /home/timoha/KSAROmni/build/lidar_template/install.log --single-version-externally-managed install_data --force
+[25.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/timoha/KSAROmni/build/main_package_robot' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/main_package_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/main_package_robot/build
+[25.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/timoha/KSAROmni/src/main_package_robot': PYTHONPATH=/home/timoha/KSAROmni/build/main_package_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/main_package_robot build --build-base /home/timoha/KSAROmni/build/main_package_robot/build install --record /home/timoha/KSAROmni/build/main_package_robot/install.log --single-version-externally-managed install_data --force
+[26.099s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/omnirobot' for CMake module files
+[26.103s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/omnirobot' for CMake config files
+[26.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/timoha/KSAROmni/src/omnirobot' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/omnirobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/omnirobot build --build-base /home/timoha/KSAROmni/build/omnirobot/build install --record /home/timoha/KSAROmni/build/omnirobot/install.log --single-version-externally-managed install_data
+[26.110s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/omnirobot/lib'
+[26.111s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/omnirobot/bin'
+[26.111s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/omnirobot/lib/pkgconfig/omnirobot.pc'
+[26.113s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages'
+[26.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnirobot', 'pythonpath')
+[26.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/omnirobot/share/omnirobot/hook/pythonpath.ps1'
+[26.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/omnirobot/share/omnirobot/hook/pythonpath.dsv'
+[26.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/omnirobot/share/omnirobot/hook/pythonpath.sh'
+[26.122s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/omnirobot/bin'
+[26.123s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omnirobot)
+[26.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/omnirobot/share/omnirobot/package.ps1'
+[26.127s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/timoha/KSAROmni/install/omnirobot/share/omnirobot/package.dsv'
+[26.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/omnirobot/share/omnirobot/package.sh'
+[26.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/omnirobot/share/omnirobot/package.bash'
+[26.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/omnirobot/share/omnirobot/package.zsh'
+[26.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/timoha/KSAROmni/install/omnirobot/share/colcon-core/packages/omnirobot)
+[26.152s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/timoha/KSAROmni/src/opencv_pub' with build type 'ament_python'
+[26.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_pub', 'ament_prefix_path')
+[26.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/opencv_pub/share/opencv_pub/hook/ament_prefix_path.ps1'
+[26.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/opencv_pub/share/opencv_pub/hook/ament_prefix_path.dsv'
+[26.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/opencv_pub/share/opencv_pub/hook/ament_prefix_path.sh'
+[26.176s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.177s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.060s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/timoha/KSAROmni/src/opencv_pub'
+[28.061s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.062s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/timoha/KSAROmni/build/motor_control_node' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/motor_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/motor_control_node/build
+[28.095s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/lidar_template' for CMake module files
+[28.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/timoha/KSAROmni/src/motor_control_node': PYTHONPATH=/home/timoha/KSAROmni/build/motor_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control_node build --build-base /home/timoha/KSAROmni/build/motor_control_node/build install --record /home/timoha/KSAROmni/build/motor_control_node/install.log --single-version-externally-managed install_data --force
+[28.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/timoha/KSAROmni/src/lidar_template' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/lidar_template/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar_template build --build-base /home/timoha/KSAROmni/build/lidar_template/build install --record /home/timoha/KSAROmni/build/lidar_template/install.log --single-version-externally-managed install_data --force
+[28.102s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/lidar_template' for CMake config files
+[28.108s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/lidar_template/lib'
+[28.109s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/lidar_template/bin'
+[28.109s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/lidar_template/lib/pkgconfig/lidar_template.pc'
+[28.110s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages'
+[28.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_template', 'pythonpath')
+[28.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/lidar_template/share/lidar_template/hook/pythonpath.ps1'
+[28.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/lidar_template/share/lidar_template/hook/pythonpath.dsv'
+[28.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/lidar_template/share/lidar_template/hook/pythonpath.sh'
+[28.118s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/lidar_template/bin'
+[28.118s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_template)
+[28.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/lidar_template/share/lidar_template/package.ps1'
+[28.122s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/timoha/KSAROmni/install/lidar_template/share/lidar_template/package.dsv'
+[28.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/lidar_template/share/lidar_template/package.sh'
+[28.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/lidar_template/share/lidar_template/package.bash'
+[28.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/lidar_template/share/lidar_template/package.zsh'
+[28.131s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/timoha/KSAROmni/install/lidar_template/share/colcon-core/packages/lidar_template)
+[28.133s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/main_package_robot' for CMake module files
+[28.138s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/main_package_robot' for CMake config files
+[28.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/timoha/KSAROmni/src/main_package_robot' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/main_package_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/main_package_robot build --build-base /home/timoha/KSAROmni/build/main_package_robot/build install --record /home/timoha/KSAROmni/build/main_package_robot/install.log --single-version-externally-managed install_data --force
+[28.144s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/main_package_robot/lib'
+[28.145s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/main_package_robot/bin'
+[28.145s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/main_package_robot/lib/pkgconfig/main_package_robot.pc'
+[28.146s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages'
+[28.147s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_package_robot', 'pythonpath')
+[28.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/main_package_robot/share/main_package_robot/hook/pythonpath.ps1'
+[28.151s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/main_package_robot/share/main_package_robot/hook/pythonpath.dsv'
+[28.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/main_package_robot/share/main_package_robot/hook/pythonpath.sh'
+[28.157s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/main_package_robot/bin'
+[28.157s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(main_package_robot)
+[28.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/main_package_robot/share/main_package_robot/package.ps1'
+[28.161s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/timoha/KSAROmni/install/main_package_robot/share/main_package_robot/package.dsv'
+[28.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/main_package_robot/share/main_package_robot/package.sh'
+[28.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/main_package_robot/share/main_package_robot/package.bash'
+[28.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/main_package_robot/share/main_package_robot/package.zsh'
+[28.170s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/timoha/KSAROmni/install/main_package_robot/share/colcon-core/packages/main_package_robot)
+[28.174s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/timoha/KSAROmni/src/py_barrel_detector' with build type 'ament_python'
+[28.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_barrel_detector', 'ament_prefix_path')
+[28.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/py_barrel_detector/share/py_barrel_detector/hook/ament_prefix_path.ps1'
+[28.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/py_barrel_detector/share/py_barrel_detector/hook/ament_prefix_path.dsv'
+[28.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/py_barrel_detector/share/py_barrel_detector/hook/ament_prefix_path.sh'
+[28.215s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.215s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.232s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/timoha/KSAROmni/src/py_main_alg' with build type 'ament_python'
+[28.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_main_alg', 'ament_prefix_path')
+[28.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/py_main_alg/share/py_main_alg/hook/ament_prefix_path.ps1'
+[28.241s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/py_main_alg/share/py_main_alg/hook/ament_prefix_path.dsv'
+[28.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/py_main_alg/share/py_main_alg/hook/ament_prefix_path.sh'
+[28.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.247s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[29.911s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/timoha/KSAROmni/src/py_barrel_detector'
+[29.912s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[29.913s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.176s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/timoha/KSAROmni/src/py_main_alg'
+[31.177s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.177s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.199s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/motor_control_node' for CMake module files
+[31.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/timoha/KSAROmni/src/motor_control_node' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/motor_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control_node build --build-base /home/timoha/KSAROmni/build/motor_control_node/build install --record /home/timoha/KSAROmni/build/motor_control_node/install.log --single-version-externally-managed install_data --force
+[31.204s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/motor_control_node' for CMake config files
+[31.209s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/motor_control_node/lib'
+[31.210s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/motor_control_node/bin'
+[31.210s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/motor_control_node/lib/pkgconfig/motor_control_node.pc'
+[31.211s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages'
+[31.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_control_node', 'pythonpath')
+[31.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/motor_control_node/share/motor_control_node/hook/pythonpath.ps1'
+[31.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/motor_control_node/share/motor_control_node/hook/pythonpath.dsv'
+[31.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/motor_control_node/share/motor_control_node/hook/pythonpath.sh'
+[31.218s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/motor_control_node/bin'
+[31.218s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_control_node)
+[31.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/motor_control_node/share/motor_control_node/package.ps1'
+[31.223s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/timoha/KSAROmni/install/motor_control_node/share/motor_control_node/package.dsv'
+[31.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/motor_control_node/share/motor_control_node/package.sh'
+[31.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/motor_control_node/share/motor_control_node/package.bash'
+[31.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/motor_control_node/share/motor_control_node/package.zsh'
+[31.234s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/timoha/KSAROmni/install/motor_control_node/share/colcon-core/packages/motor_control_node)
+[31.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/timoha/KSAROmni/build/opencv_pub': PYTHONPATH=/home/timoha/KSAROmni/build/opencv_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/opencv_pub/build
+[33.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/timoha/KSAROmni/build/py_barrel_detector': PYTHONPATH=/home/timoha/KSAROmni/build/py_barrel_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/py_barrel_detector/build
+[33.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/timoha/KSAROmni/build/py_main_alg': PYTHONPATH=/home/timoha/KSAROmni/build/py_main_alg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/py_main_alg/build
+[34.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/timoha/KSAROmni/build/opencv_pub' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/opencv_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/opencv_pub/build
+[34.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/timoha/KSAROmni/src/opencv_pub': PYTHONPATH=/home/timoha/KSAROmni/build/opencv_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/opencv_pub build --build-base /home/timoha/KSAROmni/build/opencv_pub/build install --record /home/timoha/KSAROmni/build/opencv_pub/install.log --single-version-externally-managed install_data --force
+[36.188s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/opencv_pub' for CMake module files
+[36.192s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/opencv_pub' for CMake config files
+[36.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/timoha/KSAROmni/src/opencv_pub' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/opencv_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/opencv_pub build --build-base /home/timoha/KSAROmni/build/opencv_pub/build install --record /home/timoha/KSAROmni/build/opencv_pub/install.log --single-version-externally-managed install_data --force
+[36.220s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/opencv_pub/lib'
+[36.222s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/opencv_pub/bin'
+[36.223s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/opencv_pub/lib/pkgconfig/opencv_pub.pc'
+[36.226s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages'
+[36.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_pub', 'pythonpath')
+[36.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/opencv_pub/share/opencv_pub/hook/pythonpath.ps1'
+[36.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/opencv_pub/share/opencv_pub/hook/pythonpath.dsv'
+[36.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/opencv_pub/share/opencv_pub/hook/pythonpath.sh'
+[36.253s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/opencv_pub/bin'
+[36.254s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_pub)
+[36.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/opencv_pub/share/opencv_pub/package.ps1'
+[36.263s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/timoha/KSAROmni/install/opencv_pub/share/opencv_pub/package.dsv'
+[36.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/opencv_pub/share/opencv_pub/package.sh'
+[36.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/opencv_pub/share/opencv_pub/package.bash'
+[36.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/opencv_pub/share/opencv_pub/package.zsh'
+[36.290s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/timoha/KSAROmni/install/opencv_pub/share/colcon-core/packages/opencv_pub)
+[36.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/timoha/KSAROmni/build/py_main_alg' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/py_main_alg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/py_main_alg/build
+[36.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/timoha/KSAROmni/src/py_main_alg': PYTHONPATH=/home/timoha/KSAROmni/build/py_main_alg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_main_alg build --build-base /home/timoha/KSAROmni/build/py_main_alg/build install --record /home/timoha/KSAROmni/build/py_main_alg/install.log --single-version-externally-managed install_data --force
+[36.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/timoha/KSAROmni/build/py_barrel_detector' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/py_barrel_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/py_barrel_detector/build
+[36.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/timoha/KSAROmni/src/py_barrel_detector': PYTHONPATH=/home/timoha/KSAROmni/build/py_barrel_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_barrel_detector build --build-base /home/timoha/KSAROmni/build/py_barrel_detector/build install --record /home/timoha/KSAROmni/build/py_barrel_detector/install.log --single-version-externally-managed install_data --force
+[37.889s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/py_main_alg' for CMake module files
+[37.892s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/py_main_alg' for CMake config files
+[37.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/timoha/KSAROmni/src/py_main_alg' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/py_main_alg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_main_alg build --build-base /home/timoha/KSAROmni/build/py_main_alg/build install --record /home/timoha/KSAROmni/build/py_main_alg/install.log --single-version-externally-managed install_data --force
+[37.900s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/py_main_alg/lib'
+[37.901s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/py_main_alg/bin'
+[37.901s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/py_main_alg/lib/pkgconfig/py_main_alg.pc'
+[37.904s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages'
+[37.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_main_alg', 'pythonpath')
+[37.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/py_main_alg/share/py_main_alg/hook/pythonpath.ps1'
+[37.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/py_main_alg/share/py_main_alg/hook/pythonpath.dsv'
+[37.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/py_main_alg/share/py_main_alg/hook/pythonpath.sh'
+[37.916s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/py_main_alg/bin'
+[37.916s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_main_alg)
+[37.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/py_main_alg/share/py_main_alg/package.ps1'
+[37.920s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/timoha/KSAROmni/install/py_main_alg/share/py_main_alg/package.dsv'
+[37.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/py_main_alg/share/py_main_alg/package.sh'
+[37.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/py_main_alg/share/py_main_alg/package.bash'
+[37.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/py_main_alg/share/py_main_alg/package.zsh'
+[37.927s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/timoha/KSAROmni/install/py_main_alg/share/colcon-core/packages/py_main_alg)
+[37.932s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/py_barrel_detector' for CMake module files
+[37.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/timoha/KSAROmni/src/py_barrel_detector' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/py_barrel_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_barrel_detector build --build-base /home/timoha/KSAROmni/build/py_barrel_detector/build install --record /home/timoha/KSAROmni/build/py_barrel_detector/install.log --single-version-externally-managed install_data --force
+[37.937s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/py_barrel_detector' for CMake config files
+[37.943s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/py_barrel_detector/lib'
+[37.943s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/py_barrel_detector/bin'
+[37.944s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/py_barrel_detector/lib/pkgconfig/py_barrel_detector.pc'
+[37.945s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages'
+[37.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_barrel_detector', 'pythonpath')
+[37.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/py_barrel_detector/share/py_barrel_detector/hook/pythonpath.ps1'
+[37.949s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/timoha/KSAROmni/install/py_barrel_detector/share/py_barrel_detector/hook/pythonpath.dsv'
+[37.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/timoha/KSAROmni/install/py_barrel_detector/share/py_barrel_detector/hook/pythonpath.sh'
+[37.953s] Level 1:colcon.colcon_core.environment:checking '/home/timoha/KSAROmni/install/py_barrel_detector/bin'
+[37.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_barrel_detector)
+[37.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/py_barrel_detector/share/py_barrel_detector/package.ps1'
+[37.957s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/timoha/KSAROmni/install/py_barrel_detector/share/py_barrel_detector/package.dsv'
+[37.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/py_barrel_detector/share/py_barrel_detector/package.sh'
+[37.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/py_barrel_detector/share/py_barrel_detector/package.bash'
+[37.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/timoha/KSAROmni/install/py_barrel_detector/share/py_barrel_detector/package.zsh'
+[37.965s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/timoha/KSAROmni/install/py_barrel_detector/share/colcon-core/packages/py_barrel_detector)
+[37.966s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[37.967s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[37.968s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[37.968s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[37.999s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[37.999s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[37.999s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[38.005s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[38.005s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[38.006s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/timoha/KSAROmni/install/local_setup.ps1'
+[38.011s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/timoha/KSAROmni/install/_local_setup_util_ps1.py'
+[38.019s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/timoha/KSAROmni/install/setup.ps1'
+[38.026s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/timoha/KSAROmni/install/local_setup.sh'
+[38.034s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/timoha/KSAROmni/install/_local_setup_util_sh.py'
+[38.037s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/timoha/KSAROmni/install/setup.sh'
+[38.043s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/timoha/KSAROmni/install/local_setup.bash'
+[38.047s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/timoha/KSAROmni/install/setup.bash'
+[38.052s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/timoha/KSAROmni/install/local_setup.zsh'
+[38.055s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/timoha/KSAROmni/install/setup.zsh'

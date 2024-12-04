@@ -1,0 +1,33 @@
+[7.476s] Invoking command in '/home/timoha/KSAROmni/build/aruco_publisher': PYTHONPATH=/home/timoha/KSAROmni/build/aruco_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/aruco_publisher/build
+[9.335s] running develop
+[9.337s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.338s]   warnings.warn(
+[10.801s] Removing /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco-publisher.egg-link (link to .)
+[11.086s] Invoked command in '/home/timoha/KSAROmni/build/aruco_publisher' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/aruco_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/aruco_publisher/build
+[11.089s] Invoking command in '/home/timoha/KSAROmni/src/aruco_publisher': PYTHONPATH=/home/timoha/KSAROmni/build/aruco_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/aruco_publisher build --build-base /home/timoha/KSAROmni/build/aruco_publisher/build install --record /home/timoha/KSAROmni/build/aruco_publisher/install.log --single-version-externally-managed install_data --force
+[12.845s] running egg_info
+[12.851s] writing ../../build/aruco_publisher/aruco_publisher.egg-info/PKG-INFO
+[12.853s] writing dependency_links to ../../build/aruco_publisher/aruco_publisher.egg-info/dependency_links.txt
+[12.858s] writing entry points to ../../build/aruco_publisher/aruco_publisher.egg-info/entry_points.txt
+[12.859s] writing requirements to ../../build/aruco_publisher/aruco_publisher.egg-info/requires.txt
+[12.861s] writing top-level names to ../../build/aruco_publisher/aruco_publisher.egg-info/top_level.txt
+[12.877s] reading manifest file '../../build/aruco_publisher/aruco_publisher.egg-info/SOURCES.txt'
+[12.886s] writing manifest file '../../build/aruco_publisher/aruco_publisher.egg-info/SOURCES.txt'
+[12.890s] running build
+[12.892s] running build_py
+[12.901s] running install
+[12.906s] running install_lib
+[12.914s] creating /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco_publisher
+[12.915s] copying /home/timoha/KSAROmni/build/aruco_publisher/build/lib/aruco_publisher/aruco_detector.py -> /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco_publisher
+[12.918s] copying /home/timoha/KSAROmni/build/aruco_publisher/build/lib/aruco_publisher/__init__.py -> /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco_publisher
+[12.922s] byte-compiling /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco_publisher/aruco_detector.py to aruco_detector.cpython-310.pyc
+[12.928s] byte-compiling /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco_publisher/__init__.py to __init__.cpython-310.pyc
+[12.929s] running install_data
+[12.932s] copying resource/aruco_publisher -> /home/timoha/KSAROmni/install/aruco_publisher/share/ament_index/resource_index/packages
+[12.939s] copying package.xml -> /home/timoha/KSAROmni/install/aruco_publisher/share/aruco_publisher
+[12.946s] running install_egg_info
+[12.981s] Copying ../../build/aruco_publisher/aruco_publisher.egg-info to /home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages/aruco_publisher-0.0.0-py3.10.egg-info
+[12.993s] running install_scripts
+[13.168s] Installing aruco_detector script to /home/timoha/KSAROmni/install/aruco_publisher/lib/aruco_publisher
+[13.170s] writing list of installed files to '/home/timoha/KSAROmni/build/aruco_publisher/install.log'
+[14.637s] Invoked command in '/home/timoha/KSAROmni/src/aruco_publisher' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/aruco_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/aruco_publisher build --build-base /home/timoha/KSAROmni/build/aruco_publisher/build install --record /home/timoha/KSAROmni/build/aruco_publisher/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,1 @@
+/home/timoha/KSAROmni/src/rplidar_ros2/launch/view_rplidar.launch.py

@@ -1,0 +1,19 @@
+[6.562s] Invoking command in '/home/timoha/KSAROmni/build/distance_node': PYTHONPATH=/home/timoha/KSAROmni/build/distance_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/distance_node/build --no-deps symlink_data
+[8.424s] running develop
+[8.427s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.430s]   warnings.warn(
+[10.068s] running egg_info
+[10.075s] writing distance_node.egg-info/PKG-INFO
+[10.081s] writing dependency_links to distance_node.egg-info/dependency_links.txt
+[10.086s] writing entry points to distance_node.egg-info/entry_points.txt
+[10.092s] writing requirements to distance_node.egg-info/requires.txt
+[10.095s] writing top-level names to distance_node.egg-info/top_level.txt
+[10.126s] reading manifest file 'distance_node.egg-info/SOURCES.txt'
+[10.132s] writing manifest file 'distance_node.egg-info/SOURCES.txt'
+[10.141s] running build_ext
+[10.151s] Creating /home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages/distance-node.egg-link (link to .)
+[10.160s] Installing distance_publisher script to /home/timoha/KSAROmni/install/distance_node/lib/distance_node
+[10.170s] 
+[10.177s] Installed /home/timoha/KSAROmni/build/distance_node
+[10.185s] running symlink_data
+[11.796s] Invoked command in '/home/timoha/KSAROmni/build/distance_node' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/distance_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/distance_node/build --no-deps symlink_data

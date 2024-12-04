@@ -1,0 +1,19 @@
+[4.574s] Invoking command in '/home/timoha/KSAROmni/build/lidar_template': PYTHONPATH=/home/timoha/KSAROmni/build/lidar_template/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/lidar_template/build --no-deps symlink_data
+[6.482s] running develop
+[6.486s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.491s]   warnings.warn(
+[8.132s] running egg_info
+[8.133s] writing lidar_template.egg-info/PKG-INFO
+[8.139s] writing dependency_links to lidar_template.egg-info/dependency_links.txt
+[8.145s] writing entry points to lidar_template.egg-info/entry_points.txt
+[8.152s] writing requirements to lidar_template.egg-info/requires.txt
+[8.154s] writing top-level names to lidar_template.egg-info/top_level.txt
+[8.158s] reading manifest file 'lidar_template.egg-info/SOURCES.txt'
+[8.161s] writing manifest file 'lidar_template.egg-info/SOURCES.txt'
+[8.167s] running build_ext
+[8.173s] Creating /home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages/lidar-template.egg-link (link to .)
+[8.187s] Installing lidar_temp script to /home/timoha/KSAROmni/install/lidar_template/lib/lidar_template
+[8.192s] 
+[8.196s] Installed /home/timoha/KSAROmni/build/lidar_template
+[8.200s] running symlink_data
+[8.373s] Invoked command in '/home/timoha/KSAROmni/build/lidar_template' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/lidar_template/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/lidar_template/build --no-deps symlink_data

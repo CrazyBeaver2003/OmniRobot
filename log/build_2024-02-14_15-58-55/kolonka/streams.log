@@ -1,0 +1,21 @@
+[7.966s] Invoking command in '/home/timoha/KSAROmni/build/kolonka': PYTHONPATH=/home/timoha/KSAROmni/build/kolonka/prefix_override:/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/kolonka/build --no-deps install_data
+[9.747s] running develop
+[9.752s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.752s]   warnings.warn(
+[9.755s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.756s]   warnings.warn(
+[11.044s] running egg_info
+[11.046s] writing kolonka.egg-info/PKG-INFO
+[11.049s] writing dependency_links to kolonka.egg-info/dependency_links.txt
+[11.049s] writing entry points to kolonka.egg-info/entry_points.txt
+[11.051s] writing requirements to kolonka.egg-info/requires.txt
+[11.051s] writing top-level names to kolonka.egg-info/top_level.txt
+[11.061s] reading manifest file 'kolonka.egg-info/SOURCES.txt'
+[11.066s] writing manifest file 'kolonka.egg-info/SOURCES.txt'
+[11.073s] running build_ext
+[11.074s] Creating /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka.egg-link (link to .)
+[11.079s] Installing audio script to /home/timoha/KSAROmni/install/kolonka/lib/kolonka
+[11.081s] 
+[11.081s] Installed /home/timoha/KSAROmni/build/kolonka
+[11.084s] running install_data
+[12.367s] Invoked command in '/home/timoha/KSAROmni/build/kolonka' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/kolonka/prefix_override:/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/kolonka/build --no-deps install_data

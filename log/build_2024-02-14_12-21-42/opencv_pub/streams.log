@@ -1,0 +1,39 @@
+[9.005s] Invoking command in '/home/timoha/KSAROmni/src/opencv_pub': PYTHONPATH=/home/timoha/KSAROmni/build/opencv_pub/prefix_override:/home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/opencv_pub build --build-base /home/timoha/KSAROmni/build/opencv_pub/build install --record /home/timoha/KSAROmni/build/opencv_pub/install.log --single-version-externally-managed
+[11.041s] running egg_info
+[11.048s] creating ../../build/opencv_pub/opencv_pub.egg-info
+[11.050s] writing ../../build/opencv_pub/opencv_pub.egg-info/PKG-INFO
+[11.052s] writing dependency_links to ../../build/opencv_pub/opencv_pub.egg-info/dependency_links.txt
+[11.054s] writing entry points to ../../build/opencv_pub/opencv_pub.egg-info/entry_points.txt
+[11.056s] writing requirements to ../../build/opencv_pub/opencv_pub.egg-info/requires.txt
+[11.057s] writing top-level names to ../../build/opencv_pub/opencv_pub.egg-info/top_level.txt
+[11.065s] writing manifest file '../../build/opencv_pub/opencv_pub.egg-info/SOURCES.txt'
+[11.070s] reading manifest file '../../build/opencv_pub/opencv_pub.egg-info/SOURCES.txt'
+[11.075s] writing manifest file '../../build/opencv_pub/opencv_pub.egg-info/SOURCES.txt'
+[11.077s] running build
+[11.078s] running build_py
+[11.090s] creating /home/timoha/KSAROmni/build/opencv_pub/build
+[11.092s] creating /home/timoha/KSAROmni/build/opencv_pub/build/lib
+[11.093s] creating /home/timoha/KSAROmni/build/opencv_pub/build/lib/opencv_pub
+[11.094s] copying opencv_pub/__init__.py -> /home/timoha/KSAROmni/build/opencv_pub/build/lib/opencv_pub
+[11.096s] copying opencv_pub/camera_vision_publisher.py -> /home/timoha/KSAROmni/build/opencv_pub/build/lib/opencv_pub
+[11.108s] running install
+[11.109s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[11.110s]   warnings.warn(
+[11.110s] running install_lib
+[11.113s] creating /home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages/opencv_pub
+[11.120s] copying /home/timoha/KSAROmni/build/opencv_pub/build/lib/opencv_pub/__init__.py -> /home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages/opencv_pub
+[11.120s] copying /home/timoha/KSAROmni/build/opencv_pub/build/lib/opencv_pub/camera_vision_publisher.py -> /home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages/opencv_pub
+[11.121s] byte-compiling /home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages/opencv_pub/__init__.py to __init__.cpython-310.pyc
+[11.123s] byte-compiling /home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages/opencv_pub/camera_vision_publisher.py to camera_vision_publisher.cpython-310.pyc
+[11.136s] running install_data
+[11.137s] creating /home/timoha/KSAROmni/install/opencv_pub/share/ament_index
+[11.138s] creating /home/timoha/KSAROmni/install/opencv_pub/share/ament_index/resource_index
+[11.139s] creating /home/timoha/KSAROmni/install/opencv_pub/share/ament_index/resource_index/packages
+[11.140s] copying resource/opencv_pub -> /home/timoha/KSAROmni/install/opencv_pub/share/ament_index/resource_index/packages
+[11.140s] copying package.xml -> /home/timoha/KSAROmni/install/opencv_pub/share/opencv_pub
+[11.142s] running install_egg_info
+[11.144s] Copying ../../build/opencv_pub/opencv_pub.egg-info to /home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages/opencv_pub-0.0.0-py3.10.egg-info
+[11.146s] running install_scripts
+[11.280s] Installing CAM script to /home/timoha/KSAROmni/install/opencv_pub/lib/opencv_pub
+[11.286s] writing list of installed files to '/home/timoha/KSAROmni/build/opencv_pub/install.log'
+[12.397s] Invoked command in '/home/timoha/KSAROmni/src/opencv_pub' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/opencv_pub/prefix_override:/home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/opencv_pub build --build-base /home/timoha/KSAROmni/build/opencv_pub/build install --record /home/timoha/KSAROmni/build/opencv_pub/install.log --single-version-externally-managed

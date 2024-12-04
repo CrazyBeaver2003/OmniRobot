@@ -1,0 +1,3 @@
+[console_scripts]
+barrel_detector = py_barrel_detector.barrel_detector:main
+

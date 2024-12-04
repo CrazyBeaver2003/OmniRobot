@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg/main_alg.py", line 253
+    try:
+    ^^^
+SyntaxError: expected 'except' or 'finally' block
+

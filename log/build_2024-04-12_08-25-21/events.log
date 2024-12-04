@@ -1,0 +1,328 @@
+[0.000000] (-) TimerEvent: {}
+[0.000975] (-) JobUnselected: {'identifier': 'aruco_publisher'}
+[0.001848] (-) JobUnselected: {'identifier': 'distance_node'}
+[0.002387] (-) JobUnselected: {'identifier': 'kolonka'}
+[0.002784] (-) JobUnselected: {'identifier': 'laser_follow'}
+[0.003115] (-) JobUnselected: {'identifier': 'lidar_template'}
+[0.003230] (-) JobUnselected: {'identifier': 'main_package_robot'}
+[0.003399] (-) JobUnselected: {'identifier': 'motor_control_node'}
+[0.003539] (-) JobUnselected: {'identifier': 'opencv_pub'}
+[0.003772] (-) JobUnselected: {'identifier': 'py_barrel_detector'}
+[0.003923] (-) JobUnselected: {'identifier': 'py_main_alg'}
+[0.004206] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.004319] (-) JobUnselected: {'identifier': 'test_pub'}
+[0.004427] (arrow_package) JobQueued: {'identifier': 'arrow_package', 'dependencies': OrderedDict()}
+[0.004607] (arrow_package) JobStarted: {'identifier': 'arrow_package'}
+[0.099052] (-) TimerEvent: {}
+[0.200098] (-) TimerEvent: {}
+[0.302165] (-) TimerEvent: {}
+[0.328215] (arrow_package) JobProgress: {'identifier': 'arrow_package', 'progress': 'cmake'}
+[0.334135] (arrow_package) Command: {'cmd': ['/usr/bin/cmake', '/home/timoha/KSAROmni/src/arrow_package', '-DCMAKE_INSTALL_PREFIX=/home/timoha/KSAROmni/install/arrow_package'], 'cwd': '/home/timoha/KSAROmni/build/arrow_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'timoha'), ('SSH_CLIENT', '172.20.10.3 59844 22'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/timoha/KSAROmni/install/rplidar_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/timoha'), ('OLDPWD', '/home/timoha'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/timoha/KSAROmni/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'timoha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/timoha/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/timoha/KSAROmni/install/test_pub:/home/timoha/KSAROmni/install/rplidar_ros:/home/timoha/KSAROmni/install/py_main_alg:/home/timoha/KSAROmni/install/py_barrel_detector:/home/timoha/KSAROmni/install/opencv_pub:/home/timoha/KSAROmni/install/motor_control_node:/home/timoha/KSAROmni/install/main_package_robot:/home/timoha/KSAROmni/install/lidar_template:/home/timoha/KSAROmni/install/laser_follow:/home/timoha/KSAROmni/install/kolonka:/home/timoha/KSAROmni/install/distance_node:/home/timoha/KSAROmni/install/aruco_publisher:/home/timoha/KSAROmni/install/arrow_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('PWD', '/home/timoha/KSAROmni/build/arrow_package'), ('SSH_CONNECTION', '172.20.10.3 59844 172.20.10.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/timoha/KSAROmni/build/test_pub:/home/timoha/KSAROmni/install/test_pub/lib/python3.10/site-packages:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/py_barrel_detector:/home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/opencv_pub:/home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/motor_control_node:/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/main_package_robot:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/lidar_template:/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/laser_follow:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/kolonka:/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/distance_node:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/timoha/KSAROmni/install/rplidar_ros:/home/timoha/KSAROmni/install/arrow_package:/home/timoha/KSAROmni/install/test_pub:/home/timoha/KSAROmni/install/py_main_alg:/home/timoha/KSAROmni/install/py_barrel_detector:/home/timoha/KSAROmni/install/opencv_pub:/home/timoha/KSAROmni/install/motor_control_node:/home/timoha/KSAROmni/install/main_package_robot:/home/timoha/KSAROmni/install/lidar_template:/home/timoha/KSAROmni/install/laser_follow:/home/timoha/KSAROmni/install/kolonka:/home/timoha/KSAROmni/install/distance_node:/home/timoha/KSAROmni/install/aruco_publisher:/opt/ros/humble')]), 'shell': False}
+[0.402505] (-) TimerEvent: {}
+[0.503330] (-) TimerEvent: {}
+[0.604565] (-) TimerEvent: {}
+[0.624580] (arrow_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.704725] (-) TimerEvent: {}
+[0.805479] (-) TimerEvent: {}
+[0.906235] (-) TimerEvent: {}
+[1.006924] (-) TimerEvent: {}
+[1.107639] (-) TimerEvent: {}
+[1.208502] (-) TimerEvent: {}
+[1.309283] (-) TimerEvent: {}
+[1.410018] (-) TimerEvent: {}
+[1.495709] (arrow_package) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.510212] (-) TimerEvent: {}
+[1.587715] (arrow_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.610451] (-) TimerEvent: {}
+[1.711200] (-) TimerEvent: {}
+[1.811929] (-) TimerEvent: {}
+[1.855038] (arrow_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.873889] (arrow_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.912122] (-) TimerEvent: {}
+[1.917176] (arrow_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.986830] (arrow_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.012328] (-) TimerEvent: {}
+[2.080831] (arrow_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.112509] (-) TimerEvent: {}
+[2.213240] (-) TimerEvent: {}
+[2.314022] (-) TimerEvent: {}
+[2.393802] (arrow_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.407129] (arrow_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.414196] (-) TimerEvent: {}
+[2.514959] (-) TimerEvent: {}
+[2.615761] (-) TimerEvent: {}
+[2.716489] (-) TimerEvent: {}
+[2.817237] (-) TimerEvent: {}
+[2.918209] (-) TimerEvent: {}
+[3.018954] (-) TimerEvent: {}
+[3.119749] (-) TimerEvent: {}
+[3.220452] (-) TimerEvent: {}
+[3.321219] (-) TimerEvent: {}
+[3.422011] (-) TimerEvent: {}
+[3.522734] (-) TimerEvent: {}
+[3.541466] (arrow_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.622909] (-) TimerEvent: {}
+[3.723700] (-) TimerEvent: {}
+[3.824439] (-) TimerEvent: {}
+[3.925189] (-) TimerEvent: {}
+[4.025998] (-) TimerEvent: {}
+[4.126698] (-) TimerEvent: {}
+[4.227479] (-) TimerEvent: {}
+[4.248765] (arrow_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.327632] (-) TimerEvent: {}
+[4.428317] (-) TimerEvent: {}
+[4.529059] (-) TimerEvent: {}
+[4.629804] (-) TimerEvent: {}
+[4.663213] (arrow_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.664072] (arrow_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/timoha/KSAROmni/src/arrow_package/include>\n'}
+[4.664530] (arrow_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.668108] (arrow_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.675640] (arrow_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.676344] (arrow_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.678145] (arrow_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.687700] (arrow_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.729998] (-) TimerEvent: {}
+[4.788028] (arrow_package) StdoutLine: {'line': b'-- Generating done\n'}
+[4.800459] (arrow_package) StdoutLine: {'line': b'-- Build files have been written to: /home/timoha/KSAROmni/build/arrow_package\n'}
+[4.830182] (-) TimerEvent: {}
+[4.835110] (arrow_package) CommandEnded: {'returncode': 0}
+[4.837852] (arrow_package) JobProgress: {'identifier': 'arrow_package', 'progress': 'build'}
+[4.841487] (arrow_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/timoha/KSAROmni/build/arrow_package', '--', '-j4', '-l4'], 'cwd': '/home/timoha/KSAROmni/build/arrow_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'timoha'), ('SSH_CLIENT', '172.20.10.3 59844 22'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/timoha/KSAROmni/install/rplidar_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/timoha'), ('OLDPWD', '/home/timoha'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/timoha/KSAROmni/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'timoha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/timoha/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/timoha/KSAROmni/install/test_pub:/home/timoha/KSAROmni/install/rplidar_ros:/home/timoha/KSAROmni/install/py_main_alg:/home/timoha/KSAROmni/install/py_barrel_detector:/home/timoha/KSAROmni/install/opencv_pub:/home/timoha/KSAROmni/install/motor_control_node:/home/timoha/KSAROmni/install/main_package_robot:/home/timoha/KSAROmni/install/lidar_template:/home/timoha/KSAROmni/install/laser_follow:/home/timoha/KSAROmni/install/kolonka:/home/timoha/KSAROmni/install/distance_node:/home/timoha/KSAROmni/install/aruco_publisher:/home/timoha/KSAROmni/install/arrow_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('PWD', '/home/timoha/KSAROmni/build/arrow_package'), ('SSH_CONNECTION', '172.20.10.3 59844 172.20.10.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/timoha/KSAROmni/build/test_pub:/home/timoha/KSAROmni/install/test_pub/lib/python3.10/site-packages:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/py_barrel_detector:/home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/opencv_pub:/home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/motor_control_node:/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/main_package_robot:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/lidar_template:/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/laser_follow:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/kolonka:/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/distance_node:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/timoha/KSAROmni/install/rplidar_ros:/home/timoha/KSAROmni/install/arrow_package:/home/timoha/KSAROmni/install/test_pub:/home/timoha/KSAROmni/install/py_main_alg:/home/timoha/KSAROmni/install/py_barrel_detector:/home/timoha/KSAROmni/install/opencv_pub:/home/timoha/KSAROmni/install/motor_control_node:/home/timoha/KSAROmni/install/main_package_robot:/home/timoha/KSAROmni/install/lidar_template:/home/timoha/KSAROmni/install/laser_follow:/home/timoha/KSAROmni/install/kolonka:/home/timoha/KSAROmni/install/distance_node:/home/timoha/KSAROmni/install/aruco_publisher:/opt/ros/humble')]), 'shell': False}
+[4.930387] (-) TimerEvent: {}
+[5.031183] (-) TimerEvent: {}
+[5.034677] (arrow_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target arrow_node\x1b[0m\n'}
+[5.131410] (-) TimerEvent: {}
+[5.232315] (-) TimerEvent: {}
+[5.235206] (arrow_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/arrow_node.dir/src/arrow_node.cpp.o\x1b[0m\n'}
+[5.332630] (-) TimerEvent: {}
+[5.434263] (-) TimerEvent: {}
+[5.535456] (-) TimerEvent: {}
+[5.636629] (-) TimerEvent: {}
+[5.737347] (-) TimerEvent: {}
+[5.838148] (-) TimerEvent: {}
+[5.938906] (-) TimerEvent: {}
+[6.039700] (-) TimerEvent: {}
+[6.140458] (-) TimerEvent: {}
+[6.241210] (-) TimerEvent: {}
+[6.342019] (-) TimerEvent: {}
+[6.442782] (-) TimerEvent: {}
+[6.543615] (-) TimerEvent: {}
+[6.644375] (-) TimerEvent: {}
+[6.745146] (-) TimerEvent: {}
+[6.845946] (-) TimerEvent: {}
+[6.946744] (-) TimerEvent: {}
+[7.047630] (-) TimerEvent: {}
+[7.148428] (-) TimerEvent: {}
+[7.249322] (-) TimerEvent: {}
+[7.350128] (-) TimerEvent: {}
+[7.450869] (-) TimerEvent: {}
+[7.551730] (-) TimerEvent: {}
+[7.652589] (-) TimerEvent: {}
+[7.753451] (-) TimerEvent: {}
+[7.854884] (-) TimerEvent: {}
+[7.955930] (-) TimerEvent: {}
+[8.056814] (-) TimerEvent: {}
+[8.157672] (-) TimerEvent: {}
+[8.258491] (-) TimerEvent: {}
+[8.359196] (-) TimerEvent: {}
+[8.462822] (-) TimerEvent: {}
+[8.563650] (-) TimerEvent: {}
+[8.664490] (-) TimerEvent: {}
+[8.765276] (-) TimerEvent: {}
+[8.866174] (-) TimerEvent: {}
+[8.966991] (-) TimerEvent: {}
+[9.067881] (-) TimerEvent: {}
+[9.168759] (-) TimerEvent: {}
+[9.269657] (-) TimerEvent: {}
+[9.370859] (-) TimerEvent: {}
+[9.471602] (-) TimerEvent: {}
+[9.572426] (-) TimerEvent: {}
+[9.673357] (-) TimerEvent: {}
+[9.774272] (-) TimerEvent: {}
+[9.875173] (-) TimerEvent: {}
+[9.976051] (-) TimerEvent: {}
+[10.076854] (-) TimerEvent: {}
+[10.177770] (-) TimerEvent: {}
+[10.278681] (-) TimerEvent: {}
+[10.379615] (-) TimerEvent: {}
+[10.480579] (-) TimerEvent: {}
+[10.581430] (-) TimerEvent: {}
+[10.682448] (-) TimerEvent: {}
+[10.783376] (-) TimerEvent: {}
+[10.884214] (-) TimerEvent: {}
+[10.985017] (-) TimerEvent: {}
+[11.085894] (-) TimerEvent: {}
+[11.186721] (-) TimerEvent: {}
+[11.287538] (-) TimerEvent: {}
+[11.388399] (-) TimerEvent: {}
+[11.489285] (-) TimerEvent: {}
+[11.590154] (-) TimerEvent: {}
+[11.690978] (-) TimerEvent: {}
+[11.791798] (-) TimerEvent: {}
+[11.892587] (-) TimerEvent: {}
+[11.993326] (-) TimerEvent: {}
+[12.094161] (-) TimerEvent: {}
+[12.194971] (-) TimerEvent: {}
+[12.295765] (-) TimerEvent: {}
+[12.396556] (-) TimerEvent: {}
+[12.497498] (-) TimerEvent: {}
+[12.598344] (-) TimerEvent: {}
+[12.699262] (-) TimerEvent: {}
+[12.800112] (-) TimerEvent: {}
+[12.900951] (-) TimerEvent: {}
+[13.001867] (-) TimerEvent: {}
+[13.102663] (-) TimerEvent: {}
+[13.203470] (-) TimerEvent: {}
+[13.304288] (-) TimerEvent: {}
+[13.405103] (-) TimerEvent: {}
+[13.506024] (-) TimerEvent: {}
+[13.606830] (-) TimerEvent: {}
+[13.707652] (-) TimerEvent: {}
+[13.808478] (-) TimerEvent: {}
+[13.909380] (-) TimerEvent: {}
+[14.010242] (-) TimerEvent: {}
+[14.111064] (-) TimerEvent: {}
+[14.211869] (-) TimerEvent: {}
+[14.312700] (-) TimerEvent: {}
+[14.413619] (-) TimerEvent: {}
+[14.514606] (-) TimerEvent: {}
+[14.615406] (-) TimerEvent: {}
+[14.716232] (-) TimerEvent: {}
+[14.817116] (-) TimerEvent: {}
+[14.917934] (-) TimerEvent: {}
+[15.018743] (-) TimerEvent: {}
+[15.119631] (-) TimerEvent: {}
+[15.220473] (-) TimerEvent: {}
+[15.321361] (-) TimerEvent: {}
+[15.422214] (-) TimerEvent: {}
+[15.523056] (-) TimerEvent: {}
+[15.623914] (-) TimerEvent: {}
+[15.724802] (-) TimerEvent: {}
+[15.825669] (-) TimerEvent: {}
+[15.926485] (-) TimerEvent: {}
+[16.027333] (-) TimerEvent: {}
+[16.128127] (-) TimerEvent: {}
+[16.228899] (-) TimerEvent: {}
+[16.329746] (-) TimerEvent: {}
+[16.430619] (-) TimerEvent: {}
+[16.531473] (-) TimerEvent: {}
+[16.632646] (-) TimerEvent: {}
+[16.733517] (-) TimerEvent: {}
+[16.834362] (-) TimerEvent: {}
+[16.935170] (-) TimerEvent: {}
+[17.036088] (-) TimerEvent: {}
+[17.136936] (-) TimerEvent: {}
+[17.237775] (-) TimerEvent: {}
+[17.338573] (-) TimerEvent: {}
+[17.439385] (-) TimerEvent: {}
+[17.540258] (-) TimerEvent: {}
+[17.641105] (-) TimerEvent: {}
+[17.741950] (-) TimerEvent: {}
+[17.842745] (-) TimerEvent: {}
+[17.943553] (-) TimerEvent: {}
+[18.044377] (-) TimerEvent: {}
+[18.145172] (-) TimerEvent: {}
+[18.246002] (-) TimerEvent: {}
+[18.346868] (-) TimerEvent: {}
+[18.450988] (-) TimerEvent: {}
+[18.551849] (-) TimerEvent: {}
+[18.652708] (-) TimerEvent: {}
+[18.753715] (-) TimerEvent: {}
+[18.854978] (-) TimerEvent: {}
+[18.955789] (-) TimerEvent: {}
+[19.056651] (-) TimerEvent: {}
+[19.157618] (-) TimerEvent: {}
+[19.258477] (-) TimerEvent: {}
+[19.359461] (-) TimerEvent: {}
+[19.460857] (-) TimerEvent: {}
+[19.561883] (-) TimerEvent: {}
+[19.662690] (-) TimerEvent: {}
+[19.763480] (-) TimerEvent: {}
+[19.864252] (-) TimerEvent: {}
+[19.965146] (-) TimerEvent: {}
+[20.066044] (-) TimerEvent: {}
+[20.166869] (-) TimerEvent: {}
+[20.267700] (-) TimerEvent: {}
+[20.368569] (-) TimerEvent: {}
+[20.469937] (-) TimerEvent: {}
+[20.571225] (-) TimerEvent: {}
+[20.672189] (-) TimerEvent: {}
+[20.773018] (-) TimerEvent: {}
+[20.873908] (-) TimerEvent: {}
+[20.974660] (-) TimerEvent: {}
+[21.075506] (-) TimerEvent: {}
+[21.176378] (-) TimerEvent: {}
+[21.277224] (-) TimerEvent: {}
+[21.378074] (-) TimerEvent: {}
+[21.478880] (-) TimerEvent: {}
+[21.579765] (-) TimerEvent: {}
+[21.680596] (-) TimerEvent: {}
+[21.781420] (-) TimerEvent: {}
+[21.882251] (-) TimerEvent: {}
+[21.983170] (-) TimerEvent: {}
+[22.083999] (-) TimerEvent: {}
+[22.184825] (-) TimerEvent: {}
+[22.285683] (-) TimerEvent: {}
+[22.386475] (-) TimerEvent: {}
+[22.487307] (-) TimerEvent: {}
+[22.588182] (-) TimerEvent: {}
+[22.689034] (-) TimerEvent: {}
+[22.789909] (-) TimerEvent: {}
+[22.890825] (-) TimerEvent: {}
+[22.992309] (-) TimerEvent: {}
+[23.093196] (-) TimerEvent: {}
+[23.194735] (-) TimerEvent: {}
+[23.295513] (-) TimerEvent: {}
+[23.396343] (-) TimerEvent: {}
+[23.497114] (-) TimerEvent: {}
+[23.598032] (-) TimerEvent: {}
+[23.698856] (-) TimerEvent: {}
+[23.799854] (-) TimerEvent: {}
+[23.900759] (-) TimerEvent: {}
+[23.958233] (arrow_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable arrow_node\x1b[0m\n'}
+[24.000932] (-) TimerEvent: {}
+[24.101896] (-) TimerEvent: {}
+[24.203253] (-) TimerEvent: {}
+[24.304534] (-) TimerEvent: {}
+[24.406246] (-) TimerEvent: {}
+[24.507131] (-) TimerEvent: {}
+[24.608105] (-) TimerEvent: {}
+[24.709088] (-) TimerEvent: {}
+[24.809873] (-) TimerEvent: {}
+[24.910978] (-) TimerEvent: {}
+[25.012086] (-) TimerEvent: {}
+[25.042499] (arrow_package) StdoutLine: {'line': b'[100%] Built target arrow_node\n'}
+[25.082736] (arrow_package) CommandEnded: {'returncode': 0}
+[25.112314] (-) TimerEvent: {}
+[25.213233] (-) TimerEvent: {}
+[25.217780] (arrow_package) JobProgress: {'identifier': 'arrow_package', 'progress': 'install'}
+[25.255966] (arrow_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/timoha/KSAROmni/build/arrow_package'], 'cwd': '/home/timoha/KSAROmni/build/arrow_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'timoha'), ('SSH_CLIENT', '172.20.10.3 59844 22'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/timoha/KSAROmni/install/rplidar_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/timoha'), ('OLDPWD', '/home/timoha'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/timoha/KSAROmni/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'timoha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/timoha/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/timoha/KSAROmni/install/test_pub:/home/timoha/KSAROmni/install/rplidar_ros:/home/timoha/KSAROmni/install/py_main_alg:/home/timoha/KSAROmni/install/py_barrel_detector:/home/timoha/KSAROmni/install/opencv_pub:/home/timoha/KSAROmni/install/motor_control_node:/home/timoha/KSAROmni/install/main_package_robot:/home/timoha/KSAROmni/install/lidar_template:/home/timoha/KSAROmni/install/laser_follow:/home/timoha/KSAROmni/install/kolonka:/home/timoha/KSAROmni/install/distance_node:/home/timoha/KSAROmni/install/aruco_publisher:/home/timoha/KSAROmni/install/arrow_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('PWD', '/home/timoha/KSAROmni/build/arrow_package'), ('SSH_CONNECTION', '172.20.10.3 59844 172.20.10.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/timoha/KSAROmni/build/test_pub:/home/timoha/KSAROmni/install/test_pub/lib/python3.10/site-packages:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/py_barrel_detector:/home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/opencv_pub:/home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/motor_control_node:/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/main_package_robot:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/lidar_template:/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/laser_follow:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/kolonka:/home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages:/home/timoha/KSAROmni/build/distance_node:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:/home/timoha/KSAROmni/install/aruco_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/timoha/KSAROmni/install/rplidar_ros:/home/timoha/KSAROmni/install/arrow_package:/home/timoha/KSAROmni/install/test_pub:/home/timoha/KSAROmni/install/py_main_alg:/home/timoha/KSAROmni/install/py_barrel_detector:/home/timoha/KSAROmni/install/opencv_pub:/home/timoha/KSAROmni/install/motor_control_node:/home/timoha/KSAROmni/install/main_package_robot:/home/timoha/KSAROmni/install/lidar_template:/home/timoha/KSAROmni/install/laser_follow:/home/timoha/KSAROmni/install/kolonka:/home/timoha/KSAROmni/install/distance_node:/home/timoha/KSAROmni/install/aruco_publisher:/opt/ros/humble')]), 'shell': False}
+[25.287145] (arrow_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.289114] (arrow_package) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[25.291347] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/lib/arrow_package/arrow_node\n'}
+[25.293016] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/ament_index/resource_index/package_run_dependencies/arrow_package\n'}
+[25.294211] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/ament_index/resource_index/parent_prefix_path/arrow_package\n'}
+[25.295250] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/environment/ament_prefix_path.sh\n'}
+[25.296221] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/environment/ament_prefix_path.dsv\n'}
+[25.297191] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/environment/path.sh\n'}
+[25.298223] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/environment/path.dsv\n'}
+[25.299310] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/local_setup.bash\n'}
+[25.300061] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/local_setup.sh\n'}
+[25.300937] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/local_setup.zsh\n'}
+[25.302002] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/local_setup.dsv\n'}
+[25.302622] (arrow_package) StdoutLine: {'line': b'-- Symlinking: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/package.dsv\n'}
+[25.313497] (-) TimerEvent: {}
+[25.335312] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/ament_index/resource_index/packages/arrow_package\n'}
+[25.336157] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/cmake/arrow_packageConfig.cmake\n'}
+[25.336910] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/cmake/arrow_packageConfig-version.cmake\n'}
+[25.337872] (arrow_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/package.xml\n'}
+[25.343779] (arrow_package) CommandEnded: {'returncode': 0}
+[25.417075] (-) TimerEvent: {}
+[25.517858] (-) TimerEvent: {}
+[25.618977] (-) TimerEvent: {}
+[25.719848] (-) TimerEvent: {}
+[25.820795] (-) TimerEvent: {}
+[25.922011] (-) TimerEvent: {}
+[26.023210] (-) TimerEvent: {}
+[26.051720] (arrow_package) JobEnded: {'identifier': 'arrow_package', 'rc': 0}
+[26.054659] (-) EventReactorShutdown: {}

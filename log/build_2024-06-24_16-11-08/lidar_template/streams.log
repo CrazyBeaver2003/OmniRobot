@@ -1,0 +1,33 @@
+[5.815s] Invoking command in '/home/timoha/KSAROmni/build/lidar_template': PYTHONPATH=/home/timoha/KSAROmni/build/lidar_template/prefix_override:/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/lidar_template/build
+[7.842s] running develop
+[7.844s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.845s]   warnings.warn(
+[9.203s] Removing /home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages/lidar-template.egg-link (link to .)
+[9.500s] Invoked command in '/home/timoha/KSAROmni/build/lidar_template' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/lidar_template/prefix_override:/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/lidar_template/build
+[9.507s] Invoking command in '/home/timoha/KSAROmni/src/lidar_template': PYTHONPATH=/home/timoha/KSAROmni/build/lidar_template/prefix_override:/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar_template build --build-base /home/timoha/KSAROmni/build/lidar_template/build install --record /home/timoha/KSAROmni/build/lidar_template/install.log --single-version-externally-managed install_data --force
+[11.276s] running egg_info
+[11.282s] writing ../../build/lidar_template/lidar_template.egg-info/PKG-INFO
+[11.284s] writing dependency_links to ../../build/lidar_template/lidar_template.egg-info/dependency_links.txt
+[11.287s] writing entry points to ../../build/lidar_template/lidar_template.egg-info/entry_points.txt
+[11.288s] writing requirements to ../../build/lidar_template/lidar_template.egg-info/requires.txt
+[11.289s] writing top-level names to ../../build/lidar_template/lidar_template.egg-info/top_level.txt
+[11.303s] reading manifest file '../../build/lidar_template/lidar_template.egg-info/SOURCES.txt'
+[11.309s] writing manifest file '../../build/lidar_template/lidar_template.egg-info/SOURCES.txt'
+[11.310s] running build
+[11.311s] running build_py
+[11.314s] running install
+[11.316s] running install_lib
+[11.320s] creating /home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages/lidar_template
+[11.321s] copying /home/timoha/KSAROmni/build/lidar_template/build/lib/lidar_template/lidar_template.py -> /home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages/lidar_template
+[11.324s] copying /home/timoha/KSAROmni/build/lidar_template/build/lib/lidar_template/__init__.py -> /home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages/lidar_template
+[11.328s] byte-compiling /home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages/lidar_template/lidar_template.py to lidar_template.cpython-310.pyc
+[11.331s] byte-compiling /home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages/lidar_template/__init__.py to __init__.cpython-310.pyc
+[11.333s] running install_data
+[11.335s] copying resource/lidar_template -> /home/timoha/KSAROmni/install/lidar_template/share/ament_index/resource_index/packages
+[11.337s] copying package.xml -> /home/timoha/KSAROmni/install/lidar_template/share/lidar_template
+[11.338s] running install_egg_info
+[11.347s] Copying ../../build/lidar_template/lidar_template.egg-info to /home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages/lidar_template-0.0.0-py3.10.egg-info
+[11.357s] running install_scripts
+[11.475s] Installing lidar_temp script to /home/timoha/KSAROmni/install/lidar_template/lib/lidar_template
+[11.478s] writing list of installed files to '/home/timoha/KSAROmni/build/lidar_template/install.log'
+[11.696s] Invoked command in '/home/timoha/KSAROmni/src/lidar_template' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/lidar_template/prefix_override:/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar_template build --build-base /home/timoha/KSAROmni/build/lidar_template/build install --record /home/timoha/KSAROmni/build/lidar_template/install.log --single-version-externally-managed install_data --force

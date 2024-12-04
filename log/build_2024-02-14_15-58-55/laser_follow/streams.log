@@ -1,0 +1,21 @@
+[8.802s] Invoking command in '/home/timoha/KSAROmni/build/laser_follow': PYTHONPATH=/home/timoha/KSAROmni/build/laser_follow/prefix_override:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/laser_follow/build --no-deps install_data
+[10.555s] running develop
+[10.559s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[10.560s]   warnings.warn(
+[10.565s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.565s]   warnings.warn(
+[12.254s] running egg_info
+[12.255s] writing laser_follow.egg-info/PKG-INFO
+[12.258s] writing dependency_links to laser_follow.egg-info/dependency_links.txt
+[12.260s] writing entry points to laser_follow.egg-info/entry_points.txt
+[12.261s] writing requirements to laser_follow.egg-info/requires.txt
+[12.262s] writing top-level names to laser_follow.egg-info/top_level.txt
+[12.274s] reading manifest file 'laser_follow.egg-info/SOURCES.txt'
+[12.281s] writing manifest file 'laser_follow.egg-info/SOURCES.txt'
+[12.290s] running build_ext
+[12.292s] Creating /home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages/laser-follow.egg-link (link to .)
+[12.298s] Installing laser_follow script to /home/timoha/KSAROmni/install/laser_follow/lib/laser_follow
+[12.301s] 
+[12.302s] Installed /home/timoha/KSAROmni/build/laser_follow
+[12.304s] running install_data
+[12.517s] Invoked command in '/home/timoha/KSAROmni/build/laser_follow' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/laser_follow/prefix_override:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/laser_follow/build --no-deps install_data

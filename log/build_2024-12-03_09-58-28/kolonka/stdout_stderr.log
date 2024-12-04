@@ -1,0 +1,29 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka.egg-link (link to .)
+running egg_info
+writing ../../build/kolonka/kolonka.egg-info/PKG-INFO
+writing dependency_links to ../../build/kolonka/kolonka.egg-info/dependency_links.txt
+writing entry points to ../../build/kolonka/kolonka.egg-info/entry_points.txt
+writing requirements to ../../build/kolonka/kolonka.egg-info/requires.txt
+writing top-level names to ../../build/kolonka/kolonka.egg-info/top_level.txt
+reading manifest file '../../build/kolonka/kolonka.egg-info/SOURCES.txt'
+writing manifest file '../../build/kolonka/kolonka.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka
+copying /home/timoha/KSAROmni/build/kolonka/build/lib/kolonka/robot_audio.py -> /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka
+copying /home/timoha/KSAROmni/build/kolonka/build/lib/kolonka/__init__.py -> /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka
+byte-compiling /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka/robot_audio.py to robot_audio.cpython-310.pyc
+byte-compiling /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/kolonka -> /home/timoha/KSAROmni/install/kolonka/share/ament_index/resource_index/packages
+copying package.xml -> /home/timoha/KSAROmni/install/kolonka/share/kolonka
+running install_egg_info
+Copying ../../build/kolonka/kolonka.egg-info to /home/timoha/KSAROmni/install/kolonka/lib/python3.10/site-packages/kolonka-0.0.0-py3.10.egg-info
+running install_scripts
+Installing audio script to /home/timoha/KSAROmni/install/kolonka/lib/kolonka
+writing list of installed files to '/home/timoha/KSAROmni/build/kolonka/install.log'

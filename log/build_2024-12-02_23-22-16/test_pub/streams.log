@@ -1,0 +1,21 @@
+[3.810s] Invoking command in '/home/timoha/KSAROmni/build/test_pub': PYTHONPATH=/home/timoha/KSAROmni/build/test_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/test_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/test_pub/build --no-deps symlink_data --force
+[5.474s] running develop
+[5.475s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.475s]   warnings.warn(
+[6.294s] running egg_info
+[6.294s] writing test_pub.egg-info/PKG-INFO
+[6.296s] writing dependency_links to test_pub.egg-info/dependency_links.txt
+[6.297s] writing entry points to test_pub.egg-info/entry_points.txt
+[6.298s] writing requirements to test_pub.egg-info/requires.txt
+[6.298s] writing top-level names to test_pub.egg-info/top_level.txt
+[6.306s] reading manifest file 'test_pub.egg-info/SOURCES.txt'
+[6.309s] writing manifest file 'test_pub.egg-info/SOURCES.txt'
+[6.315s] running build_ext
+[6.316s] Creating /home/timoha/KSAROmni/install/test_pub/lib/python3.10/site-packages/test-pub.egg-link (link to .)
+[6.319s] Installing test_publisher script to /home/timoha/KSAROmni/install/test_pub/lib/test_pub
+[6.320s] 
+[6.321s] Installed /home/timoha/KSAROmni/build/test_pub
+[6.321s] running symlink_data
+[6.322s] symbolically linking /home/timoha/KSAROmni/build/test_pub/resource/test_pub -> /home/timoha/KSAROmni/install/test_pub/share/ament_index/resource_index/packages
+[6.323s] symbolically linking /home/timoha/KSAROmni/build/test_pub/package.xml -> /home/timoha/KSAROmni/install/test_pub/share/test_pub
+[6.461s] Invoked command in '/home/timoha/KSAROmni/build/test_pub' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/test_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/test_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/test_pub/build --no-deps symlink_data --force

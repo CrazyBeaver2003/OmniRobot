@@ -1,0 +1,34 @@
+[5.752s] Invoking command in '/home/timoha/KSAROmni/build/main_package_robot': PYTHONPATH=/home/timoha/KSAROmni/build/main_package_robot/prefix_override:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/main_package_robot/build
+[7.760s] running develop
+[7.762s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.762s]   warnings.warn(
+[9.228s] Removing /home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages/main-package-robot.egg-link (link to .)
+[9.468s] Invoked command in '/home/timoha/KSAROmni/build/main_package_robot' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/main_package_robot/prefix_override:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/main_package_robot/build
+[9.480s] Invoking command in '/home/timoha/KSAROmni/src/main_package_robot': PYTHONPATH=/home/timoha/KSAROmni/build/main_package_robot/prefix_override:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/main_package_robot build --build-base /home/timoha/KSAROmni/build/main_package_robot/build install --record /home/timoha/KSAROmni/build/main_package_robot/install.log --single-version-externally-managed install_data --force
+[11.221s] running egg_info
+[11.226s] writing ../../build/main_package_robot/main_package_robot.egg-info/PKG-INFO
+[11.228s] writing dependency_links to ../../build/main_package_robot/main_package_robot.egg-info/dependency_links.txt
+[11.229s] writing entry points to ../../build/main_package_robot/main_package_robot.egg-info/entry_points.txt
+[11.231s] writing requirements to ../../build/main_package_robot/main_package_robot.egg-info/requires.txt
+[11.232s] writing top-level names to ../../build/main_package_robot/main_package_robot.egg-info/top_level.txt
+[11.243s] reading manifest file '../../build/main_package_robot/main_package_robot.egg-info/SOURCES.txt'
+[11.251s] writing manifest file '../../build/main_package_robot/main_package_robot.egg-info/SOURCES.txt'
+[11.253s] running build
+[11.254s] running build_py
+[11.260s] running install
+[11.262s] running install_lib
+[11.268s] creating /home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages/main_package_robot
+[11.270s] copying /home/timoha/KSAROmni/build/main_package_robot/build/lib/main_package_robot/__init__.py -> /home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages/main_package_robot
+[11.273s] copying /home/timoha/KSAROmni/build/main_package_robot/build/lib/main_package_robot/main_node.py -> /home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages/main_package_robot
+[11.279s] byte-compiling /home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages/main_package_robot/__init__.py to __init__.cpython-310.pyc
+[11.282s] byte-compiling /home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages/main_package_robot/main_node.py to main_node.cpython-310.pyc
+[11.288s] Sorry: IndentationError: unexpected indent (main_node.py, line 81)
+[11.289s] running install_data
+[11.293s] copying resource/main_package_robot -> /home/timoha/KSAROmni/install/main_package_robot/share/ament_index/resource_index/packages
+[11.296s] copying package.xml -> /home/timoha/KSAROmni/install/main_package_robot/share/main_package_robot
+[11.298s] running install_egg_info
+[11.308s] Copying ../../build/main_package_robot/main_package_robot.egg-info to /home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages/main_package_robot-0.0.0-py3.10.egg-info
+[11.320s] running install_scripts
+[11.485s] Installing main_node script to /home/timoha/KSAROmni/install/main_package_robot/lib/main_package_robot
+[11.490s] writing list of installed files to '/home/timoha/KSAROmni/build/main_package_robot/install.log'
+[11.762s] Invoked command in '/home/timoha/KSAROmni/src/main_package_robot' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/main_package_robot/prefix_override:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/main_package_robot build --build-base /home/timoha/KSAROmni/build/main_package_robot/build install --record /home/timoha/KSAROmni/build/main_package_robot/install.log --single-version-externally-managed install_data --force

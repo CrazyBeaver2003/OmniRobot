@@ -1,0 +1,3 @@
+[console_scripts]
+laser_follow = laser_follow.laser_keep_distance:main
+

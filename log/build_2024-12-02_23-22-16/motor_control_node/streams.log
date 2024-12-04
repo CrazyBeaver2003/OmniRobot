@@ -1,0 +1,19 @@
+[5.469s] Invoking command in '/home/timoha/KSAROmni/build/motor_control_node': PYTHONPATH=/home/timoha/KSAROmni/build/motor_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/motor_control_node/build --no-deps symlink_data
+[7.606s] running develop
+[7.608s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.609s]   warnings.warn(
+[8.896s] running egg_info
+[8.897s] writing motor_control_node.egg-info/PKG-INFO
+[8.899s] writing dependency_links to motor_control_node.egg-info/dependency_links.txt
+[8.908s] writing entry points to motor_control_node.egg-info/entry_points.txt
+[8.911s] writing requirements to motor_control_node.egg-info/requires.txt
+[8.913s] writing top-level names to motor_control_node.egg-info/top_level.txt
+[8.933s] reading manifest file 'motor_control_node.egg-info/SOURCES.txt'
+[8.936s] writing manifest file 'motor_control_node.egg-info/SOURCES.txt'
+[8.944s] running build_ext
+[8.946s] Creating /home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages/motor-control-node.egg-link (link to .)
+[8.951s] Installing motor_control script to /home/timoha/KSAROmni/install/motor_control_node/lib/motor_control_node
+[8.954s] 
+[8.955s] Installed /home/timoha/KSAROmni/build/motor_control_node
+[8.956s] running symlink_data
+[10.712s] Invoked command in '/home/timoha/KSAROmni/build/motor_control_node' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/motor_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/motor_control_node/build --no-deps symlink_data

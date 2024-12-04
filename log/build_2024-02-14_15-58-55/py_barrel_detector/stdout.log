@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing py_barrel_detector.egg-info/PKG-INFO
+writing dependency_links to py_barrel_detector.egg-info/dependency_links.txt
+writing entry points to py_barrel_detector.egg-info/entry_points.txt
+writing requirements to py_barrel_detector.egg-info/requires.txt
+writing top-level names to py_barrel_detector.egg-info/top_level.txt
+reading manifest file 'py_barrel_detector.egg-info/SOURCES.txt'
+writing manifest file 'py_barrel_detector.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py-barrel-detector.egg-link (link to .)
+Installing barrel_detector script to /home/timoha/KSAROmni/install/py_barrel_detector/lib/py_barrel_detector
+
+Installed /home/timoha/KSAROmni/build/py_barrel_detector
+running install_data

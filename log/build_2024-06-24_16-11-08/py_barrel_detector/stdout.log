@@ -1,0 +1,27 @@
+running develop
+Removing /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py-barrel-detector.egg-link (link to .)
+running egg_info
+writing ../../build/py_barrel_detector/py_barrel_detector.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_barrel_detector/py_barrel_detector.egg-info/dependency_links.txt
+writing entry points to ../../build/py_barrel_detector/py_barrel_detector.egg-info/entry_points.txt
+writing requirements to ../../build/py_barrel_detector/py_barrel_detector.egg-info/requires.txt
+writing top-level names to ../../build/py_barrel_detector/py_barrel_detector.egg-info/top_level.txt
+reading manifest file '../../build/py_barrel_detector/py_barrel_detector.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_barrel_detector/py_barrel_detector.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py_barrel_detector
+copying /home/timoha/KSAROmni/build/py_barrel_detector/build/lib/py_barrel_detector/barrel_detector.py -> /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py_barrel_detector
+copying /home/timoha/KSAROmni/build/py_barrel_detector/build/lib/py_barrel_detector/__init__.py -> /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py_barrel_detector
+byte-compiling /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py_barrel_detector/barrel_detector.py to barrel_detector.cpython-310.pyc
+byte-compiling /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py_barrel_detector/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/py_barrel_detector -> /home/timoha/KSAROmni/install/py_barrel_detector/share/ament_index/resource_index/packages
+copying package.xml -> /home/timoha/KSAROmni/install/py_barrel_detector/share/py_barrel_detector
+running install_egg_info
+Copying ../../build/py_barrel_detector/py_barrel_detector.egg-info to /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py_barrel_detector-0.0.0-py3.10.egg-info
+running install_scripts
+Installing barrel_detector script to /home/timoha/KSAROmni/install/py_barrel_detector/lib/py_barrel_detector
+writing list of installed files to '/home/timoha/KSAROmni/build/py_barrel_detector/install.log'

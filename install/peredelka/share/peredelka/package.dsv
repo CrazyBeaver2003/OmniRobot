@@ -1,0 +1,8 @@
+source;share/peredelka/hook/cmake_prefix_path.ps1
+source;share/peredelka/hook/cmake_prefix_path.dsv
+source;share/peredelka/hook/cmake_prefix_path.sh
+source;share/peredelka/local_setup.bash
+source;share/peredelka/local_setup.dsv
+source;share/peredelka/local_setup.ps1
+source;share/peredelka/local_setup.sh
+source;share/peredelka/local_setup.zsh

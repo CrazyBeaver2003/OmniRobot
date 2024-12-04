@@ -1,0 +1,35 @@
+[6.472s] Invoking command in '/home/timoha/KSAROmni/build/motor_control_node': PYTHONPATH=/home/timoha/KSAROmni/build/motor_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/motor_control_node/build
+[8.403s] running develop
+[8.404s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.405s]   warnings.warn(
+[9.815s] Removing /home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages/motor-control-node.egg-link (link to .)
+[10.791s] Invoked command in '/home/timoha/KSAROmni/build/motor_control_node' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/motor_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/motor_control_node/build
+[10.802s] Invoking command in '/home/timoha/KSAROmni/src/motor_control_node': PYTHONPATH=/home/timoha/KSAROmni/build/motor_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control_node build --build-base /home/timoha/KSAROmni/build/motor_control_node/build install --record /home/timoha/KSAROmni/build/motor_control_node/install.log --single-version-externally-managed install_data --force
+[12.235s] running egg_info
+[12.240s] writing ../../build/motor_control_node/motor_control_node.egg-info/PKG-INFO
+[12.241s] writing dependency_links to ../../build/motor_control_node/motor_control_node.egg-info/dependency_links.txt
+[12.243s] writing entry points to ../../build/motor_control_node/motor_control_node.egg-info/entry_points.txt
+[12.244s] writing requirements to ../../build/motor_control_node/motor_control_node.egg-info/requires.txt
+[12.245s] writing top-level names to ../../build/motor_control_node/motor_control_node.egg-info/top_level.txt
+[12.256s] reading manifest file '../../build/motor_control_node/motor_control_node.egg-info/SOURCES.txt'
+[12.262s] writing manifest file '../../build/motor_control_node/motor_control_node.egg-info/SOURCES.txt'
+[12.263s] running build
+[12.263s] running build_py
+[12.267s] copying motor_control_node/motor_control.py -> /home/timoha/KSAROmni/build/motor_control_node/build/lib/motor_control_node
+[12.268s] running install
+[12.270s] running install_lib
+[12.274s] creating /home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages/motor_control_node
+[12.275s] copying /home/timoha/KSAROmni/build/motor_control_node/build/lib/motor_control_node/__init__.py -> /home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages/motor_control_node
+[12.276s] copying /home/timoha/KSAROmni/build/motor_control_node/build/lib/motor_control_node/motor_control.py -> /home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages/motor_control_node
+[12.280s] byte-compiling /home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages/motor_control_node/__init__.py to __init__.cpython-310.pyc
+[12.281s] byte-compiling /home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages/motor_control_node/motor_control.py to motor_control.cpython-310.pyc
+[12.285s] running install_data
+[12.287s] copying resource/motor_control_node -> /home/timoha/KSAROmni/install/motor_control_node/share/ament_index/resource_index/packages
+[12.291s] copying package.xml -> /home/timoha/KSAROmni/install/motor_control_node/share/motor_control_node
+[12.292s] copying launch/motor+distance_test.launch.py -> /home/timoha/KSAROmni/install/motor_control_node/share/motor_control_node
+[12.295s] running install_egg_info
+[12.304s] Copying ../../build/motor_control_node/motor_control_node.egg-info to /home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages/motor_control_node-0.0.0-py3.10.egg-info
+[12.312s] running install_scripts
+[12.412s] Installing motor_control script to /home/timoha/KSAROmni/install/motor_control_node/lib/motor_control_node
+[12.414s] writing list of installed files to '/home/timoha/KSAROmni/build/motor_control_node/install.log'
+[13.908s] Invoked command in '/home/timoha/KSAROmni/src/motor_control_node' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/motor_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control_node build --build-base /home/timoha/KSAROmni/build/motor_control_node/build install --record /home/timoha/KSAROmni/build/motor_control_node/install.log --single-version-externally-managed install_data --force

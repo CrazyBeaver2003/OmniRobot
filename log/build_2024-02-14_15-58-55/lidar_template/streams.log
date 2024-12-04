@@ -1,0 +1,21 @@
+[7.971s] Invoking command in '/home/timoha/KSAROmni/build/lidar_template': PYTHONPATH=/home/timoha/KSAROmni/build/lidar_template/prefix_override:/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/lidar_template/build --no-deps install_data
+[10.189s] running develop
+[10.191s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[10.192s]   warnings.warn(
+[10.197s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.198s]   warnings.warn(
+[11.552s] running egg_info
+[11.553s] writing lidar_template.egg-info/PKG-INFO
+[11.556s] writing dependency_links to lidar_template.egg-info/dependency_links.txt
+[11.558s] writing entry points to lidar_template.egg-info/entry_points.txt
+[11.559s] writing requirements to lidar_template.egg-info/requires.txt
+[11.560s] writing top-level names to lidar_template.egg-info/top_level.txt
+[11.571s] reading manifest file 'lidar_template.egg-info/SOURCES.txt'
+[11.580s] writing manifest file 'lidar_template.egg-info/SOURCES.txt'
+[11.591s] running build_ext
+[11.593s] Creating /home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages/lidar-template.egg-link (link to .)
+[11.601s] Installing lidar_temp script to /home/timoha/KSAROmni/install/lidar_template/lib/lidar_template
+[11.604s] 
+[11.605s] Installed /home/timoha/KSAROmni/build/lidar_template
+[11.607s] running install_data
+[12.966s] Invoked command in '/home/timoha/KSAROmni/build/lidar_template' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/lidar_template/prefix_override:/home/timoha/KSAROmni/install/lidar_template/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/lidar_template/build --no-deps install_data

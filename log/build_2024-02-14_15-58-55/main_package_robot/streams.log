@@ -1,0 +1,21 @@
+[8.021s] Invoking command in '/home/timoha/KSAROmni/build/main_package_robot': PYTHONPATH=/home/timoha/KSAROmni/build/main_package_robot/prefix_override:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/main_package_robot/build --no-deps install_data
+[9.895s] running develop
+[9.898s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.899s]   warnings.warn(
+[9.907s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.909s]   warnings.warn(
+[11.203s] running egg_info
+[11.205s] writing main_package_robot.egg-info/PKG-INFO
+[11.207s] writing dependency_links to main_package_robot.egg-info/dependency_links.txt
+[11.209s] writing entry points to main_package_robot.egg-info/entry_points.txt
+[11.210s] writing requirements to main_package_robot.egg-info/requires.txt
+[11.212s] writing top-level names to main_package_robot.egg-info/top_level.txt
+[11.224s] reading manifest file 'main_package_robot.egg-info/SOURCES.txt'
+[11.241s] writing manifest file 'main_package_robot.egg-info/SOURCES.txt'
+[11.250s] running build_ext
+[11.252s] Creating /home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages/main-package-robot.egg-link (link to .)
+[11.257s] Installing main_node script to /home/timoha/KSAROmni/install/main_package_robot/lib/main_package_robot
+[11.259s] 
+[11.259s] Installed /home/timoha/KSAROmni/build/main_package_robot
+[11.260s] running install_data
+[12.357s] Invoked command in '/home/timoha/KSAROmni/build/main_package_robot' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/main_package_robot/prefix_override:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/main_package_robot/build --no-deps install_data

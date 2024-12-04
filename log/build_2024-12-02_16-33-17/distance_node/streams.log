@@ -1,0 +1,21 @@
+[9.724s] Invoking command in '/home/timoha/KSAROmni/build/distance_node': PYTHONPATH=/home/timoha/KSAROmni/build/distance_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/distance_node/build --no-deps symlink_data --force
+[12.511s] running develop
+[12.522s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[12.525s]   warnings.warn(
+[14.354s] running egg_info
+[14.357s] writing distance_node.egg-info/PKG-INFO
+[14.361s] writing dependency_links to distance_node.egg-info/dependency_links.txt
+[14.365s] writing entry points to distance_node.egg-info/entry_points.txt
+[14.368s] writing requirements to distance_node.egg-info/requires.txt
+[14.371s] writing top-level names to distance_node.egg-info/top_level.txt
+[14.371s] reading manifest file 'distance_node.egg-info/SOURCES.txt'
+[14.372s] writing manifest file 'distance_node.egg-info/SOURCES.txt'
+[14.381s] running build_ext
+[14.383s] Creating /home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages/distance-node.egg-link (link to .)
+[14.386s] Installing distance_publisher script to /home/timoha/KSAROmni/install/distance_node/lib/distance_node
+[14.388s] 
+[14.389s] Installed /home/timoha/KSAROmni/build/distance_node
+[14.389s] running symlink_data
+[14.390s] symbolically linking /home/timoha/KSAROmni/build/distance_node/resource/distance_node -> /home/timoha/KSAROmni/install/distance_node/share/ament_index/resource_index/packages
+[14.391s] symbolically linking /home/timoha/KSAROmni/build/distance_node/package.xml -> /home/timoha/KSAROmni/install/distance_node/share/distance_node
+[16.076s] Invoked command in '/home/timoha/KSAROmni/build/distance_node' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/distance_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/distance_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/distance_node/build --no-deps symlink_data --force

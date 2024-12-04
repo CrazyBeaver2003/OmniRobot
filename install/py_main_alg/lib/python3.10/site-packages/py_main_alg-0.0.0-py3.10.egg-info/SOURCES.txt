@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/py_main_alg/py_main_alg.egg-info/PKG-INFO
+../../build/py_main_alg/py_main_alg.egg-info/SOURCES.txt
+../../build/py_main_alg/py_main_alg.egg-info/dependency_links.txt
+../../build/py_main_alg/py_main_alg.egg-info/entry_points.txt
+../../build/py_main_alg/py_main_alg.egg-info/requires.txt
+../../build/py_main_alg/py_main_alg.egg-info/top_level.txt
+../../build/py_main_alg/py_main_alg.egg-info/zip-safe
+py_main_alg/__init__.py
+py_main_alg/main_alg.py
+resource/py_main_alg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

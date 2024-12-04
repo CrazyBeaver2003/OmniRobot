@@ -1,0 +1,21 @@
+[7.445s] Invoking command in '/home/timoha/KSAROmni/build/motor_control_node': PYTHONPATH=/home/timoha/KSAROmni/build/motor_control_node/prefix_override:/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/motor_control_node/build --no-deps install_data
+[9.447s] running develop
+[9.449s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.449s]   warnings.warn(
+[9.455s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.456s]   warnings.warn(
+[10.953s] running egg_info
+[10.954s] writing motor_control_node.egg-info/PKG-INFO
+[10.956s] writing dependency_links to motor_control_node.egg-info/dependency_links.txt
+[10.957s] writing entry points to motor_control_node.egg-info/entry_points.txt
+[10.958s] writing requirements to motor_control_node.egg-info/requires.txt
+[10.959s] writing top-level names to motor_control_node.egg-info/top_level.txt
+[10.969s] reading manifest file 'motor_control_node.egg-info/SOURCES.txt'
+[10.973s] writing manifest file 'motor_control_node.egg-info/SOURCES.txt'
+[10.979s] running build_ext
+[10.980s] Creating /home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages/motor-control-node.egg-link (link to .)
+[10.983s] Installing motor_control script to /home/timoha/KSAROmni/install/motor_control_node/lib/motor_control_node
+[10.985s] 
+[10.985s] Installed /home/timoha/KSAROmni/build/motor_control_node
+[10.985s] running install_data
+[12.333s] Invoked command in '/home/timoha/KSAROmni/build/motor_control_node' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/motor_control_node/prefix_override:/home/timoha/KSAROmni/install/motor_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/motor_control_node/build --no-deps install_data

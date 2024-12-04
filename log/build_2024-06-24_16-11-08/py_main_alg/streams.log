@@ -1,0 +1,21 @@
+[4.109s] Invoking command in '/home/timoha/KSAROmni/src/py_main_alg': PYTHONPATH=/home/timoha/KSAROmni/build/py_main_alg/prefix_override:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_main_alg build --build-base /home/timoha/KSAROmni/build/py_main_alg/build install --record /home/timoha/KSAROmni/build/py_main_alg/install.log --single-version-externally-managed install_data
+[5.993s] running egg_info
+[5.997s] writing ../../build/py_main_alg/py_main_alg.egg-info/PKG-INFO
+[5.999s] writing dependency_links to ../../build/py_main_alg/py_main_alg.egg-info/dependency_links.txt
+[6.001s] writing entry points to ../../build/py_main_alg/py_main_alg.egg-info/entry_points.txt
+[6.002s] writing requirements to ../../build/py_main_alg/py_main_alg.egg-info/requires.txt
+[6.003s] writing top-level names to ../../build/py_main_alg/py_main_alg.egg-info/top_level.txt
+[6.014s] reading manifest file '../../build/py_main_alg/py_main_alg.egg-info/SOURCES.txt'
+[6.019s] writing manifest file '../../build/py_main_alg/py_main_alg.egg-info/SOURCES.txt'
+[6.020s] running build
+[6.021s] running build_py
+[6.025s] running install
+[6.027s] running install_lib
+[6.036s] running install_data
+[6.039s] running install_egg_info
+[6.049s] removing '/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg-0.0.0-py3.10.egg-info' (and everything under it)
+[6.053s] Copying ../../build/py_main_alg/py_main_alg.egg-info to /home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages/py_main_alg-0.0.0-py3.10.egg-info
+[6.064s] running install_scripts
+[6.181s] Installing main_alg script to /home/timoha/KSAROmni/install/py_main_alg/lib/py_main_alg
+[6.185s] writing list of installed files to '/home/timoha/KSAROmni/build/py_main_alg/install.log'
+[7.610s] Invoked command in '/home/timoha/KSAROmni/src/py_main_alg' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/py_main_alg/prefix_override:/home/timoha/KSAROmni/install/py_main_alg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_main_alg build --build-base /home/timoha/KSAROmni/build/py_main_alg/build install --record /home/timoha/KSAROmni/build/py_main_alg/install.log --single-version-externally-managed install_data

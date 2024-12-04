@@ -1,0 +1,19 @@
+[5.268s] Invoking command in '/home/timoha/KSAROmni/build/main_package_robot': PYTHONPATH=/home/timoha/KSAROmni/build/main_package_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/main_package_robot/build --no-deps symlink_data
+[7.441s] running develop
+[7.444s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.444s]   warnings.warn(
+[8.618s] running egg_info
+[8.625s] writing main_package_robot.egg-info/PKG-INFO
+[8.627s] writing dependency_links to main_package_robot.egg-info/dependency_links.txt
+[8.630s] writing entry points to main_package_robot.egg-info/entry_points.txt
+[8.640s] writing requirements to main_package_robot.egg-info/requires.txt
+[8.643s] writing top-level names to main_package_robot.egg-info/top_level.txt
+[8.674s] reading manifest file 'main_package_robot.egg-info/SOURCES.txt'
+[8.680s] writing manifest file 'main_package_robot.egg-info/SOURCES.txt'
+[8.691s] running build_ext
+[8.695s] Creating /home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages/main-package-robot.egg-link (link to .)
+[8.699s] Installing main_node script to /home/timoha/KSAROmni/install/main_package_robot/lib/main_package_robot
+[8.703s] 
+[8.709s] Installed /home/timoha/KSAROmni/build/main_package_robot
+[8.726s] running symlink_data
+[8.876s] Invoked command in '/home/timoha/KSAROmni/build/main_package_robot' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/main_package_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/main_package_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/main_package_robot/build --no-deps symlink_data

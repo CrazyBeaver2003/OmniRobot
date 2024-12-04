@@ -4,6 +4,3 @@ source;share/laser_follow/hook/pythonpath.sh
 source;share/laser_follow/hook/ament_prefix_path.ps1
 source;share/laser_follow/hook/ament_prefix_path.dsv
 source;share/laser_follow/hook/ament_prefix_path.sh
-source;../../build/laser_follow/share/laser_follow/hook/pythonpath_develop.ps1
-source;../../build/laser_follow/share/laser_follow/hook/pythonpath_develop.dsv
-source;../../build/laser_follow/share/laser_follow/hook/pythonpath_develop.sh

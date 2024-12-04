@@ -1,0 +1,19 @@
+[4.320s] Invoking command in '/home/timoha/KSAROmni/build/opencv_pub': PYTHONPATH=/home/timoha/KSAROmni/build/opencv_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/opencv_pub/build --no-deps symlink_data
+[6.433s] running develop
+[6.436s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.438s]   warnings.warn(
+[7.503s] running egg_info
+[7.504s] writing opencv_pub.egg-info/PKG-INFO
+[7.514s] writing dependency_links to opencv_pub.egg-info/dependency_links.txt
+[7.518s] writing entry points to opencv_pub.egg-info/entry_points.txt
+[7.522s] writing requirements to opencv_pub.egg-info/requires.txt
+[7.526s] writing top-level names to opencv_pub.egg-info/top_level.txt
+[7.530s] reading manifest file 'opencv_pub.egg-info/SOURCES.txt'
+[7.537s] writing manifest file 'opencv_pub.egg-info/SOURCES.txt'
+[7.552s] running build_ext
+[7.561s] Creating /home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages/opencv-pub.egg-link (link to .)
+[7.576s] Installing CAM script to /home/timoha/KSAROmni/install/opencv_pub/lib/opencv_pub
+[7.585s] 
+[7.590s] Installed /home/timoha/KSAROmni/build/opencv_pub
+[7.596s] running symlink_data
+[7.815s] Invoked command in '/home/timoha/KSAROmni/build/opencv_pub' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/opencv_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/opencv_pub/build --no-deps symlink_data

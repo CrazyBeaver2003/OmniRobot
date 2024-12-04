@@ -1,1 +1,0 @@
-/home/timoha/KSAROmni/src/aruco_publisher/setup.py

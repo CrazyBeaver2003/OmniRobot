@@ -1,1 +1,0 @@
-/home/timoha/KSAROmni/src/lidar_template/setup.py

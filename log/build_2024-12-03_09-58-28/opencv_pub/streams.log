@@ -1,0 +1,33 @@
+[5.106s] Invoking command in '/home/timoha/KSAROmni/build/opencv_pub': PYTHONPATH=/home/timoha/KSAROmni/build/opencv_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/opencv_pub/build
+[6.648s] running develop
+[6.650s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.651s]   warnings.warn(
+[8.024s] Removing /home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages/opencv-pub.egg-link (link to .)
+[8.195s] Invoked command in '/home/timoha/KSAROmni/build/opencv_pub' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/opencv_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/opencv_pub/build
+[8.197s] Invoking command in '/home/timoha/KSAROmni/src/opencv_pub': PYTHONPATH=/home/timoha/KSAROmni/build/opencv_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/opencv_pub build --build-base /home/timoha/KSAROmni/build/opencv_pub/build install --record /home/timoha/KSAROmni/build/opencv_pub/install.log --single-version-externally-managed install_data --force
+[9.639s] running egg_info
+[9.644s] writing ../../build/opencv_pub/opencv_pub.egg-info/PKG-INFO
+[9.645s] writing dependency_links to ../../build/opencv_pub/opencv_pub.egg-info/dependency_links.txt
+[9.646s] writing entry points to ../../build/opencv_pub/opencv_pub.egg-info/entry_points.txt
+[9.647s] writing requirements to ../../build/opencv_pub/opencv_pub.egg-info/requires.txt
+[9.648s] writing top-level names to ../../build/opencv_pub/opencv_pub.egg-info/top_level.txt
+[9.657s] reading manifest file '../../build/opencv_pub/opencv_pub.egg-info/SOURCES.txt'
+[9.662s] writing manifest file '../../build/opencv_pub/opencv_pub.egg-info/SOURCES.txt'
+[9.663s] running build
+[9.664s] running build_py
+[9.667s] running install
+[9.669s] running install_lib
+[9.673s] creating /home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages/opencv_pub
+[9.674s] copying /home/timoha/KSAROmni/build/opencv_pub/build/lib/opencv_pub/__init__.py -> /home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages/opencv_pub
+[9.675s] copying /home/timoha/KSAROmni/build/opencv_pub/build/lib/opencv_pub/camera_vision_publisher.py -> /home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages/opencv_pub
+[9.679s] byte-compiling /home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages/opencv_pub/__init__.py to __init__.cpython-310.pyc
+[9.681s] byte-compiling /home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages/opencv_pub/camera_vision_publisher.py to camera_vision_publisher.cpython-310.pyc
+[9.684s] running install_data
+[9.686s] copying resource/opencv_pub -> /home/timoha/KSAROmni/install/opencv_pub/share/ament_index/resource_index/packages
+[9.688s] copying package.xml -> /home/timoha/KSAROmni/install/opencv_pub/share/opencv_pub
+[9.689s] running install_egg_info
+[9.697s] Copying ../../build/opencv_pub/opencv_pub.egg-info to /home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages/opencv_pub-0.0.0-py3.10.egg-info
+[9.706s] running install_scripts
+[9.806s] Installing CAM script to /home/timoha/KSAROmni/install/opencv_pub/lib/opencv_pub
+[9.808s] writing list of installed files to '/home/timoha/KSAROmni/build/opencv_pub/install.log'
+[10.044s] Invoked command in '/home/timoha/KSAROmni/src/opencv_pub' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/opencv_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/opencv_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/opencv_pub build --build-base /home/timoha/KSAROmni/build/opencv_pub/build install --record /home/timoha/KSAROmni/build/opencv_pub/install.log --single-version-externally-managed install_data --force

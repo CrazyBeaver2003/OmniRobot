@@ -4,6 +4,3 @@ source;share/main_package_robot/hook/pythonpath.sh
 source;share/main_package_robot/hook/ament_prefix_path.ps1
 source;share/main_package_robot/hook/ament_prefix_path.dsv
 source;share/main_package_robot/hook/ament_prefix_path.sh
-source;../../build/main_package_robot/share/main_package_robot/hook/pythonpath_develop.ps1
-source;../../build/main_package_robot/share/main_package_robot/hook/pythonpath_develop.dsv
-source;../../build/main_package_robot/share/main_package_robot/hook/pythonpath_develop.sh

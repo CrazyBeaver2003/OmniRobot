@@ -1,0 +1,11 @@
+[console_scripts]
+CAM = omnirobot.camera_vision_publisher:main
+aruco_detector = omnirobot.aruco_detector:main
+audio = omnirobot.robot_audio:main
+barrel_detector = omnirobot.barrel_detector:main
+distance_publisher = omnirobot.distance_publisher:main
+laser_follow = omnirobot.laser_keep_distance:main
+main_alg = omnirobot.main_alg:main
+main_node = omnirobot.main_node:main
+motor_control = omnirobot.motor_control:main
+

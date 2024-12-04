@@ -1,0 +1,19 @@
+[5.660s] Invoking command in '/home/timoha/KSAROmni/build/py_barrel_detector': PYTHONPATH=/home/timoha/KSAROmni/build/py_barrel_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/py_barrel_detector/build --no-deps symlink_data
+[7.323s] running develop
+[7.328s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.333s]   warnings.warn(
+[8.606s] running egg_info
+[8.608s] writing py_barrel_detector.egg-info/PKG-INFO
+[8.610s] writing dependency_links to py_barrel_detector.egg-info/dependency_links.txt
+[8.613s] writing entry points to py_barrel_detector.egg-info/entry_points.txt
+[8.615s] writing requirements to py_barrel_detector.egg-info/requires.txt
+[8.617s] writing top-level names to py_barrel_detector.egg-info/top_level.txt
+[8.627s] reading manifest file 'py_barrel_detector.egg-info/SOURCES.txt'
+[8.632s] writing manifest file 'py_barrel_detector.egg-info/SOURCES.txt'
+[8.640s] running build_ext
+[8.642s] Creating /home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages/py-barrel-detector.egg-link (link to .)
+[8.649s] Installing barrel_detector script to /home/timoha/KSAROmni/install/py_barrel_detector/lib/py_barrel_detector
+[8.652s] 
+[8.653s] Installed /home/timoha/KSAROmni/build/py_barrel_detector
+[8.655s] running symlink_data
+[8.832s] Invoked command in '/home/timoha/KSAROmni/build/py_barrel_detector' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/py_barrel_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/py_barrel_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/py_barrel_detector/build --no-deps symlink_data

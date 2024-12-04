@@ -1,1 +1,0 @@
-/home/timoha/KSAROmni/src/opencv_pub/setup.py

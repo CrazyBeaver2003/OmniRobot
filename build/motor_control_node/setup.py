@@ -1,1 +1,0 @@
-/home/timoha/KSAROmni/src/motor_control_node/setup.py

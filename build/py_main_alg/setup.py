@@ -1,1 +1,0 @@
-/home/timoha/KSAROmni/src/py_main_alg/setup.py

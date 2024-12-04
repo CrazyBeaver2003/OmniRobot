@@ -1,0 +1,73 @@
+[5.271s] Invoking command in '/home/timoha/KSAROmni/src/omnirobot': PYTHONPATH=/home/timoha/KSAROmni/build/omnirobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/omnirobot build --build-base /home/timoha/KSAROmni/build/omnirobot/build install --record /home/timoha/KSAROmni/build/omnirobot/install.log --single-version-externally-managed install_data
+[7.102s] running egg_info
+[7.105s] creating ../../build/omnirobot/omnirobot.egg-info
+[7.107s] writing ../../build/omnirobot/omnirobot.egg-info/PKG-INFO
+[7.109s] writing dependency_links to ../../build/omnirobot/omnirobot.egg-info/dependency_links.txt
+[7.113s] writing entry points to ../../build/omnirobot/omnirobot.egg-info/entry_points.txt
+[7.114s] writing requirements to ../../build/omnirobot/omnirobot.egg-info/requires.txt
+[7.115s] writing top-level names to ../../build/omnirobot/omnirobot.egg-info/top_level.txt
+[7.116s] writing manifest file '../../build/omnirobot/omnirobot.egg-info/SOURCES.txt'
+[7.127s] reading manifest file '../../build/omnirobot/omnirobot.egg-info/SOURCES.txt'
+[7.133s] writing manifest file '../../build/omnirobot/omnirobot.egg-info/SOURCES.txt'
+[7.135s] running build
+[7.136s] running build_py
+[7.137s] creating /home/timoha/KSAROmni/build/omnirobot/build
+[7.138s] creating /home/timoha/KSAROmni/build/omnirobot/build/lib
+[7.138s] creating /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot
+[7.139s] copying omnirobot/robot_audio.py -> /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot
+[7.140s] copying omnirobot/aruco_detector.py -> /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot
+[7.142s] copying omnirobot/barrel_detector.py -> /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot
+[7.143s] copying omnirobot/lidar_template.py -> /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot
+[7.145s] copying omnirobot/__init__.py -> /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot
+[7.146s] copying omnirobot/motor_control.py -> /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot
+[7.147s] copying omnirobot/laser_keep_distance.py -> /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot
+[7.149s] copying omnirobot/distance_publisher.py -> /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot
+[7.151s] copying omnirobot/main_alg.py -> /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot
+[7.153s] copying omnirobot/main_node.py -> /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot
+[7.155s] copying omnirobot/camera_vision_publisher.py -> /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot
+[7.157s] running install
+[7.159s] running install_lib
+[7.164s] creating /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot
+[7.165s] copying /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot/robot_audio.py -> /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot
+[7.166s] copying /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot/aruco_detector.py -> /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot
+[7.168s] copying /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot/barrel_detector.py -> /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot
+[7.176s] copying /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot/lidar_template.py -> /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot
+[7.177s] copying /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot/__init__.py -> /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot
+[7.178s] copying /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot/motor_control.py -> /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot
+[7.178s] copying /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot/laser_keep_distance.py -> /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot
+[7.179s] copying /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot/distance_publisher.py -> /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot
+[7.180s] copying /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot/main_alg.py -> /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot
+[7.180s] copying /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot/main_node.py -> /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot
+[7.181s] copying /home/timoha/KSAROmni/build/omnirobot/build/lib/omnirobot/camera_vision_publisher.py -> /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot
+[7.184s] byte-compiling /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot/robot_audio.py to robot_audio.cpython-310.pyc
+[7.187s] byte-compiling /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot/aruco_detector.py to aruco_detector.cpython-310.pyc
+[7.192s] byte-compiling /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot/barrel_detector.py to barrel_detector.cpython-310.pyc
+[7.197s] byte-compiling /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot/lidar_template.py to lidar_template.cpython-310.pyc
+[7.200s] byte-compiling /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot/__init__.py to __init__.cpython-310.pyc
+[7.202s] byte-compiling /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot/motor_control.py to motor_control.cpython-310.pyc
+[7.205s] byte-compiling /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot/laser_keep_distance.py to laser_keep_distance.cpython-310.pyc
+[7.209s] byte-compiling /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot/distance_publisher.py to distance_publisher.cpython-310.pyc
+[7.214s] byte-compiling /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot/main_alg.py to main_alg.cpython-310.pyc
+[7.221s] byte-compiling /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot/main_node.py to main_node.cpython-310.pyc
+[7.225s] Sorry: IndentationError: unexpected indent (main_node.py, line 81)
+[7.225s] byte-compiling /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot/camera_vision_publisher.py to camera_vision_publisher.cpython-310.pyc
+[7.228s] running install_data
+[7.229s] creating /home/timoha/KSAROmni/install/omnirobot/share/ament_index
+[7.230s] creating /home/timoha/KSAROmni/install/omnirobot/share/ament_index/resource_index
+[7.231s] creating /home/timoha/KSAROmni/install/omnirobot/share/ament_index/resource_index/packages
+[7.232s] copying resource/omnirobot -> /home/timoha/KSAROmni/install/omnirobot/share/ament_index/resource_index/packages
+[7.233s] copying package.xml -> /home/timoha/KSAROmni/install/omnirobot/share/omnirobot
+[7.234s] running install_egg_info
+[7.246s] Copying ../../build/omnirobot/omnirobot.egg-info to /home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages/omnirobot-0.0.0-py3.10.egg-info
+[7.254s] running install_scripts
+[7.368s] Installing CAM script to /home/timoha/KSAROmni/install/omnirobot/lib/omnirobot
+[7.369s] Installing aruco_detector script to /home/timoha/KSAROmni/install/omnirobot/lib/omnirobot
+[7.370s] Installing audio script to /home/timoha/KSAROmni/install/omnirobot/lib/omnirobot
+[7.371s] Installing barrel_detector script to /home/timoha/KSAROmni/install/omnirobot/lib/omnirobot
+[7.372s] Installing distance_publisher script to /home/timoha/KSAROmni/install/omnirobot/lib/omnirobot
+[7.373s] Installing laser_follow script to /home/timoha/KSAROmni/install/omnirobot/lib/omnirobot
+[7.375s] Installing main_alg script to /home/timoha/KSAROmni/install/omnirobot/lib/omnirobot
+[7.376s] Installing main_node script to /home/timoha/KSAROmni/install/omnirobot/lib/omnirobot
+[7.377s] Installing motor_control script to /home/timoha/KSAROmni/install/omnirobot/lib/omnirobot
+[7.380s] writing list of installed files to '/home/timoha/KSAROmni/build/omnirobot/install.log'
+[7.572s] Invoked command in '/home/timoha/KSAROmni/src/omnirobot' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/omnirobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/omnirobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/omnirobot build --build-base /home/timoha/KSAROmni/build/omnirobot/build install --record /home/timoha/KSAROmni/build/omnirobot/install.log --single-version-externally-managed install_data

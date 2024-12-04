@@ -1,0 +1,23 @@
+[0.151s] Invoking command in '/home/timoha/KSAROmni/build/arrow_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/timoha/KSAROmni/build/arrow_package -- -j4 -l4
+[2.667s] [100%] Built target arrow_node
+[2.672s] Invoked command in '/home/timoha/KSAROmni/build/arrow_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/timoha/KSAROmni/build/arrow_package -- -j4 -l4
+[3.968s] Invoking command in '/home/timoha/KSAROmni/build/arrow_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/timoha/KSAROmni/build/arrow_package
+[4.010s] -- Install configuration: ""
+[4.012s] -- Execute custom install script
+[4.015s] -- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/lib/arrow_package/arrow_node
+[4.016s] -- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/ament_index/resource_index/package_run_dependencies/arrow_package
+[4.018s] -- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/ament_index/resource_index/parent_prefix_path/arrow_package
+[4.019s] -- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/environment/ament_prefix_path.sh
+[4.020s] -- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/environment/ament_prefix_path.dsv
+[4.022s] -- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/environment/path.sh
+[4.023s] -- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/environment/path.dsv
+[4.024s] -- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/local_setup.bash
+[4.025s] -- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/local_setup.sh
+[4.026s] -- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/local_setup.zsh
+[4.027s] -- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/local_setup.dsv
+[4.028s] -- Symlinking: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/package.dsv
+[4.073s] -- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/ament_index/resource_index/packages/arrow_package
+[4.074s] -- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/cmake/arrow_packageConfig.cmake
+[4.075s] -- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/cmake/arrow_packageConfig-version.cmake
+[4.077s] -- Up-to-date symlink: /home/timoha/KSAROmni/install/arrow_package/share/arrow_package/package.xml
+[4.089s] Invoked command in '/home/timoha/KSAROmni/build/arrow_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/timoha/KSAROmni/build/arrow_package

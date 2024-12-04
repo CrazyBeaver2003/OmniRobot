@@ -1,1 +1,0 @@
-/home/timoha/KSAROmni/src/py_barrel_detector/setup.py

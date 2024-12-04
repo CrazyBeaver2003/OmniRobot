@@ -1,0 +1,19 @@
+[4.550s] Invoking command in '/home/timoha/KSAROmni/build/laser_follow': PYTHONPATH=/home/timoha/KSAROmni/build/laser_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/laser_follow/build --no-deps symlink_data
+[6.479s] running develop
+[6.489s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.489s]   warnings.warn(
+[7.593s] running egg_info
+[7.595s] writing laser_follow.egg-info/PKG-INFO
+[7.598s] writing dependency_links to laser_follow.egg-info/dependency_links.txt
+[7.600s] writing entry points to laser_follow.egg-info/entry_points.txt
+[7.603s] writing requirements to laser_follow.egg-info/requires.txt
+[7.605s] writing top-level names to laser_follow.egg-info/top_level.txt
+[7.615s] reading manifest file 'laser_follow.egg-info/SOURCES.txt'
+[7.620s] writing manifest file 'laser_follow.egg-info/SOURCES.txt'
+[7.629s] running build_ext
+[7.630s] Creating /home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages/laser-follow.egg-link (link to .)
+[7.636s] Installing laser_follow script to /home/timoha/KSAROmni/install/laser_follow/lib/laser_follow
+[7.639s] 
+[7.639s] Installed /home/timoha/KSAROmni/build/laser_follow
+[7.641s] running symlink_data
+[10.178s] Invoked command in '/home/timoha/KSAROmni/build/laser_follow' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/laser_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/timoha/KSAROmni/build/laser_follow/build --no-deps symlink_data

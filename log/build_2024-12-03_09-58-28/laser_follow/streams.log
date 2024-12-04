@@ -1,0 +1,33 @@
+[7.318s] Invoking command in '/home/timoha/KSAROmni/build/laser_follow': PYTHONPATH=/home/timoha/KSAROmni/build/laser_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/laser_follow/build
+[9.167s] running develop
+[9.170s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.171s]   warnings.warn(
+[10.498s] Removing /home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages/laser-follow.egg-link (link to .)
+[10.784s] Invoked command in '/home/timoha/KSAROmni/build/laser_follow' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/laser_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/timoha/KSAROmni/build/laser_follow/build
+[10.800s] Invoking command in '/home/timoha/KSAROmni/src/laser_follow': PYTHONPATH=/home/timoha/KSAROmni/build/laser_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/laser_follow build --build-base /home/timoha/KSAROmni/build/laser_follow/build install --record /home/timoha/KSAROmni/build/laser_follow/install.log --single-version-externally-managed install_data --force
+[12.591s] running egg_info
+[12.595s] writing ../../build/laser_follow/laser_follow.egg-info/PKG-INFO
+[12.597s] writing dependency_links to ../../build/laser_follow/laser_follow.egg-info/dependency_links.txt
+[12.598s] writing entry points to ../../build/laser_follow/laser_follow.egg-info/entry_points.txt
+[12.601s] writing requirements to ../../build/laser_follow/laser_follow.egg-info/requires.txt
+[12.602s] writing top-level names to ../../build/laser_follow/laser_follow.egg-info/top_level.txt
+[12.612s] reading manifest file '../../build/laser_follow/laser_follow.egg-info/SOURCES.txt'
+[12.617s] writing manifest file '../../build/laser_follow/laser_follow.egg-info/SOURCES.txt'
+[12.618s] running build
+[12.619s] running build_py
+[12.622s] running install
+[12.625s] running install_lib
+[12.630s] creating /home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages/laser_follow
+[12.633s] copying /home/timoha/KSAROmni/build/laser_follow/build/lib/laser_follow/__init__.py -> /home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages/laser_follow
+[12.636s] copying /home/timoha/KSAROmni/build/laser_follow/build/lib/laser_follow/laser_keep_distance.py -> /home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages/laser_follow
+[12.641s] byte-compiling /home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages/laser_follow/__init__.py to __init__.cpython-310.pyc
+[12.644s] byte-compiling /home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages/laser_follow/laser_keep_distance.py to laser_keep_distance.cpython-310.pyc
+[12.649s] running install_data
+[12.652s] copying resource/laser_follow -> /home/timoha/KSAROmni/install/laser_follow/share/ament_index/resource_index/packages
+[12.656s] copying package.xml -> /home/timoha/KSAROmni/install/laser_follow/share/laser_follow
+[12.659s] running install_egg_info
+[12.668s] Copying ../../build/laser_follow/laser_follow.egg-info to /home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages/laser_follow-0.0.0-py3.10.egg-info
+[12.678s] running install_scripts
+[12.840s] Installing laser_follow script to /home/timoha/KSAROmni/install/laser_follow/lib/laser_follow
+[12.850s] writing list of installed files to '/home/timoha/KSAROmni/build/laser_follow/install.log'
+[13.175s] Invoked command in '/home/timoha/KSAROmni/src/laser_follow' returned '0': PYTHONPATH=/home/timoha/KSAROmni/build/laser_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timoha/KSAROmni/install/laser_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/laser_follow build --build-base /home/timoha/KSAROmni/build/laser_follow/build install --record /home/timoha/KSAROmni/build/laser_follow/install.log --single-version-externally-managed install_data --force

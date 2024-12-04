@@ -1,1 +1,0 @@
-/home/timoha/KSAROmni/src/main_package_robot/setup.py
